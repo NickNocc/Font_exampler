@@ -36,15 +36,18 @@ export const Generator = () => {
         <input type="text" id="name-input" placeholder="Enter Name" />
         <button id="submit-btn">Submit</button>
         <select className="font-select" value={cF} onChange={handleFontChange}>
-          {currentFont 
-          ? currentFont.map((font, i) => (
-            <option value={i} key={i}>{font}</option>
-          )) : null}
+          {currentFont
+            ? currentFont.map((font, i) => (
+                <option value={i} key={i}>
+                  {font}
+                </option>
+              ))
+            : null}
         </select>
         {/* add font choices, maybe open select box instead */}
       </div>
       <div className="split-right">
-        <div className="output">Output</div>
+        <div className=".font-face-aurora">Output</div>
         {/* update text with entered name */}
       </div>
     </div>
