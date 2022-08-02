@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './fonts/AmazinglyBeautifulRegular.ttf'
-import "./fonts/aurora.ttf";
+import "./fonts/Aurora.ttf";
 import "./fonts/bakery.ttf";
 import "./fonts/blossom.ttf";
 import "./fonts/carefree.ttf";
@@ -13,7 +13,7 @@ import "./fonts/Ghisella.ttf";
 import "./fonts/Hancock.ttf";
 import "./fonts/Homework.ttf";
 import "./fonts/Langrish.ttf";
-import "./fonts/Lobster-Regular.ttf";
+import "./fonts/Lobster.ttf";
 import "./fonts/Tatertot.ttf";
 import "./fonts/Chakra.ttf";
 import "./fonts/Violetta.ttf";

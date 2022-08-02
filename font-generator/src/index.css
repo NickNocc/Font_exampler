@@ -19,8 +19,8 @@ code {
 }
 
 @font-face {
-  font-family: "aurora";
-  src: local("aurora"), url("./fonts/aurora.ttf") format("truetype");
+  font-family: "Aurora";
+  src: local("Aurora"), url("./fonts/Aurora.ttf") format("truetype");
 }
 
 @font-face {
@@ -64,9 +64,9 @@ code {
 }
 
 @font-face {
-  font-family: "Lobster-Regular";
-  src: local("Lobster-Regular"),
-    url("./fonts/Lobster-Regular.ttf") format("truetype");
+  font-family: "Lobster";
+  src: local("Lobster"),
+    url("./fonts/Lobster.ttf") format("truetype");
 }
 
 @font-face {
@@ -84,8 +84,8 @@ code {
   src: local("Violetta"), url("./fonts/Violetta.ttf") format("truetype");
 }
 
-.font-face-aurora {
-  font-family: "aurora";
+.font-face-Aurora {
+  font-family: "Aurora";
 }
 
 .font-face-bakery {
@@ -120,8 +120,8 @@ code {
   font-family: "Langrish";
 }
 
-.font-face-Lobster-Regular {
-  font-family: "Lobster-Regular";
+.font-face-Lobster {
+  font-family: "Lobster";
 }
 
 .font-face-Tatertot {

@@ -9,7 +9,7 @@ export const Generator = () => {
     },
     {
       fontName: "Aurora",
-      fontClass: "font-face-aurora",
+      fontClass: "font-face-Aurora",
     },
     {
       fontName: "Baked Fresh",
@@ -106,7 +106,6 @@ export const Generator = () => {
       <div className="split-right">
         <div className={cF.fontClass}>Output</div>
         {console.log("font class: ", cF.fontClass)}
-        {console.log("font name: ", cF.value)}
         {/* update text with entered name */}
       </div>
     </div>
