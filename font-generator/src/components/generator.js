@@ -87,7 +87,6 @@ export const Generator = () => {
 
   const handleNameChange = (event) => {
     setNameOutput(event.target.value);
-    console.log(event.target.value);
   };
 
   return (
@@ -112,11 +111,9 @@ export const Generator = () => {
               ))
             : null}
         </select>
-        {/* add font choices, maybe open select box instead */}
       </div>
       <div className="split-right">
         <div className={cF.fontClass + " " + "nameOutput"}>{nameOutput}</div>
-        {/* update text with entered name */}
       </div>
     </div>
   );
