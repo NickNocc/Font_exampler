@@ -92,12 +92,14 @@ export const Generator = () => {
   return (
     <div className="split-holder">
       <div className="split-left">
-        <input
-          type="text"
-          id="name-input"
-          placeholder="Enter Name"
-          onChange={handleNameChange}
-        />
+        <span>
+          <input
+            type="text"
+            id="name-input"
+            placeholder="Enter Name"
+            onChange={handleNameChange}
+          />
+        </span>
         <select
           className={"font-select"}
           value={cF.fontName}

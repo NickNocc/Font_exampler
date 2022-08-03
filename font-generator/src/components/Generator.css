@@ -26,3 +26,11 @@
   padding-right: 30px;
   align-content: flex-start;
 }
+
+input {
+  /* background: linear-gradient(21deg, #10abff, #1beabd); */
+  border-radius: 9999em;
+  padding: 2px;
+  display: inline-block;
+  
+}
