@@ -77,7 +77,7 @@ export const Generator = () => {
     },
   ];
 
-  let name = "Name";
+  let name = "Enter your Name!";
   const [nameOutput, setNameOutput] = useState(name);
   const [cF, setCf] = useState(currentFont[0]);
 
@@ -113,7 +113,7 @@ export const Generator = () => {
         </select>
       </div>
       <div className="split-right">
-        <div className={cF.fontClass + " " + "nameOutput"}>{nameOutput}</div>
+        <div className={cF.fontClass + " nameOutput"}>{nameOutput}</div>
       </div>
     </div>
   );
