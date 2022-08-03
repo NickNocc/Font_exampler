@@ -82,6 +82,8 @@ export const Generator = () => {
   const [cF, setCf] = useState(currentFont[0]);
 
   const handleFontChange = (event) => {
+    let test = event.target
+    console.log("event target: ", test);
     setCf(currentFont[event.target.value]);
   };
 
@@ -100,7 +102,7 @@ export const Generator = () => {
             onChange={handleNameChange}
           />
         </span>
-        <select
+        {/* <select
           className={"font-select"}
           value={cF.fontName}
           onChange={handleFontChange}
@@ -112,7 +114,14 @@ export const Generator = () => {
                 </option>
               ))
             : null}
-        </select>
+        </select> */}
+        {currentFont
+          ? currentFont.map((font, i) => (
+              <span onClick={handleFontChange} key={i} value={i}>
+                <div value={i} >{font.fontName}</div>
+              </span>
+            ))
+          : null}
       </div>
       <div className="split-right">
         <div className={cF.fontClass + " nameOutput"}>{nameOutput}</div>
