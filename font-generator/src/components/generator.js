@@ -77,17 +77,28 @@ export const Generator = () => {
     },
   ];
 
+  let name = "Name";
+  const [nameOutput, setNameOutput] = useState(name);
   const [cF, setCf] = useState(currentFont[0]);
 
   const handleFontChange = (event) => {
     setCf(currentFont[event.target.value]);
   };
 
+  const handleNameChange = (event) => {
+    setNameOutput(event.target.value);
+    console.log(event.target.value);
+  };
+
   return (
     <div className="split-holder">
       <div className="split-left">
-        <input type="text" id="name-input" placeholder="Enter Name" />
-        <button id="submit-btn">Submit</button>
+        <input
+          type="text"
+          id="name-input"
+          placeholder="Enter Name"
+          onChange={handleNameChange}
+        />
         <select
           className={"font-select"}
           value={cF.fontName}
@@ -104,8 +115,7 @@ export const Generator = () => {
         {/* add font choices, maybe open select box instead */}
       </div>
       <div className="split-right">
-        <div className={cF.fontClass}>Output</div>
-        {console.log("font class: ", cF.fontClass)}
+        <div className={cF.fontClass + " " + "nameOutput"}>{nameOutput}</div>
         {/* update text with entered name */}
       </div>
     </div>
