@@ -19,8 +19,8 @@ code {
 }
 
 @font-face {
-  font-family: "Aurora";
-  src: local("Aurora"), url("./fonts/Aurora.ttf") format("truetype");
+  font-family: "aurora";
+  src: local("aurora"), url("./fonts/aurora.ttf") format("truetype");
 }
 
 @font-face {
@@ -49,8 +49,8 @@ code {
 }
 
 @font-face {
-  font-family: "Hancock";
-  src: local("Hancock"), url("./fonts/Hancock.ttf") format("truetype");
+  font-family: "hancock";
+  src: local("hancock"), url("./fonts/hancock.ttf") format("truetype");
 }
 
 @font-face {
@@ -84,8 +84,8 @@ code {
   src: local("Violetta"), url("./fonts/Violetta.ttf") format("truetype");
 }
 
-.font-face-Aurora {
-  font-family: "Aurora";
+.font-face-aurora {
+  font-family: "aurora";
 }
 
 .font-face-bakery {
@@ -108,8 +108,8 @@ code {
   font-family: "Ghisella";
 }
 
-.font-face-Hancock {
-  font-family: "Hancock";
+.font-face-hancock {
+  font-family: "hancock";
 }
 
 .font-face-Homework {

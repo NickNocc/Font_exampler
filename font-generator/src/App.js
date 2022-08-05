@@ -13,4 +13,3 @@ function App() {
 
 export default App;
 
-// <header className={"App-header" + " " + "font-face-aurora"}>
