@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Select from "react-select";
 import "./Generator.css";
 
 export const Generator = () => {
@@ -6,74 +7,110 @@ export const Generator = () => {
     {
       fontName: "Amazingly beautiful",
       fontClass: "font-face-Amazingly",
+      value: "Amazingly beautiful",
+      label: "Amazingly Beautiful",
     },
     {
       fontName: "Aurora",
       fontClass: "font-face-Aurora",
+      value: "Aurora",
+      label: "Aurora",
     },
     {
       fontName: "Baked Fresh",
       fontClass: "font-face-bakery",
+      value: "Baked Fresh",
+      label: "Baked Fresh",
     },
     {
       fontName: "Blossom",
       fontClass: "font-face-blossom",
+      value: "Blossom",
+      label: "Blossom",
     },
     {
       fontName: "Carefree",
       fontClass: "font-face-Carefree",
+      value: "Carefree",
+      label: "Carefree",
     },
     {
       fontName: "Chakra",
       fontClass: "font-face-Chakra",
+      value: "Chakra",
+      label: "Chakra",
     },
     {
       fontName: "Classico",
       fontClass: "font-face-Classico",
+      value: "Classico",
+      label: "Classico",
     },
     {
       fontName: "Clocks",
       fontClass: "font-face-Clocks",
+      value: "Clocks",
+      label: "Clocks",
     },
     {
       fontName: "Cookie",
       fontClass: "font-face-Cookie",
-    },
-    {
-      fontName: "Ghisella",
-      fontClass: "font-face-Ghisella",
-    },
-    {
-      fontName: "Hancock",
-      fontClass: "font-face-Hancock",
-    },
-    {
-      fontName: "Homework",
-      fontClass: "font-face-Homework",
-    },
-    {
-      fontName: "Langrish",
-      fontClass: "font-face-Langrish",
-    },
-    {
-      fontName: "Lively",
-      fontClass: "font-face-Lively",
-    },
-    {
-      fontName: "Lobster",
-      fontClass: "font-face-Lobster",
-    },
-    {
-      fontName: "Tatertot",
-      fontClass: "font-face-Tatertot",
-    },
-    {
-      fontName: "Violetta",
-      fontClass: "font-face-Violetta",
+      value: "Cookie",
+      label: "Cookie",
     },
     {
       fontName: "Eduarda",
       fontClass: "font-face-Eduarda",
+      value: "Eduarda",
+      label: "Eduarda",
+    },
+    {
+      fontName: "Ghisella",
+      fontClass: "font-face-Ghisella",
+      value: "Ghisella",
+      label: "Ghisella",
+    },
+    {
+      fontName: "Hancock",
+      fontClass: "font-face-Hancock",
+      value: "Hancock",
+      label: "Hancock",
+    },
+    {
+      fontName: "Homework",
+      fontClass: "font-face-Homework",
+      value: "Homework",
+      label: "Homework",
+    },
+    {
+      fontName: "Langrish",
+      fontClass: "font-face-Langrish",
+      value: "Langrish",
+      label: "Langrish",
+    },
+    {
+      fontName: "Lively",
+      fontClass: "font-face-Lively",
+      value: "Lively",
+      label: "Lively",
+    },
+    {
+      fontName: "Lobster",
+      fontClass: "font-face-Lobster",
+      value: "Lobster",
+      label: "Lobster",
+    },
+    {
+      fontName: "Tatertot",
+      fontClass: "font-face-Tatertot",
+      value: "Tatertot",
+      label: "Tatertot",
+    },
+    {
+      fontName: "Violetta",
+      fontClass: "font-face-Violetta",
+      value: "Violetta",
+      label: "Violetta",
     },
   ];
 
@@ -82,9 +119,16 @@ export const Generator = () => {
   const [cF, setCf] = useState(currentFont[0]);
 
   const handleFontChange = (event) => {
-    let test = event.target
-    console.log("event target: ", test);
-    setCf(currentFont[event.target.value]);
+    let selectedFont = event.fontName;
+    let fontIndex;
+    let changeFont = currentFont.filter((font, i) => {
+      if (font.fontName === selectedFont) {
+        console.log(i);
+        fontIndex = i;
+        return;
+      }
+    });
+    setCf(currentFont[fontIndex]);
   };
 
   const handleNameChange = (event) => {
@@ -102,26 +146,7 @@ export const Generator = () => {
             onChange={handleNameChange}
           />
         </span>
-        {/* <select
-          className={"font-select"}
-          value={cF.fontName}
-          onChange={handleFontChange}
-        >
-          {currentFont
-            ? currentFont.map((font, i) => (
-                <option value={i} key={i}>
-                  {font.fontName}
-                </option>
-              ))
-            : null}
-        </select> */}
-        {currentFont
-          ? currentFont.map((font, i) => (
-              <span onClick={handleFontChange} key={i} value={i}>
-                <div value={i} >{font.fontName}</div>
-              </span>
-            ))
-          : null}
+        <Select options={currentFont} onChange={handleFontChange}></Select>
       </div>
       <div className="split-right">
         <div className={cF.fontClass + " nameOutput"}>{nameOutput}</div>
