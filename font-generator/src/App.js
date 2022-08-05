@@ -5,9 +5,7 @@ import { Generator } from "./components/generator";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Font Generator
-      </header>
+      <header className="App-header font-face-Langrish">Font Generator</header>
       <Generator />
     </div>
   );
