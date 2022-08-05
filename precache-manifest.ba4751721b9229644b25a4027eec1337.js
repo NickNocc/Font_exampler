@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "ef8a9d7f7290f6508e78",
-    "url": "/Font_exampler/static/css/main.f0d77d38.chunk.css"
+    "revision": "424ab92976886253a432",
+    "url": "/Font_exampler/static/css/main.04d60f73.chunk.css"
   },
   {
-    "revision": "ef8a9d7f7290f6508e78",
-    "url": "/Font_exampler/static/js/main.ef8a9d7f.chunk.js"
+    "revision": "424ab92976886253a432",
+    "url": "/Font_exampler/static/js/main.424ab929.chunk.js"
   },
   {
     "revision": "517527aa6758397229f0",
@@ -20,16 +20,12 @@ self.__precacheManifest = [
     "url": "/Font_exampler/static/js/runtime~main.e1285113.js"
   },
   {
-    "revision": "75cc18c25ad2727b351efcc334faa44f",
-    "url": "/Font_exampler/static/media/Aurora.75cc18c2.ttf"
-  },
-  {
     "revision": "f7b78325c5eb79b1603876e6e05b57a0",
     "url": "/Font_exampler/static/media/AmazinglyBeautifulRegular.f7b78325.ttf"
   },
   {
-    "revision": "f20b07e1e1ac014b4fd4a86b9c10cfef",
-    "url": "/Font_exampler/static/media/Cookie.f20b07e1.ttf"
+    "revision": "75cc18c25ad2727b351efcc334faa44f",
+    "url": "/Font_exampler/static/media/Aurora.75cc18c2.ttf"
   },
   {
     "revision": "39dd978b763c0dd132f26cd7634aa23a",
@@ -40,12 +36,16 @@ self.__precacheManifest = [
     "url": "/Font_exampler/static/media/blossom.45d1958e.ttf"
   },
   {
-    "revision": "2cab0c5ccd4f2d3ba187803e2cd01cac",
-    "url": "/Font_exampler/static/media/Ghisella.2cab0c5c.ttf"
+    "revision": "f20b07e1e1ac014b4fd4a86b9c10cfef",
+    "url": "/Font_exampler/static/media/Cookie.f20b07e1.ttf"
   },
   {
     "revision": "a3b90f60f3c27485069b2c4ee2ff3d84",
     "url": "/Font_exampler/static/media/carefree.a3b90f60.ttf"
+  },
+  {
+    "revision": "2cab0c5ccd4f2d3ba187803e2cd01cac",
+    "url": "/Font_exampler/static/media/Ghisella.2cab0c5c.ttf"
   },
   {
     "revision": "529a002d07cb46c3cdbfd98c6dc0426f",
@@ -60,23 +60,23 @@ self.__precacheManifest = [
     "url": "/Font_exampler/static/media/Hancock.941a04cd.ttf"
   },
   {
-    "revision": "2d3394ebbfa3120d00ca4b37b43988e7",
-    "url": "/Font_exampler/static/media/Violetta.2d3394eb.ttf"
-  },
-  {
     "revision": "bc5768780257734070016f937e403ea2",
     "url": "/Font_exampler/static/media/Tatertot.bc576878.ttf"
-  },
-  {
-    "revision": "6cfb5cbe69b8b351186c2d4cfc644df7",
-    "url": "/Font_exampler/static/media/Chakra.6cfb5cbe.ttf"
   },
   {
     "revision": "61bb8fc89f7f91dab8e66f92be958f82",
     "url": "/Font_exampler/static/media/Lobster.61bb8fc8.ttf"
   },
   {
-    "revision": "6217aa422aa549a372465ef3a4309d12",
+    "revision": "2d3394ebbfa3120d00ca4b37b43988e7",
+    "url": "/Font_exampler/static/media/Violetta.2d3394eb.ttf"
+  },
+  {
+    "revision": "6cfb5cbe69b8b351186c2d4cfc644df7",
+    "url": "/Font_exampler/static/media/Chakra.6cfb5cbe.ttf"
+  },
+  {
+    "revision": "f0e989c9197a012102cf10279aa116f0",
     "url": "/Font_exampler/index.html"
   }
 ];
