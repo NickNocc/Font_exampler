@@ -24,28 +24,32 @@ self.__precacheManifest = [
     "url": "/Font_exampler/static/media/Aurora.75cc18c2.ttf"
   },
   {
-    "revision": "39dd978b763c0dd132f26cd7634aa23a",
-    "url": "/Font_exampler/static/media/bakery.39dd978b.ttf"
+    "revision": "a3b90f60f3c27485069b2c4ee2ff3d84",
+    "url": "/Font_exampler/static/media/carefree.a3b90f60.ttf"
   },
   {
     "revision": "f7b78325c5eb79b1603876e6e05b57a0",
     "url": "/Font_exampler/static/media/AmazinglyBeautifulRegular.f7b78325.ttf"
   },
   {
-    "revision": "f20b07e1e1ac014b4fd4a86b9c10cfef",
-    "url": "/Font_exampler/static/media/Cookie.f20b07e1.ttf"
+    "revision": "39dd978b763c0dd132f26cd7634aa23a",
+    "url": "/Font_exampler/static/media/bakery.39dd978b.ttf"
   },
   {
-    "revision": "a3b90f60f3c27485069b2c4ee2ff3d84",
-    "url": "/Font_exampler/static/media/carefree.a3b90f60.ttf"
+    "revision": "2cab0c5ccd4f2d3ba187803e2cd01cac",
+    "url": "/Font_exampler/static/media/Ghisella.2cab0c5c.ttf"
+  },
+  {
+    "revision": "f20b07e1e1ac014b4fd4a86b9c10cfef",
+    "url": "/Font_exampler/static/media/Cookie.f20b07e1.ttf"
   },
   {
     "revision": "941a04cda3e5b28c1a1276c6c2af8600",
     "url": "/Font_exampler/static/media/Hancock.941a04cd.ttf"
   },
   {
-    "revision": "2cab0c5ccd4f2d3ba187803e2cd01cac",
-    "url": "/Font_exampler/static/media/Ghisella.2cab0c5c.ttf"
+    "revision": "9cb6f8b034a9ceacad8b5164c9eab59c",
+    "url": "/Font_exampler/static/media/Homework.9cb6f8b0.ttf"
   },
   {
     "revision": "c447ec14e98dbe6689f566daefdb966b",
@@ -54,10 +58,6 @@ self.__precacheManifest = [
   {
     "revision": "bc5768780257734070016f937e403ea2",
     "url": "/Font_exampler/static/media/Tatertot.bc576878.ttf"
-  },
-  {
-    "revision": "9cb6f8b034a9ceacad8b5164c9eab59c",
-    "url": "/Font_exampler/static/media/Homework.9cb6f8b0.ttf"
   },
   {
     "revision": "2d3394ebbfa3120d00ca4b37b43988e7",
