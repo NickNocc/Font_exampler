@@ -12,6 +12,7 @@ code {
     monospace;
 }
 
+/* Font Face used to load different fonts from TTF files */
 @font-face {
   font-family: "AmazinglyBeautifulRegular";
   src: local("AmazinglyBeautifulRegular"),
@@ -84,6 +85,7 @@ code {
   src: local("Violetta"), url("./fonts/Violetta.ttf") format("truetype");
 }
 
+/* Classes used by different conponents to change font */
 .font-face-aurora {
   font-family: "aurora";
 }

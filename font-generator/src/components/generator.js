@@ -3,6 +3,7 @@ import Select from "react-select";
 import "./Generator.css";
 
 export const Generator = () => {
+  // List of fonts Loaded onto the website
   const currentFont = [
     {
       fontName: "Amazingly beautiful",
@@ -114,23 +115,33 @@ export const Generator = () => {
     },
   ];
 
+  // Default value for nameOutput
   let name = "Enter your Name!";
+
+  // State for nameOutput
   const [nameOutput, setNameOutput] = useState(name);
+
+  // State for currently selected font
   const [cF, setCf] = useState(currentFont[0]);
 
+  // Changes font on Select Change
   const handleFontChange = (event) => {
+    // Stores event in var
     let selectedFont = event.fontName;
+    // Empty var to hold index position
     let fontIndex;
+    // Function to find index of selected font
     let changeFont = currentFont.filter((font, i) => {
       if (font.fontName === selectedFont) {
-        console.log(i);
         fontIndex = i;
         return;
       }
     });
+    // Sets the current font to the index of selected font
     setCf(currentFont[fontIndex]);
   };
 
+  // Changes nameOutput to inputed value
   const handleNameChange = (event) => {
     setNameOutput(event.target.value);
   };
@@ -139,6 +150,7 @@ export const Generator = () => {
     <div className="split-holder">
       <div className="split-left">
         <span>
+          {/* Where name is inputted */}
           <input
             type="text"
             id="name-input"
@@ -146,9 +158,11 @@ export const Generator = () => {
             onChange={handleNameChange}
           />
         </span>
+        {/* Select conponent to display font options */}
         <Select options={currentFont} onChange={handleFontChange}></Select>
       </div>
       <div className="split-right">
+        {/* Changes div class to match with font-face css in index.css */}
         <div className={cF.fontClass + " nameOutput"}>{nameOutput}</div>
       </div>
     </div>

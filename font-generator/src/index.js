@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// Loading in fonts from local folder
 import './fonts/AmazinglyBeautifulRegular.ttf'
 import "./fonts/aurora.ttf";
 import "./fonts/bakery.ttf";
