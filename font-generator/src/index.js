@@ -18,6 +18,7 @@ import "./fonts/Lobster.ttf";
 import "./fonts/Tatertot.ttf";
 import "./fonts/Chakra.ttf";
 import "./fonts/Violetta.ttf";
+import "./fonts/codetest.ttf";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

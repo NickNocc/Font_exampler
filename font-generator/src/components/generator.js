@@ -113,6 +113,12 @@ export const Generator = () => {
       value: "Violetta",
       label: "Violetta",
     },
+    {
+      fontName: "Code Test",
+      fontClass: "font-face-codetest",
+      value: "codetest",
+      label: "codetest",
+    },
   ];
 
   // Default value for nameOutput
@@ -133,6 +139,7 @@ export const Generator = () => {
     // Function to find index of selected font
     let changeFont = currentFont.filter((font, i) => {
       if (font.fontName === selectedFont) {
+        console.log( currentFont[i]);
         fontIndex = i;
         return;
       }

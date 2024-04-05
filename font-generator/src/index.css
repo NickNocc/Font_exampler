@@ -85,6 +85,10 @@ code {
   src: local("Violetta"), url("./fonts/Violetta.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "codetest";
+  src: local("codetest"), url("./fonts/codetest.ttf") format("truetype");
+}
 /* Classes used by different conponents to change font */
 .font-face-aurora {
   font-family: "aurora";
@@ -140,4 +144,8 @@ code {
 
 .font-face-Amazingly {
   font-family: "AmazinglyBeautifulRegular";
+}
+
+.font-face-codetest {
+  font-family: "codetest";
 }
