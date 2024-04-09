@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Font Face used to load different fonts from TTF files */
+@font-face {
+  font-family: "AmazinglyBeautifulRegular";
+  src: local("AmazinglyBeautifulRegular"),
+    url("./fonts//AmazinglyBeautifulRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Autery";
+  src: local("Autery"), url("./fonts/Autery.ttf") format("truetype");
+}
+
+
+@font-face {
+  font-family: "blossom";
+  src: local("blossom"), url("./fonts/blossom.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "BohoFlowers";
+  src: local("BohoFlowers"), url("./fonts/BohoFlowers.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "carefree";
+  src: local("carefree"), url("./fonts/carefree.ttf") format("truetype");
+}
+
+
+@font-face {
+  font-family: "Cookie";
+  src: local("Cookie"), url("./fonts/Cookie.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ghisella";
+  src: local("Ghisella"), url("./fonts/Ghisella.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Homework";
+  src: local("Homework"), url("./fonts/Homework.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Langrish";
+  src: local("Langrish"), url("./fonts/Langrish.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lobster";
+  src: local("Lobster"),
+    url("./fonts/Lobster.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Tatertot";
+  src: local("Tatertot"), url("./fonts/Tatertot.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Chakra";
+  src: local("Chakra"), url("./fonts/Chakra.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Almondbutter";
+  src: local("AlmondButter"), url("./fonts/almondbutter.ttf") format("truetype");
+}
+/* Classes used by different conponents to change font */
+
+.font-face-Autery {
+  font-family: "Autery";
+}
+
+
+.font-face-blossom {
+  font-family: "blossom";
+}
+
+.font-face-BohoFlowers {
+  font-family:"BohoFlowers";
+}
+
+.font-face-Carefree {
+  font-family: "carefree";
+}
+
+.font-face-Cookie {
+  font-family: "Cookie";
+}
+
+.font-face-Ghisella {
+  font-family: "Ghisella";
+}
+
+.font-face-Homework {
+  font-family: "Homework";
+}
+
+.font-face-Langrish {
+  font-family: "Langrish";
+}
+
+.font-face-Lobster {
+  font-family: "Lobster";
+}
+
+.font-face-Tatertot {
+  font-family: "Tatertot";
+}
+
+.font-face-Chakra {
+  font-family: "Chakra";
+}
+
+.font-face-Amazingly {
+  font-family: "AmazinglyBeautifulRegular";
+}
+
+.font-face-Almondbutter {
+  font-family: "Almondbutter";
+}
