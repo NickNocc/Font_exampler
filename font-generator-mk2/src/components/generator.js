@@ -5,17 +5,17 @@ import "./Generator.css";
 export const Generator = () => {
   // List of fonts Loaded onto the website
   const currentFont = [
-  //  { 
-  //    fontName: "X",     Name Listed
-  //    fontClass: "X-X",  Connects to the font's css class
-  //    value: "X",        Im not sure honestly lmao
-  //    label: "X"         ^^ Same bro
-  //  },
+    //  {
+    //    fontName: "X",     Name Listed
+    //    fontClass: "X-X",  Connects to the font's css class
+    //    value: "X",        Im not sure honestly lmao
+    //    label: "X"         The label in the list
+    //  },
     {
       fontName: "Almond Butter",
       fontClass: "font-face-Almondbutter",
       value: "Almondbutter",
-      label: "Almondbutter",
+      label: "Almond Butter",
     },
     {
       fontName: "Amazingly beautiful",
@@ -52,6 +52,12 @@ export const Generator = () => {
       fontClass: "font-face-Chakra",
       value: "Chakra",
       label: "Chakra",
+    },
+    {
+      fontName: "Chalk",
+      fontClass: "font-face-Chalk",
+      value: "Chalk",
+      label: "Chalk",
     },
     //  {
     //    fontName: "Classico",

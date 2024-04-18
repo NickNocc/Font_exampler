@@ -81,6 +81,11 @@ code {
   font-family: "Almondbutter";
   src: local("AlmondButter"), url("./fonts/almondbutter.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "Chalk";
+  src: local("Chalk"), url("./fonts/Chalk.ttf") format("truetype");
+}
 /* Classes used by different conponents to change font */
 
 .font-face-Autery {
@@ -134,4 +139,8 @@ code {
 
 .font-face-Almondbutter {
   font-family: "Almondbutter";
+}
+
+.font-face-Chalk {
+  font-family: "Chalk";
 }
