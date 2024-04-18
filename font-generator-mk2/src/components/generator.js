@@ -5,6 +5,18 @@ import "./Generator.css";
 export const Generator = () => {
   // List of fonts Loaded onto the website
   const currentFont = [
+  //  { 
+  //    fontName: "X",     Name Listed
+  //    fontClass: "X-X",  Connects to the font's css class
+  //    value: "X",        Im not sure honestly lmao
+  //    label: "X"         ^^ Same bro
+  //  },
+    {
+      fontName: "Almond Butter",
+      fontClass: "font-face-Almondbutter",
+      value: "Almondbutter",
+      label: "Almondbutter",
+    },
     {
       fontName: "Amazingly beautiful",
       fontClass: "font-face-Amazingly",
@@ -12,10 +24,22 @@ export const Generator = () => {
       label: "Amazingly Beautiful",
     },
     {
+      fontName: "Autery",
+      fontClass: "font-face-Autery",
+      value: "Autery",
+      label: "Autery",
+    },
+    {
       fontName: "Blossom",
       fontClass: "font-face-blossom",
       value: "Blossom",
       label: "Blossom",
+    },
+    {
+      fontName: "Boho Flowers",
+      fontClass: "font-face-BohoFlowers",
+      value: "BohoFlowers",
+      label: "BohoFlowers",
     },
     {
       fontName: "Carefree",
@@ -29,30 +53,30 @@ export const Generator = () => {
       value: "Chakra",
       label: "Chakra",
     },
-    {
-      fontName: "Classico",
-      fontClass: "font-face-Classico",
-      value: "Classico",
-      label: "Classico",
-    },
-    {
-      fontName: "Clocks",
-      fontClass: "font-face-Clocks",
-      value: "Clocks",
-      label: "Clocks",
-    },
+    //  {
+    //    fontName: "Classico",
+    //    fontClass: "font-face-Classico",
+    //    value: "Classico",
+    //    label: "Classico",
+    //  },
+    //  {
+    //    fontName: "Clocks",
+    //    fontClass: "font-face-Clocks",
+    //    value: "Clocks",
+    //    label: "Clocks",
+    //  },
     {
       fontName: "Cookie",
       fontClass: "font-face-Cookie",
       value: "Cookie",
       label: "Cookie",
     },
-    {
-      fontName: "Eduarda",
-      fontClass: "font-face-Eduarda",
-      value: "Eduarda",
-      label: "Eduarda",
-    },
+    //  {
+    //    fontName: "Eduarda",
+    //    fontClass: "font-face-Eduarda",
+    //    value: "Eduarda",
+    //    label: "Eduarda",
+    //  },
     {
       fontName: "Ghisella",
       fontClass: "font-face-Ghisella",
@@ -71,12 +95,12 @@ export const Generator = () => {
       value: "Langrish",
       label: "Langrish",
     },
-    {
-      fontName: "Lively",
-      fontClass: "font-face-Lively",
-      value: "Lively",
-      label: "Lively",
-    },
+    //  {
+    //    fontName: "Lively",
+    //    fontClass: "font-face-Lively",
+    //    value: "Lively",
+    //    label: "Lively",
+    //  },
     {
       fontName: "Lobster",
       fontClass: "font-face-Lobster",
@@ -88,25 +112,6 @@ export const Generator = () => {
       fontClass: "font-face-Tatertot",
       value: "Tatertot",
       label: "Tatertot",
-    },
-
-    {
-      fontName: "Almond Butter",
-      fontClass: "font-face-Almondbutter",
-      value: "Almondbutter",
-      label: "Almondbutter",
-    },
-    {
-      fontName: "Autery",
-      fontClass: "font-face-Autery",
-      value: "Autery",
-      label: "Autery",
-    },
-    {
-      fontName: "Boho Flowers",
-      fontClass: "font-face-BohoFlowers",
-      value: "BohoFlowers",
-      label: "BohoFlowers",
     },
   ];
 

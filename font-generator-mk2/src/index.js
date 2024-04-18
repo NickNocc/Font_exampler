@@ -4,22 +4,20 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 // Loading in fonts from local folder
-import './fonts/AmazinglyBeautifulRegular.ttf'
-
-
+import "./fonts/almondbutter.ttf";
+import './fonts/AmazinglyBeautifulRegular.ttf';
+import "./fonts/Autery.ttf";
 import "./fonts/blossom.ttf";
+import "./fonts/BohoFlowers.otf";
 import "./fonts/carefree.ttf";
+import "./fonts/Chakra.ttf";
 import "./fonts/Cookie.ttf";
 import "./fonts/Ghisella.ttf";
 import "./fonts/Homework.ttf";
 import "./fonts/Langrish.ttf";
 import "./fonts/Lobster.ttf";
 import "./fonts/Tatertot.ttf";
-import "./fonts/Chakra.ttf"
 
-import "./fonts/almondbutter.ttf";
-import "./fonts/Autery.ttf";
-import "./fonts/BohoFlowers.otf"
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
