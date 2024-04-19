@@ -65,12 +65,12 @@ export const Generator = () => {
     //    value: "Classico",
     //    label: "Classico",
     //  },
-    //  {
-    //    fontName: "Clocks",
-    //    fontClass: "font-face-Clocks",
-    //    value: "Clocks",
-    //    label: "Clocks",
-    //  },
+    {
+      fontName: "Clocks",
+      fontClass: "font-face-Clocks",
+      value: "Clocks",
+      label: "Clocks",
+    },
     {
       fontName: "Cookie",
       fontClass: "font-face-Cookie",

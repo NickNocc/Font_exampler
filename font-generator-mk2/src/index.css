@@ -40,6 +40,10 @@ code {
   src: local("carefree"), url("./fonts/carefree.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Clocks";
+  src: local("Clocks"), url("./fonts/Clocks.ttf") format("truetype");
+}
 
 @font-face {
   font-family: "Cookie";
@@ -103,6 +107,10 @@ code {
 
 .font-face-Carefree {
   font-family: "carefree";
+}
+
+.font-face-Clocks {
+  font-family: "Clocks";
 }
 
 .font-face-Cookie {
