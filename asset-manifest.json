@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Font_exampler/static/css/main.a1c15769.css",
-    "main.js": "/Font_exampler/static/js/main.211d98c8.js",
+    "main.css": "/Font_exampler/static/css/main.2a0fa8f6.css",
+    "main.js": "/Font_exampler/static/js/main.1bfb688c.js",
     "static/js/453.f582e2b8.chunk.js": "/Font_exampler/static/js/453.f582e2b8.chunk.js",
     "static/media/Lobster.ttf": "/Font_exampler/static/media/Lobster.66ac90e45ef8e7c84418.ttf",
     "static/media/Chakra.ttf": "/Font_exampler/static/media/Chakra.452025db44dcd89e65cc.ttf",
@@ -17,13 +17,14 @@
     "static/media/Langrish.ttf": "/Font_exampler/static/media/Langrish.a5f52dfba54363814b86.ttf",
     "static/media/Autery.ttf": "/Font_exampler/static/media/Autery.100a0c0dfed7457b847c.ttf",
     "static/media/Chalk.ttf": "/Font_exampler/static/media/Chalk.cb6bdb1209c4a6d5037e.ttf",
+    "static/media/Clocks.ttf": "/Font_exampler/static/media/Clocks.d5221a072eda862daee6.ttf",
     "index.html": "/Font_exampler/index.html",
-    "main.a1c15769.css.map": "/Font_exampler/static/css/main.a1c15769.css.map",
-    "main.211d98c8.js.map": "/Font_exampler/static/js/main.211d98c8.js.map",
+    "main.2a0fa8f6.css.map": "/Font_exampler/static/css/main.2a0fa8f6.css.map",
+    "main.1bfb688c.js.map": "/Font_exampler/static/js/main.1bfb688c.js.map",
     "453.f582e2b8.chunk.js.map": "/Font_exampler/static/js/453.f582e2b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1c15769.css",
-    "static/js/main.211d98c8.js"
+    "static/css/main.2a0fa8f6.css",
+    "static/js/main.1bfb688c.js"
   ]
 }
