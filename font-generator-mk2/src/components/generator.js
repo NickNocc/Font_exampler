@@ -24,10 +24,28 @@ export const Generator = () => {
       label: "Amazingly Beautiful",
     },
     {
+      fontName: "Aurora",
+      fontClass: "X-X",
+      value: "X9",
+      label: "Coming soon: Aurora",
+    },
+    {
       fontName: "Autery",
       fontClass: "font-face-Autery",
       value: "Autery",
       label: "Autery",
+    },
+    {
+      fontName: "X",
+      fontClass: "X-X",
+      value: "X8",
+      label: "Coming soon: Baby Point",
+    },
+    {
+      fontName: "X",
+      fontClass: "X-X",
+      value: "X7",
+      label: "Coming soon: Baked Fresh",
     },
     {
       fontName: "Blossom",
@@ -59,12 +77,12 @@ export const Generator = () => {
       value: "Chalk",
       label: "Chalk",
     },
-    //  {
-    //    fontName: "Classico",
-    //    fontClass: "font-face-Classico",
-    //    value: "Classico",
-    //    label: "Classico",
-    //  },
+    {
+      fontName: "Coming soon: Classico",
+      fontClass: "font-face-Classico",
+      value: "Classico",
+      label: "Coming soon: Classico",
+    },
     {
       fontName: "Clocks",
       fontClass: "font-face-Clocks",
@@ -77,17 +95,35 @@ export const Generator = () => {
       value: "Cookie",
       label: "Cookie",
     },
-    //  {
-    //    fontName: "Eduarda",
-    //    fontClass: "font-face-Eduarda",
-    //    value: "Eduarda",
-    //    label: "Eduarda",
-    //  },
+    {
+      fontName: "X",
+      fontClass: "X-X",
+      value: "X6",
+      label: "Coming soon: Doodle",
+    },
+    {
+      fontName: "Coming soon: Eduarda",
+      fontClass: "font-face-Eduarda",
+      value: "Eduarda",
+      label: "Coming soon: Eduarda",
+    },
     {
       fontName: "Ghisella",
       fontClass: "font-face-Ghisella",
       value: "Ghisella",
       label: "Ghisella",
+    },
+    {
+      fontName: "X",
+      fontClass: "X-X",
+      value: "X5",
+      label: "Coming soon: Hancock",
+    },
+    {
+      fontName: "X",
+      fontClass: "X-X",
+      value: "X4",
+      label: "Coming soon: Harpsicord",
     },
     {
       fontName: "Homework",
@@ -101,12 +137,18 @@ export const Generator = () => {
       value: "Langrish",
       label: "Langrish",
     },
-    //  {
-    //    fontName: "Lively",
-    //    fontClass: "font-face-Lively",
-    //    value: "Lively",
-    //    label: "Lively",
-    //  },
+    {
+      fontName: "X",
+      fontClass: "X-X",
+      value: "X3",
+      label: "Coming soon: Layla",
+    },
+    {
+      fontName: "Coming soon: Lively",
+      fontClass: "font-face-Lively",
+      value: "Lively",
+      label: "Coming soon: Lively",
+    },
     {
       fontName: "Lobster",
       fontClass: "font-face-Lobster",
@@ -114,10 +156,10 @@ export const Generator = () => {
       label: "Lobster",
     },
     {
-      fontName: "Sweetheart",    
+      fontName: "Sweetheart",
       fontClass: "font-face-Sweetheart",
-      value: "Sweetheart",      
-      label: "Sweetheart"       
+      value: "Sweetheart",
+      label: "Sweetheart",
     },
     {
       fontName: "Tatertot",
@@ -125,11 +167,16 @@ export const Generator = () => {
       value: "Tatertot",
       label: "Tatertot",
     },
-
+    {
+      fontName: "X",
+      fontClass: "X-X",
+      value: "X2",
+      label: "Coming soon: Violetta",
+    },
   ];
 
   // Default value for nameOutput
-  let name = "Enter your Name!";
+  let name = "Enter your Name";
 
   // State for nameOutput
   const [nameOutput, setNameOutput] = useState(name);

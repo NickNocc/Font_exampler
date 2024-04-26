@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header font-face-Langrish">
-        Namely
+        Boos Fonts
         <div className="App-info font-face-Langrish">
           More Fonts coming soon!
         </div>
