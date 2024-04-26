@@ -114,17 +114,18 @@ export const Generator = () => {
       label: "Lobster",
     },
     {
+      fontName: "Sweetheart",    
+      fontClass: "font-face-Sweetheart",
+      value: "Sweetheart",      
+      label: "Sweetheart"       
+    },
+    {
       fontName: "Tatertot",
       fontClass: "font-face-Tatertot",
       value: "Tatertot",
       label: "Tatertot",
     },
-    {
-      fontName: "Sweetheart",    
-      fontClass: "font-face-Sweetheart",
-      value: "Sweetheart",      
-      label: "Sweetheart"       
-    }
+
   ];
 
   // Default value for nameOutput

@@ -17,7 +17,7 @@ import "./fonts/Ghisella.ttf";
 import "./fonts/Homework.ttf";
 import "./fonts/Langrish.ttf";
 import "./fonts/Lobster.ttf";
-import "/fonts/Sweetheart.ttf";
+import "./fonts/Sweetheart.ttf";
 import "./fonts/Tatertot.ttf";
 
 
