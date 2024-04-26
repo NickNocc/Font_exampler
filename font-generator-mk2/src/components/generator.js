@@ -173,7 +173,7 @@ export const Generator = () => {
           />
         </span>
         {/* Select conponent to display font options */}
-        <Select options={currentFont} onChange={handleFontChange}></Select>
+        <Select options={currentFont} onChange={handleFontChange} styles={{backgroundColor: '#fffff0'}}></Select>
       </div>
       <div className="split-right">
         {/* Changes div class to match with font-face css in index.css */}
