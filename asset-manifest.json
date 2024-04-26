@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Font_exampler/static/css/main.6d71217b.css",
-    "main.js": "/Font_exampler/static/js/main.52e3bb87.js",
+    "main.js": "/Font_exampler/static/js/main.f32181b8.js",
     "static/js/453.f582e2b8.chunk.js": "/Font_exampler/static/js/453.f582e2b8.chunk.js",
     "static/media/Lobster.ttf": "/Font_exampler/static/media/Lobster.66ac90e45ef8e7c84418.ttf",
     "static/media/Chakra.ttf": "/Font_exampler/static/media/Chakra.452025db44dcd89e65cc.ttf",
@@ -21,11 +21,11 @@
     "static/media/Clocks.ttf": "/Font_exampler/static/media/Clocks.d5221a072eda862daee6.ttf",
     "index.html": "/Font_exampler/index.html",
     "main.6d71217b.css.map": "/Font_exampler/static/css/main.6d71217b.css.map",
-    "main.52e3bb87.js.map": "/Font_exampler/static/js/main.52e3bb87.js.map",
+    "main.f32181b8.js.map": "/Font_exampler/static/js/main.f32181b8.js.map",
     "453.f582e2b8.chunk.js.map": "/Font_exampler/static/js/453.f582e2b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d71217b.css",
-    "static/js/main.52e3bb87.js"
+    "static/js/main.f32181b8.js"
   ]
 }
