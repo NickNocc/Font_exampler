@@ -90,6 +90,11 @@ code {
   font-family: "Chalk";
   src: local("Chalk"), url("./fonts/Chalk.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "Sweetheart";
+  src: local("Sweetheart"), url("./fonts/Sweetheart.ttf");
+}
 /* Classes used by different conponents to change font */
 
 .font-face-Autery {
@@ -151,4 +156,8 @@ code {
 
 .font-face-Chalk {
   font-family: "Chalk";
+}
+
+.font-face-Sweetheart {
+  font-family: "Sweetheart";
 }

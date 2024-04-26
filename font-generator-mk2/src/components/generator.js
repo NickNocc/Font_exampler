@@ -119,6 +119,12 @@ export const Generator = () => {
       value: "Tatertot",
       label: "Tatertot",
     },
+    {
+      fontName: "Sweetheart",    
+      fontClass: "font-face-Sweetheart",
+      value: "Sweetheart",      
+      label: "Sweetheart"       
+    }
   ];
 
   // Default value for nameOutput
