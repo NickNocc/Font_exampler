@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/www.boosfonts.com/static/css/main.3ffe9d30.css",
-    "main.js": "/www.boosfonts.com/static/js/main.8f80a406.js",
-    "static/js/453.56da16c5.chunk.js": "/www.boosfonts.com/static/js/453.56da16c5.chunk.js",
+    "main.js": "/www.boosfonts.com/static/js/main.d9257fd6.js",
+    "static/js/453.f582e2b8.chunk.js": "/www.boosfonts.com/static/js/453.f582e2b8.chunk.js",
     "static/media/Lobster.ttf": "/www.boosfonts.com/static/media/Lobster.66ac90e45ef8e7c84418.ttf",
     "static/media/Chakra.ttf": "/www.boosfonts.com/static/media/Chakra.452025db44dcd89e65cc.ttf",
     "static/media/AmazinglyBeautifulRegular.ttf": "/www.boosfonts.com/static/media/AmazinglyBeautifulRegular.89190ca088dbc1762a2b.ttf",
@@ -21,11 +21,11 @@
     "static/media/Clocks.ttf": "/www.boosfonts.com/static/media/Clocks.d5221a072eda862daee6.ttf",
     "index.html": "/www.boosfonts.com/index.html",
     "main.3ffe9d30.css.map": "/www.boosfonts.com/static/css/main.3ffe9d30.css.map",
-    "main.8f80a406.js.map": "/www.boosfonts.com/static/js/main.8f80a406.js.map",
-    "453.56da16c5.chunk.js.map": "/www.boosfonts.com/static/js/453.56da16c5.chunk.js.map"
+    "main.d9257fd6.js.map": "/www.boosfonts.com/static/js/main.d9257fd6.js.map",
+    "453.f582e2b8.chunk.js.map": "/www.boosfonts.com/static/js/453.f582e2b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3ffe9d30.css",
-    "static/js/main.8f80a406.js"
+    "static/js/main.d9257fd6.js"
   ]
 }
