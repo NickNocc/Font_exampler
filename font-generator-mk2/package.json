@@ -1,6 +1,6 @@
 {
   "homepage": "www.boosfonts.com",
-  "name": "boos-fonts",
+  "name": "font-generator-mk2",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
