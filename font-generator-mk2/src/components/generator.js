@@ -204,6 +204,7 @@ export const Generator = () => {
 
   // Changes nameOutput to inputed value
   const handleNameChange = (event) => {
+    
     setNameOutput(event.target.value);
   };
 
