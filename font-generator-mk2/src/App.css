@@ -27,3 +27,7 @@
 .App-info {
   font-size: 2vw;
 }
+
+.disclaimer {
+  padding-top: calc(55px + 40vmin);
+}

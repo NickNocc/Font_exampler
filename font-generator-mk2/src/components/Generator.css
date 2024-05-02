@@ -13,7 +13,8 @@
   font-size: 10vh;
   max-width: 100%;
   word-wrap: break-word;
-  margin-top: 20px;
+  margin-top: 30px;
+  padding-top: calc(10px + 1vmin);
 }
 /*
 .split-left {
