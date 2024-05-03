@@ -25,9 +25,9 @@ export const Generator = () => {
     },
     {
       fontName: "Aurora",
-      fontClass: "X-X",
-      value: "X9",
-      label: "Coming soon: Aurora",
+      fontClass: "font-face-aurora",
+      value: "Aurora",
+      label: "Aurora",
     },
     {
       fontName: "Autery",

@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 // Loading in fonts from local folder
 import "./fonts/almondbutter.ttf";
 import './fonts/AmazinglyBeautifulRegular.ttf';
+import './fonts/Aurora.ttf'
 import "./fonts/Autery.ttf";
 import "./fonts/blossom.ttf";
 import "./fonts/BohoFlowers.otf";

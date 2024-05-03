@@ -20,6 +20,11 @@ code {
 }
 
 @font-face {
+  font-family: f;
+  src: local("aurora"), url("./fonts/aurora.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "Autery";
   src: local("Autery"), url("./fonts/Autery.ttf") format("truetype");
 }
@@ -96,6 +101,10 @@ code {
   src: local("Sweetheart"), url("./fonts/Sweetheart.ttf");
 }
 /* Classes used by different conponents to change font */
+
+.font-face-aurora {
+  font-family: "aurora";
+}
 
 .font-face-Autery {
   font-family: "Autery";
