@@ -20,7 +20,7 @@ code {
 }
 
 @font-face {
-  font-family: f;
+  font-family: "aurora";
   src: local("aurora"), url("./fonts/aurora.ttf") format("truetype");
 }
 
