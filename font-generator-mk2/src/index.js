@@ -12,6 +12,7 @@ import "./fonts/blossom.ttf";
 import "./fonts/BohoFlowers.otf";
 import "./fonts/carefree.ttf";
 import "./fonts/Chakra.ttf";
+import "./fonts/classico.ttf";
 import "./fonts/Clocks.ttf";
 import "./fonts/Cookie.ttf";
 import "./fonts/Ghisella.ttf";

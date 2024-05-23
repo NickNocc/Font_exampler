@@ -78,10 +78,10 @@ export const Generator = () => {
       label: "Chalk",
     },
     {
-      fontName: "Coming soon: Classico",
-      fontClass: "font-face-Classico",
-      value: "Classico",
-      label: "Coming soon: Classico",
+      fontName: "Classico",
+      fontClass: "font-face-classico",
+      value: "classico",
+      label: "Classico",
     },
     {
       fontName: "Clocks",

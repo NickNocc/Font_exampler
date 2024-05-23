@@ -46,6 +46,11 @@ code {
 }
 
 @font-face {
+  font-family: "classico";
+  src: local("classico"), url("./fonts/classico.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "Clocks";
   src: local("Clocks"), url("./fonts/Clocks.ttf") format("truetype");
 }
@@ -121,6 +126,10 @@ code {
 
 .font-face-Carefree {
   font-family: "carefree";
+}
+
+.font-face-classico {
+  font-family: "classico";
 }
 
 .font-face-Clocks {
