@@ -144,10 +144,10 @@ export const Generator = () => {
       label: "Coming soon: Layla",
     },
     {
-      fontName: "Coming soon: Lively",
+      fontName: "Lively",
       fontClass: "font-face-Lively",
       value: "Lively",
-      label: "Coming soon: Lively",
+      label: "Lively",
     },
     {
       fontName: "Lobster",

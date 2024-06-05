@@ -80,6 +80,11 @@ code {
 }
 
 @font-face {
+  font-family: "Lively";
+  src: local("Lively"), url("./fonts/Lively.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "Lobster";
   src: local("Lobster"),
     url("./fonts/Lobster.ttf") format("truetype");
@@ -157,6 +162,10 @@ code {
 
 .font-face-Langrish {
   font-family: "Langrish";
+}
+
+.font-face-Lively {
+  font-family: "Lively";
 }
 
 .font-face-Lobster {
