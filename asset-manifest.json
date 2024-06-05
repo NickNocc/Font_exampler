@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.6bc4c8f9.css",
-    "main.js": "./static/js/main.fad77cd0.js",
+    "main.css": "./static/css/main.e869b949.css",
+    "main.js": "./static/js/main.58b41422.js",
     "static/js/453.f582e2b8.chunk.js": "./static/js/453.f582e2b8.chunk.js",
     "static/media/Lobster.ttf": "./static/media/Lobster.66ac90e45ef8e7c84418.ttf",
     "static/media/Chakra.ttf": "./static/media/Chakra.452025db44dcd89e65cc.ttf",
@@ -19,16 +19,17 @@
     "static/media/Tatertot.ttf": "./static/media/Tatertot.cd029edc7a96c22a8915.ttf",
     "static/media/aurora.ttf": "./static/media/aurora.e4e9fb13b102eec2818f.ttf",
     "static/media/Babypoint.ttf": "./static/media/Babypoint.632dd775851b390f975d.ttf",
+    "static/media/Lively.ttf": "./static/media/Lively.199e50f38c3a361f6bf1.ttf",
     "static/media/Chalk.ttf": "./static/media/Chalk.43dd0dc5b90871afccfd.ttf",
     "static/media/Clocks.ttf": "./static/media/Clocks.d5221a072eda862daee6.ttf",
     "static/media/classico.ttf": "./static/media/classico.1912a9c8dc738d49ee4a.ttf",
     "index.html": "./index.html",
-    "main.6bc4c8f9.css.map": "./static/css/main.6bc4c8f9.css.map",
-    "main.fad77cd0.js.map": "./static/js/main.fad77cd0.js.map",
+    "main.e869b949.css.map": "./static/css/main.e869b949.css.map",
+    "main.58b41422.js.map": "./static/js/main.58b41422.js.map",
     "453.f582e2b8.chunk.js.map": "./static/js/453.f582e2b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bc4c8f9.css",
-    "static/js/main.fad77cd0.js"
+    "static/css/main.e869b949.css",
+    "static/js/main.58b41422.js"
   ]
 }
