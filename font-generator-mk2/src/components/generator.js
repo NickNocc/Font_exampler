@@ -36,10 +36,10 @@ export const Generator = () => {
       label: "Autery",
     },
     {
-      fontName: "X",
-      fontClass: "X-X",
-      value: "X8",
-      label: "Coming soon: Baby Point",
+      fontName: "Baby Point",
+      fontClass: "font-face-Babypoint",
+      value: "Babypoint",
+      label: "Baby Point",
     },
     {
       fontName: "X",

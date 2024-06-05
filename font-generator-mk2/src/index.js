@@ -8,6 +8,7 @@ import "./fonts/almondbutter.ttf";
 import './fonts/AmazinglyBeautifulRegular.ttf';
 import './fonts/aurora.ttf'
 import "./fonts/Autery.ttf";
+import "./fonts/Babypoint.ttf";
 import "./fonts/blossom.ttf";
 import "./fonts/BohoFlowers.otf";
 import "./fonts/carefree.ttf";

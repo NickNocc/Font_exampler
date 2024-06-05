@@ -29,6 +29,10 @@ code {
   src: local("Autery"), url("./fonts/Autery.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Babypoint";
+  src: local("Babypoint"), url("./fonts/Babypoint.ttf") format("truetype");
+}
 
 @font-face {
   font-family: "blossom";
@@ -115,6 +119,9 @@ code {
   font-family: "Autery";
 }
 
+.font-face-Babypoint {
+  font-family: "Babypoint";
+}
 
 .font-face-blossom {
   font-family: "blossom";
