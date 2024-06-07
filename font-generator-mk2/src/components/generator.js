@@ -42,10 +42,10 @@ export const Generator = () => {
       label: "Baby Point",
     },
     {
-      fontName: "X",
-      fontClass: "X-X",
-      value: "X7",
-      label: "Coming soon: Baked Fresh",
+      fontName: "Baked Fresh",
+      fontClass: "font-face-Bakedfresh",
+      value: "Bakedfresh",
+      label: "Baked Fresh",
     },
     {
       fontName: "Blossom",
@@ -204,7 +204,6 @@ export const Generator = () => {
 
   // Changes nameOutput to inputed value
   const handleNameChange = (event) => {
-    
     setNameOutput(event.target.value);
   };
 

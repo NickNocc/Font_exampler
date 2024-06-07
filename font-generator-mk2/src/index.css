@@ -35,6 +35,11 @@ code {
 }
 
 @font-face {
+  font-family: "Bakedfresh";
+  src: local("Bakedfresh"), url("./fonts/Bakedfresh.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "blossom";
   src: local("blossom"), url("./fonts/blossom.ttf") format("truetype");
 }
@@ -126,6 +131,10 @@ code {
 
 .font-face-Babypoint {
   font-family: "Babypoint";
+}
+
+.font-face-Bakedfresh {
+  font-family: "Bakedfresh";
 }
 
 .font-face-blossom {
