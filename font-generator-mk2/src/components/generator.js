@@ -24,6 +24,12 @@ export const Generator = () => {
       label: "Amazingly Beautiful",
     },
     {
+      fontName: "Andrea",
+      fontClass: "font-face-Andrea",
+      value: "Andrea",
+      label: "Andrea"
+    },
+    {
       fontName: "Aurora",
       fontClass: "font-face-aurora",
       value: "Aurora",
