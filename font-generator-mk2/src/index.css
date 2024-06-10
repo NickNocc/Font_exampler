@@ -20,6 +20,11 @@ code {
 }
 
 @font-face {
+  font-family: "Andrea";
+  src: local("Andrea"), url("./fonts/Andrea.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "aurora";
   src: local("aurora"), url("./fonts/aurora.ttf") format("truetype");
 }
@@ -120,6 +125,10 @@ code {
   src: local("Sweetheart"), url("./fonts/Sweetheart.ttf");
 }
 /* Classes used by different conponents to change font */
+
+.font-face-Andrea {
+  font-family: "Andrea";
+}
 
 .font-face-aurora {
   font-family: "aurora";
