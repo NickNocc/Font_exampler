@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "./static/css/main.cefb2949.css",
-    "main.js": "./static/js/main.71ec0e21.js",
+    "main.css": "./static/css/main.88c07ffe.css",
+    "main.js": "./static/js/main.fc09fe30.js",
     "static/js/453.f582e2b8.chunk.js": "./static/js/453.f582e2b8.chunk.js",
-    "static/media/Lobster.ttf": "./static/media/Lobster.66ac90e45ef8e7c84418.ttf",
     "static/media/Chakra.ttf": "./static/media/Chakra.452025db44dcd89e65cc.ttf",
     "static/media/AmazinglyBeautifulRegular.ttf": "./static/media/AmazinglyBeautifulRegular.89190ca088dbc1762a2b.ttf",
     "static/media/Ghisella.ttf": "./static/media/Ghisella.a8699065d99e1ae5413b.ttf",
     "static/media/BohoFlowers.otf": "./static/media/BohoFlowers.89dd9ed91dbd1d63b1cf.otf",
     "static/media/blossom.ttf": "./static/media/blossom.13a024714de53cbabbd4.ttf",
-    "static/media/Homework.ttf": "./static/media/Homework.b7e7f025eacffdf6e1bd.ttf",
     "static/media/Cookie.ttf": "./static/media/Cookie.f7a638e09e95aca4ac87.ttf",
     "static/media/Sweetheart.ttf": "./static/media/Sweetheart.3b0b08bb48a0cfea3c72.ttf",
     "static/media/carefree.ttf": "./static/media/carefree.a441efd890f639540ca3.ttf",
@@ -18,19 +16,21 @@
     "static/media/Autery.ttf": "./static/media/Autery.100a0c0dfed7457b847c.ttf",
     "static/media/Tatertot.ttf": "./static/media/Tatertot.cd029edc7a96c22a8915.ttf",
     "static/media/aurora.ttf": "./static/media/aurora.e4e9fb13b102eec2818f.ttf",
+    "static/media/Andrea.ttf": "./static/media/Andrea.d65a17dab23f8de9970b.ttf",
     "static/media/Babypoint.ttf": "./static/media/Babypoint.632dd775851b390f975d.ttf",
+    "static/media/Doodle.ttf": "./static/media/Doodle.a69a75f9873b3f46cace.ttf",
     "static/media/Lively.ttf": "./static/media/Lively.199e50f38c3a361f6bf1.ttf",
     "static/media/Chalk.ttf": "./static/media/Chalk.43dd0dc5b90871afccfd.ttf",
     "static/media/Bakedfresh.ttf": "./static/media/Bakedfresh.0e1b23495bf48e145fe0.ttf",
     "static/media/Clocks.ttf": "./static/media/Clocks.d5221a072eda862daee6.ttf",
     "static/media/classico.ttf": "./static/media/classico.1912a9c8dc738d49ee4a.ttf",
     "index.html": "./index.html",
-    "main.cefb2949.css.map": "./static/css/main.cefb2949.css.map",
-    "main.71ec0e21.js.map": "./static/js/main.71ec0e21.js.map",
+    "main.88c07ffe.css.map": "./static/css/main.88c07ffe.css.map",
+    "main.fc09fe30.js.map": "./static/js/main.fc09fe30.js.map",
     "453.f582e2b8.chunk.js.map": "./static/js/453.f582e2b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cefb2949.css",
-    "static/js/main.71ec0e21.js"
+    "static/css/main.88c07ffe.css",
+    "static/js/main.fc09fe30.js"
   ]
 }
