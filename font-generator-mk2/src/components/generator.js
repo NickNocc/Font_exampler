@@ -27,7 +27,7 @@ export const Generator = () => {
       fontName: "Andrea",
       fontClass: "font-face-Andrea",
       value: "Andrea",
-      label: "Andrea"
+      label: "Andrea",
     },
     {
       fontName: "Aurora",
@@ -102,10 +102,10 @@ export const Generator = () => {
       label: "Cookie",
     },
     {
-      fontName: "X",
-      fontClass: "X-X",
-      value: "X6",
-      label: "Coming soon: Doodle",
+      fontName: "Doodle",
+      fontClass: "font-face-Doodle",
+      value: "Doodle",
+      label: "Doodle",
     },
     {
       fontName: "Coming soon: Eduarda",

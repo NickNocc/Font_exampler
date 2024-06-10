@@ -75,6 +75,11 @@ code {
 }
 
 @font-face {
+  font-family: "Doodle";
+  src: local("Doodle"), url("./fonts/Doodle.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "Ghisella";
   src: local("Ghisella"), url("./fonts/Ghisella.ttf") format("truetype");
 }
@@ -168,6 +173,10 @@ code {
 
 .font-face-Cookie {
   font-family: "Cookie";
+}
+
+.font-face-Doodle {
+  font-family: "Doodle";
 }
 
 .font-face-Ghisella {

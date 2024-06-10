@@ -17,6 +17,7 @@ import "./fonts/Chakra.ttf";
 import "./fonts/classico.ttf";
 import "./fonts/Clocks.ttf";
 import "./fonts/Cookie.ttf";
+import "./fonts/Doodle.ttf";
 import "./fonts/Ghisella.ttf";
 // import "./fonts/Homework.ttf";
 import "./fonts/Langrish.ttf";
