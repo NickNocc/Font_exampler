@@ -18,10 +18,10 @@ import "./fonts/classico.ttf";
 import "./fonts/Clocks.ttf";
 import "./fonts/Cookie.ttf";
 import "./fonts/Ghisella.ttf";
-import "./fonts/Homework.ttf";
+// import "./fonts/Homework.ttf";
 import "./fonts/Langrish.ttf";
 import "./fonts/Lively.ttf";
-import "./fonts/Lobster.ttf";
+// import "./fonts/Lobster.ttf";
 import "./fonts/Sweetheart.ttf";
 import "./fonts/Tatertot.ttf";
 

@@ -79,10 +79,10 @@ code {
   src: local("Ghisella"), url("./fonts/Ghisella.ttf") format("truetype");
 }
 
-@font-face {
+/* @font-face {
   font-family: "Homework";
   src: local("Homework"), url("./fonts/Homework.ttf") format("truetype");
-}
+} */
 
 @font-face {
   font-family: "Langrish";
@@ -94,11 +94,11 @@ code {
   src: local("Lively"), url("./fonts/Lively.ttf") format("truetype");
 }
 
-@font-face {
+/* @font-face {
   font-family: "Lobster";
   src: local("Lobster"),
     url("./fonts/Lobster.ttf") format("truetype");
-}
+} */
 
 @font-face {
   font-family: "Tatertot";
@@ -174,9 +174,9 @@ code {
   font-family: "Ghisella";
 }
 
-.font-face-Homework {
+/* .font-face-Homework {
   font-family: "Homework";
-}
+} */
 
 .font-face-Langrish {
   font-family: "Langrish";
@@ -186,9 +186,9 @@ code {
   font-family: "Lively";
 }
 
-.font-face-Lobster {
+/* .font-face-Lobster {
   font-family: "Lobster";
-}
+} */
 
 .font-face-Tatertot {
   font-family: "Tatertot";
