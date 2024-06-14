@@ -69,7 +69,7 @@ export const Generator = () => {
       fontName: "Carefree",
       fontClass: "font-face-Carefree",
       value: "Carefree",
-      label: "Coming soon: Carefree",
+      label: "Carefree",
     },
     {
       fontName: "Chakra",
