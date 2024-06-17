@@ -123,7 +123,7 @@ export const Generator = () => {
       fontName: "Hancock",
       fontClass: "font-face-Hancock",
       value: "Hancock",
-      label: "=Hancock",
+      label: "Hancock",
     },
     {
       fontName: "X",
