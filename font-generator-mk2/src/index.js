@@ -26,6 +26,7 @@ import "./fonts/Lively.ttf";
 // import "./fonts/Lobster.ttf";
 import "./fonts/Sweetheart.ttf";
 import "./fonts/Tatertot.ttf";
+import "./fonts/Violetta.ttf";
 
 
 

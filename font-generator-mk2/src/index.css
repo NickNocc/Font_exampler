@@ -132,8 +132,14 @@ code {
 
 @font-face {
   font-family: "Sweetheart";
-  src: local("Sweetheart"), url("./fonts/Sweetheart.ttf");
+  src: local("Sweetheart"), url("./fonts/Sweetheart.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "Violetta";
+  src: local("Violetta"), url("./fonts/Violetta.ttf") format("truetype");
+}
+
 /* Classes used by different conponents to change font */
 
 .font-face-Andrea {

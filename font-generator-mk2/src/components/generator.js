@@ -174,10 +174,10 @@ export const Generator = () => {
       label: "Tatertot",
     },
     {
-      fontName: "X",
-      fontClass: "X-X",
-      value: "X2",
-      label: "Coming soon: Violetta",
+      fontName: "Violetta",
+      fontClass: "font-face-Violetta",
+      value: "Violetta",
+      label: "Violetta",
     },
   ];
 
