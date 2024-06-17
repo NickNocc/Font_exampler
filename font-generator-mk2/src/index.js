@@ -19,6 +19,7 @@ import "./fonts/Clocks.ttf";
 import "./fonts/Cookie.ttf";
 import "./fonts/Doodle.ttf";
 import "./fonts/Ghisella.ttf";
+import "./fonts/Hancock.ttf";
 // import "./fonts/Homework.ttf";
 import "./fonts/Langrish.ttf";
 import "./fonts/Lively.ttf";

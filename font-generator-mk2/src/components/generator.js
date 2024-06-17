@@ -120,10 +120,10 @@ export const Generator = () => {
       label: "Ghisella",
     },
     {
-      fontName: "X",
-      fontClass: "X-X",
-      value: "X5",
-      label: "Coming soon: Hancock",
+      fontName: "Hancock",
+      fontClass: "font-face-Hancock",
+      value: "Hancock",
+      label: "=Hancock",
     },
     {
       fontName: "X",

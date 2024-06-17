@@ -84,6 +84,11 @@ code {
   src: local("Ghisella"), url("./fonts/Ghisella.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Hancock";
+  src: local("Hancock"), url("./fonts/Hancock.ttf") format("truetype");
+}
+
 /* @font-face {
   font-family: "Homework";
   src: local("Homework"), url("./fonts/Homework.ttf") format("truetype");
@@ -181,6 +186,10 @@ code {
 
 .font-face-Ghisella {
   font-family: "Ghisella";
+}
+
+.font-face-Hancock {
+  font-family: "Hancock";
 }
 
 /* .font-face-Homework {
