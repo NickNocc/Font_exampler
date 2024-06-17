@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.88c07ffe.css",
-    "main.js": "./static/js/main.b89f84a9.js",
+    "main.css": "./static/css/main.7a3e9cf3.css",
+    "main.js": "./static/js/main.455309ca.js",
     "static/js/453.f582e2b8.chunk.js": "./static/js/453.f582e2b8.chunk.js",
     "static/media/Chakra.ttf": "./static/media/Chakra.452025db44dcd89e65cc.ttf",
     "static/media/AmazinglyBeautifulRegular.ttf": "./static/media/AmazinglyBeautifulRegular.89190ca088dbc1762a2b.ttf",
@@ -21,16 +21,17 @@
     "static/media/Doodle.ttf": "./static/media/Doodle.a69a75f9873b3f46cace.ttf",
     "static/media/Lively.ttf": "./static/media/Lively.199e50f38c3a361f6bf1.ttf",
     "static/media/Chalk.ttf": "./static/media/Chalk.43dd0dc5b90871afccfd.ttf",
+    "static/media/Hancock.ttf": "./static/media/Hancock.e94de79163f1b1e03884.ttf",
     "static/media/Bakedfresh.ttf": "./static/media/Bakedfresh.0e1b23495bf48e145fe0.ttf",
     "static/media/Clocks.ttf": "./static/media/Clocks.d5221a072eda862daee6.ttf",
     "static/media/classico.ttf": "./static/media/classico.1912a9c8dc738d49ee4a.ttf",
     "index.html": "./index.html",
-    "main.88c07ffe.css.map": "./static/css/main.88c07ffe.css.map",
-    "main.b89f84a9.js.map": "./static/js/main.b89f84a9.js.map",
+    "main.7a3e9cf3.css.map": "./static/css/main.7a3e9cf3.css.map",
+    "main.455309ca.js.map": "./static/js/main.455309ca.js.map",
     "453.f582e2b8.chunk.js.map": "./static/js/453.f582e2b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.88c07ffe.css",
-    "static/js/main.b89f84a9.js"
+    "static/css/main.7a3e9cf3.css",
+    "static/js/main.455309ca.js"
   ]
 }
