@@ -100,6 +100,11 @@ code {
 }
 
 @font-face {
+  font-family: "Layla";
+  src: local("Layla"), url("./fonts/Layla.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "Lively";
   src: local("Lively"), url("./fonts/Lively.ttf") format("truetype");
 }
@@ -204,6 +209,10 @@ code {
 
 .font-face-Langrish {
   font-family: "Langrish";
+}
+
+.font-face-Layla {
+  font-family: "Layla.ttf";
 }
 
 .font-face-Lively {
