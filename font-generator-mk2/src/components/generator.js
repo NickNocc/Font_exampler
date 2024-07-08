@@ -131,12 +131,6 @@ export const Generator = () => {
       value: "Harpsichord",
       label: "Harpsichord",
     },
-    // {
-    //   fontName: "Homework",
-    //   fontClass: "font-face-Homework",
-    //   value: "Homework",
-    //   label: "Homework",
-    // },
     {
       fontName: "Langrish",
       fontClass: "font-face-Langrish",
@@ -155,12 +149,6 @@ export const Generator = () => {
       value: "Lively",
       label: "Lively",
     },
-    // {
-    //   fontName: "Lobster",
-    //   fontClass: "font-face-Lobster",
-    //   value: "Lobster",
-    //   label: "Lobster",
-    // },
     {
       fontName: "Sweetheart",
       fontClass: "font-face-Sweetheart",
