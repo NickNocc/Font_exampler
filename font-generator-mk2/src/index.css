@@ -80,6 +80,11 @@ code {
 }
 
 @font-face {
+  font-family: "Eduarda";
+  src: local("Eduarda"), url("./fonts/Eduarda.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "Ghisella";
   src: local("Ghisella"), url("./fonts/Ghisella.ttf") format("truetype");
 }
@@ -87,6 +92,11 @@ code {
 @font-face {
   font-family: "Hancock";
   src: local("Hancock"), url("./fonts/Hancock.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Harpsichord";
+  src: local("Harpsichord"), url("./fonts/Harpsichord.ttf") format("truetype");
 }
 
 /* @font-face {
@@ -195,12 +205,20 @@ code {
   font-family: "Doodle";
 }
 
+.font-face-Eduarda {
+  font-family: "Eduarda";
+}
+
 .font-face-Ghisella {
   font-family: "Ghisella";
 }
 
 .font-face-Hancock {
   font-family: "Hancock";
+}
+
+.font-face-Harpsichord {
+  font-family: "Harpsichord";
 }
 
 /* .font-face-Homework {
