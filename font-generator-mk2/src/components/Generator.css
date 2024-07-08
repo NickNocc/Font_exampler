@@ -43,13 +43,13 @@ input {
   width: 73%;
   height: 4vh;
   text-align: center;
-  background-color: #fffff0;
+  background-color: white;
 }
 
 /* box around input */
 .css-b62m3t-container {
   align-self: right;
-  color: #fffff0;
+  color: black;
   width: 80vw;
 }
 
