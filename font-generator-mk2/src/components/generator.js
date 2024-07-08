@@ -108,10 +108,10 @@ export const Generator = () => {
       label: "Doodle",
     },
     {
-      fontName: "Coming soon: Eduarda",
+      fontName: "Eduarda",
       fontClass: "font-face-Eduarda",
       value: "Eduarda",
-      label: "Coming soon: Eduarda",
+      label: "Eduarda",
     },
     {
       fontName: "Ghisella",
@@ -126,10 +126,10 @@ export const Generator = () => {
       label: "Hancock",
     },
     {
-      fontName: "X",
-      fontClass: "X-X",
-      value: "X4",
-      label: "Coming soon: Harpsicord",
+      fontName: "Harpsichord",
+      fontClass: "font-face-Harpsichord",
+      value: "Harpsichord",
+      label: "Harpsichord",
     },
     // {
     //   fontName: "Homework",
