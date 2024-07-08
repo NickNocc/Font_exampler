@@ -131,12 +131,6 @@ export const Generator = () => {
       value: "Harpsichord",
       label: "Harpsichord",
     },
-    // {
-    //   fontName: "Homework",
-    //   fontClass: "font-face-Homework",
-    //   value: "Homework",
-    //   label: "Homework",
-    // },
     {
       fontName: "Langrish",
       fontClass: "font-face-Langrish",
@@ -155,12 +149,6 @@ export const Generator = () => {
       value: "Lively",
       label: "Lively",
     },
-    // {
-    //   fontName: "Lobster",
-    //   fontClass: "font-face-Lobster",
-    //   value: "Lobster",
-    //   label: "Lobster",
-    // },
     {
       fontName: "Sweetheart",
       fontClass: "font-face-Sweetheart",
@@ -226,7 +214,13 @@ export const Generator = () => {
           />
         </span>
         {/* Select conponent to display font options */}
-        <Select options={currentFont} onChange={handleFontChange} styles={{backgroundColor: '#fffff0'}}></Select>
+        <span style={{paddingLeft:"13%", paddingRight:"13%", display:"flex"}}>
+          <Select
+            options={currentFont}
+            onChange={handleFontChange}
+            styles={{ backgroundColor: "#fffff0", align_self: "center" }}
+          ></Select>
+        </span>
       </div>
       <div className="split-right">
         {/* Changes div class to match with font-face css in index.css */}

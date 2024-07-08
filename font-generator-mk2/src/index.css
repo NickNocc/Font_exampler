@@ -20,6 +20,11 @@ code {
 }
 
 @font-face {
+  font-family: "Almondbutter";
+  src: local("AlmondButter"), url("./fonts/almondbutter.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "Andrea";
   src: local("Andrea"), url("./fonts/Andrea.ttf") format("truetype");
 }
@@ -45,6 +50,11 @@ code {
 }
 
 @font-face {
+  font-family: "Brittany";
+  src: local("Brittany"), url("./fonts/BrittanySignature.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "blossom";
   src: local("blossom"), url("./fonts/blossom.ttf") format("truetype");
 }
@@ -57,6 +67,16 @@ code {
 @font-face {
   font-family: "carefree";
   src: local("carefree"), url("./fonts/carefree.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Chakra";
+  src: local("Chakra"), url("./fonts/Chakra.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Chalk";
+  src: local("Chalk"), url("./fonts/Chalk.ttf") format("truetype");
 }
 
 @font-face {
@@ -99,11 +119,6 @@ code {
   src: local("Harpsichord"), url("./fonts/Harpsichord.ttf") format("truetype");
 }
 
-/* @font-face {
-  font-family: "Homework";
-  src: local("Homework"), url("./fonts/Homework.ttf") format("truetype");
-} */
-
 @font-face {
   font-family: "Langrish";
   src: local("Langrish"), url("./fonts/Langrish.ttf") format("truetype");
@@ -119,30 +134,9 @@ code {
   src: local("Lively"), url("./fonts/Lively.ttf") format("truetype");
 }
 
-/* @font-face {
-  font-family: "Lobster";
-  src: local("Lobster"),
-    url("./fonts/Lobster.ttf") format("truetype");
-} */
-
 @font-face {
   font-family: "Tatertot";
   src: local("Tatertot"), url("./fonts/Tatertot.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Chakra";
-  src: local("Chakra"), url("./fonts/Chakra.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Almondbutter";
-  src: local("AlmondButter"), url("./fonts/almondbutter.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Chalk";
-  src: local("Chalk"), url("./fonts/Chalk.ttf") format("truetype");
 }
 
 @font-face {
@@ -156,6 +150,14 @@ code {
 }
 
 /* Classes used by different conponents to change font */
+
+.font-face-Almondbutter {
+  font-family: "Almondbutter";
+}
+
+.font-face-Amazingly {
+  font-family: "AmazinglyBeautifulRegular";
+}
 
 .font-face-Andrea {
   font-family: "Andrea";
@@ -185,12 +187,24 @@ code {
   font-family:"BohoFlowers";
 }
 
+.font-face-Brittany {
+  font-family: "Brittany";
+}
+
 .font-face-Carefree {
   font-family: "carefree";
 }
 
 .font-face-classico {
   font-family: "classico";
+}
+
+.font-face-Chakra {
+  font-family: "Chakra";
+}
+
+.font-face-Chalk {
+  font-family: "Chalk";
 }
 
 .font-face-Clocks {
@@ -221,10 +235,6 @@ code {
   font-family: "Harpsichord";
 }
 
-/* .font-face-Homework {
-  font-family: "Homework";
-} */
-
 .font-face-Langrish {
   font-family: "Langrish";
 }
@@ -237,28 +247,8 @@ code {
   font-family: "Lively";
 }
 
-/* .font-face-Lobster {
-  font-family: "Lobster";
-} */
-
 .font-face-Tatertot {
   font-family: "Tatertot";
-}
-
-.font-face-Chakra {
-  font-family: "Chakra";
-}
-
-.font-face-Amazingly {
-  font-family: "AmazinglyBeautifulRegular";
-}
-
-.font-face-Almondbutter {
-  font-family: "Almondbutter";
-}
-
-.font-face-Chalk {
-  font-family: "Chalk";
 }
 
 .font-face-Sweetheart {
