@@ -16,7 +16,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(35px + 6vmin);
+  font-size: calc(35px + 4vmin);
   color: white;
 }
 

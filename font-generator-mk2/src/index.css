@@ -50,6 +50,11 @@ code {
 }
 
 @font-face {
+  font-family: "Brittany";
+  src: local("Brittany"), url("./fonts/BrittanySignature.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "blossom";
   src: local("blossom"), url("./fonts/blossom.ttf") format("truetype");
 }
@@ -180,6 +185,10 @@ code {
 
 .font-face-BohoFlowers {
   font-family:"BohoFlowers";
+}
+
+.font-face-Brittany {
+  font-family: "Brittany";
 }
 
 .font-face-Carefree {

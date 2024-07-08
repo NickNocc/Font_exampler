@@ -214,7 +214,13 @@ export const Generator = () => {
           />
         </span>
         {/* Select conponent to display font options */}
-        <Select options={currentFont} onChange={handleFontChange} styles={{backgroundColor: '#fffff0'}}></Select>
+        <span style={{paddingLeft:"13%", paddingRight:"13%", display:"flex"}}>
+          <Select
+            options={currentFont}
+            onChange={handleFontChange}
+            styles={{ backgroundColor: "#fffff0", align_self: "center" }}
+          ></Select>
+        </span>
       </div>
       <div className="split-right">
         {/* Changes div class to match with font-face css in index.css */}
