@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 // Loading in fonts from local folder
 import "./fonts/almondbutter.ttf";
 import './fonts/AmazinglyBeautifulRegular.ttf';
-import './fonts/aurora.ttf'
+import './fonts/aurora.ttf';
 import "./fonts/Autery.ttf";
 import "./fonts/Babypoint.ttf";
 import "./fonts/Bakedfresh.ttf";
@@ -21,7 +21,7 @@ import "./fonts/Doodle.ttf";
 import "./fonts/Eduarda.ttf"
 import "./fonts/Ghisella.ttf";
 import "./fonts/Hancock.ttf";
-import "./fonts/Harpsichord.ttf"
+import "./fonts/Harpsichord.ttf";
 import "./fonts/Langrish.ttf";
 import "./fonts/Layla.ttf";
 import "./fonts/Lively.ttf";
