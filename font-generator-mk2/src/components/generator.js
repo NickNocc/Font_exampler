@@ -171,6 +171,7 @@ export const Generator = () => {
 
   // Default value for nameOutput
   let name = "Enter your Name";
+  let numberFound = false;
 
   // State for nameOutput
   const [nameOutput, setNameOutput] = useState(name);
@@ -187,7 +188,7 @@ export const Generator = () => {
     // Function to find index of selected font
     let changeFont = currentFont.filter((font, i) => {
       if (font.fontName === selectedFont) {
-        console.log( currentFont[i]);
+        console.log(currentFont[i]);
         fontIndex = i;
         return;
       }
@@ -196,9 +197,39 @@ export const Generator = () => {
     setCf(currentFont[fontIndex]);
   };
 
+  const numberCheck = (str) => {
+    // console.log(str);
+    // console.log("nofloat: " + isNaN(str));
+    // console.log( "float: " + isNaN(str));
+    // console.log(isNaN(str) && isNaN(parseFloat(str)));
+    let textChecker = str.split("");
+    let numberExists = false;
+    for (let i = 0; i < textChecker.length; i++) {
+      const value = parseInt(textChecker[i]);
+      console.log("textchecker i: " + value);
+      if (typeof value != NaN && isNaN(value)) {
+        console.log("beebbeeb: " + value);
+      } else {
+        numberExists = true;
+      }
+    }
+    if (numberExists == true) {
+      console.log("its false");
+      numberFound = true;
+      return false;
+    } else {
+      console.log("its true");
+      return true;
+    };
+  };
+
   // Changes nameOutput to inputed value
   const handleNameChange = (event) => {
-    setNameOutput(event.target.value);
+    let oldText;
+    let newText = event.target.value;
+    if (numberCheck(newText) === true) {
+      setNameOutput(newText);
+    }
   };
 
   return (
@@ -214,7 +245,9 @@ export const Generator = () => {
           />
         </span>
         {/* Select conponent to display font options */}
-        <span style={{paddingLeft:"13%", paddingRight:"13%", display:"flex"}}>
+        <span
+          style={{ paddingLeft: "13%", paddingRight: "13%", display: "flex" }}
+        >
           <Select
             options={currentFont}
             onChange={handleFontChange}
