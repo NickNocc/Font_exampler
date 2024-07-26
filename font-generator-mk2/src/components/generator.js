@@ -197,39 +197,20 @@ export const Generator = () => {
     setCf(currentFont[fontIndex]);
   };
 
-  const numberCheck = (str) => {
-    // console.log(str);
-    // console.log("nofloat: " + isNaN(str));
-    // console.log( "float: " + isNaN(str));
-    // console.log(isNaN(str) && isNaN(parseFloat(str)));
-    let textChecker = str.split("");
-    let numberExists = false;
-    for (let i = 0; i < textChecker.length; i++) {
-      const value = parseInt(textChecker[i]);
-      console.log("textchecker i: " + value);
-      if (typeof value != NaN && isNaN(value)) {
-        console.log("beebbeeb: " + value);
-      } else {
-        numberExists = true;
-      }
-    }
-    if (numberExists == true) {
-      console.log("its false");
-      numberFound = true;
-      return false;
-    } else {
-      console.log("its true");
-      return true;
-    };
-  };
 
   // Changes nameOutput to inputed value
   const handleNameChange = (event) => {
-    let oldText;
     let newText = event.target.value;
-    if (numberCheck(newText) === true) {
-      setNameOutput(newText);
-    }
+    console.log(newText);
+    let globalText = "";
+    const regex = /[^a-zA-Z\u002D\u0027]+/gi;
+    console.log("newtext 1: " + globalText);
+
+    globalText = newText.replaceAll(regex, "");
+    console.log("First Regex: " + globalText);
+
+    setNameOutput(globalText);
+
   };
 
   return (
