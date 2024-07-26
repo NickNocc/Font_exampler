@@ -171,6 +171,7 @@ export const Generator = () => {
 
   // Default value for nameOutput
   let name = "Enter your Name";
+  let numberFound = false;
 
   // State for nameOutput
   const [nameOutput, setNameOutput] = useState(name);
@@ -187,7 +188,7 @@ export const Generator = () => {
     // Function to find index of selected font
     let changeFont = currentFont.filter((font, i) => {
       if (font.fontName === selectedFont) {
-        console.log( currentFont[i]);
+        console.log(currentFont[i]);
         fontIndex = i;
         return;
       }
@@ -196,9 +197,20 @@ export const Generator = () => {
     setCf(currentFont[fontIndex]);
   };
 
+
   // Changes nameOutput to inputed value
   const handleNameChange = (event) => {
-    setNameOutput(event.target.value);
+    let newText = event.target.value;
+    console.log(newText);
+    let globalText = "";
+    const regex = /[^a-zA-Z\u002D\u0027]+/gi;
+    console.log("newtext 1: " + globalText);
+
+    globalText = newText.replaceAll(regex, "");
+    console.log("First Regex: " + globalText);
+
+    setNameOutput(globalText);
+
   };
 
   return (
@@ -214,7 +226,9 @@ export const Generator = () => {
           />
         </span>
         {/* Select conponent to display font options */}
-        <span style={{paddingLeft:"13%", paddingRight:"13%", display:"flex"}}>
+        <span
+          style={{ paddingLeft: "13%", paddingRight: "13%", display: "flex" }}
+        >
           <Select
             options={currentFont}
             onChange={handleFontChange}
