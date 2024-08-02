@@ -65,11 +65,6 @@ code {
 }
 
 @font-face {
-  font-family: "carefree";
-  src: local("carefree"), url("./fonts/carefree.ttf") format("truetype");
-}
-
-@font-face {
   font-family: "Chakra";
   src: local("Chakra"), url("./fonts/Chakra.ttf") format("truetype");
 }
@@ -189,10 +184,6 @@ code {
 
 .font-face-Brittany {
   font-family: "Brittany";
-}
-
-.font-face-Carefree {
-  font-family: "carefree";
 }
 
 .font-face-classico {
