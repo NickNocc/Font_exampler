@@ -12,7 +12,6 @@ import "./fonts/Babypoint.ttf";
 import "./fonts/Bakedfresh.ttf";
 import "./fonts/blossom.ttf";
 import "./fonts/BohoFlowers.otf";
-import "./fonts/carefree.ttf";
 import "./fonts/Chakra.ttf";
 import "./fonts/classico.ttf";
 import "./fonts/Clocks.ttf";

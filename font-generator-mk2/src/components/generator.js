@@ -66,12 +66,6 @@ export const Generator = () => {
       label: "BohoFlowers",
     },
     {
-      fontName: "Carefree",
-      fontClass: "font-face-Carefree",
-      value: "Carefree",
-      label: "Carefree",
-    },
-    {
       fontName: "Chakra",
       fontClass: "font-face-Chakra",
       value: "Chakra",
