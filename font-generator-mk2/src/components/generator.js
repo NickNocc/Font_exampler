@@ -162,7 +162,7 @@ export const Generator = () => {
       label: "Violetta",
     },
   ];
-
+  // List of colors loaded onto the site
   const currentColor = [
     // {
     //   color: "",
@@ -330,7 +330,19 @@ export const Generator = () => {
       label: "Hunter",
     },
   ];
-
+  // List of fabric back colors loaded into the site
+  const currentMinkyBack = [
+    {
+      value: "liolioli",
+      label: "liolioli",
+      location: "url(../fabrics/liolioli.jpg)",
+    },
+    {
+      value: "doubt",
+      label: "doubt",
+      location: "url(../fabrics/doubt.jpg)",
+    },
+  ];
   // Default value for nameOutput
   let name = "Enter your Name";
 
@@ -340,7 +352,10 @@ export const Generator = () => {
   // State for currently selected font
   const [cF, setCf] = useState(currentFont[0]);
 
+  // State for currently selected color
   const [fontColor, setFontColor] = useState(currentColor[0]);
+
+  const [minkyBack, setMinkyBack] = useState(currentMinkyBack[0]);
 
   // Changes font on Select Change
   const handleFontChange = (event) => {
@@ -370,7 +385,7 @@ export const Generator = () => {
 
     setNameOutput(globalText);
   };
-
+  // Changes fontColor to inputed value
   const handleColorChange = (event) => {
     const newColor = event.value;
 
@@ -382,38 +397,65 @@ export const Generator = () => {
         return;
       }
     });
-    console.log("fontcolor: " + fontColor.color);
 
     setFontColor(currentColor[colorIndex]);
-    console.log("fontcolor2: " + fontColor.color);
+  };
+  // Changes currentMinkyBack
+  const handleMinkyBackChange = (event) => {
+    const newMinkyBack = event.value;
+
+    let minkyBackIndex;
+
+    let changeMinkyBack = currentMinkyBack.filter((style, i) => {
+      if (style.value === newMinkyBack) {
+        minkyBackIndex = i;
+      }
+
+      setMinkyBack(currentMinkyBack[minkyBackIndex]);
+    });
   };
 
   return (
-    <div className="split-holder">
+    <div
+      className="split-holder"
+      style={{
+        backgroundImage: minkyBack.location,
+      }}
+    >
       <div className="split-left">
         <span>
-          {/* Where name is inputted */}
-          <input
-            type="text"
-            id="name-input"
-            placeholder="Enter Name"
-            onChange={handleNameChange}
-          />
-        </span>
-        {/* Select conponent to display font options */}
-        <span
-          style={{ paddingLeft: "13%", paddingRight: "13%", display: "flex" }}
-        >
-          <Select
-            options={currentFont}
-            onChange={handleFontChange}
-            styles={{ backgroundColor: "#fffff0", align_self: "center" }}
-          ></Select>
-          <Select
-            options={currentColor}
-            onChange={handleColorChange}
-            styles={{ backgroundColor: "#fffff0", color: currentColor.color }}
-          ></Select>
+          <span>
+            {/* Where name is inputted */}
+            <input
+              type="text"
+              id="name-input"
+              placeholder="Enter Name"
+              onChange={handleNameChange}
+            />
+          </span>
+          {/* Select conponent to display font options */}
+          <span
+            style={{
+              paddingLeft: "13%",
+              paddingRight: "13%",
+              display: "flex",
+            }}
+          >
+            <Select
+              options={currentFont}
+              onChange={handleFontChange}
+              styles={{ backgroundColor: "#fffff0", align_self: "center" }}
+            ></Select>
+            <Select
+              options={currentColor}
+              onChange={handleColorChange}
+              styles={{ backgroundColor: "#fffff0", color: currentColor.color }}
+            ></Select>
+            <Select
+              options={currentMinkyBack}
+              onChange={handleMinkyBackChange}
+            ></Select>
+          </span>
         </span>
       </div>
       <div className="split-right">
