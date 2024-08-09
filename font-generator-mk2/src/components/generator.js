@@ -357,6 +357,8 @@ export const Generator = () => {
 
   const [minkyBack, setMinkyBack] = useState(currentMinkyBack[0]);
 
+  const [controlsVisible, setControlsVisible] = useState("none")
+
   // Changes font on Select Change
   const handleFontChange = (event) => {
     // Stores event in var
@@ -415,6 +417,16 @@ export const Generator = () => {
     });
   };
 
+  const handleControls = () => {
+   if (controlsVisible == "none") {
+    setControlsVisible("inherit")
+   } else if (controlsVisible == "inherit") {
+    setControlsVisible("none");
+
+   }
+   
+  };
+
   return (
     <div
       className="split-holder"
@@ -423,7 +435,7 @@ export const Generator = () => {
       }}
     >
       <div className="split-left">
-        <span>
+        <span style={{ display: controlsVisible }}>
           <span>
             {/* Where name is inputted */}
             <input
@@ -442,16 +454,22 @@ export const Generator = () => {
             }}
           >
             <Select
+              defaultValue={currentFont[0]}
               options={currentFont}
               onChange={handleFontChange}
               styles={{ backgroundColor: "#fffff0", align_self: "center" }}
             ></Select>
             <Select
+              defaultValue={currentColor[0]}
               options={currentColor}
               onChange={handleColorChange}
-              styles={{ backgroundColor: "#fffff0", color: currentColor.color }}
+              styles={{
+                backgroundColor: "#fffff0",
+                color: currentColor.color,
+              }}
             ></Select>
             <Select
+              defaultValue={currentMinkyBack[0]}
               options={currentMinkyBack}
               onChange={handleMinkyBackChange}
             ></Select>
@@ -467,6 +485,7 @@ export const Generator = () => {
           {nameOutput}
         </div>
       </div>
+      <button onClick={handleControls} />
     </div>
   );
 };

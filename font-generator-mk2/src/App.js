@@ -10,9 +10,7 @@ function App() {
       </header>
       {/* Loads Generator conponent */}
       <Generator />
-      <div
-        className="disclaimer"
-      >
+      <div className="disclaimer">
         {" "}
         * Please note: Not all fonts will register numbers, special characters,
         etc. Sizing and setup of letters is approximate. If you have any
