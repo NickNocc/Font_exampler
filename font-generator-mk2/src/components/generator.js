@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Popup from "reactjs-popup";
 import Select from "react-select";
 import "./Generator.css";
 
@@ -352,10 +353,12 @@ export const Generator = () => {
   // State for currently selected font
   const [cF, setCf] = useState(currentFont[0]);
 
-  // State for currently selected color
+  // State for currently selected font color
   const [fontColor, setFontColor] = useState(currentColor[0]);
-
+  // State for currentely selected minkyBack color
   const [minkyBack, setMinkyBack] = useState(currentMinkyBack[0]);
+  // State for modal toggle
+  const [isOpen, setIsOpen] = useState(false);
 
   // Changes font on Select Change
   const handleFontChange = (event) => {
@@ -374,7 +377,6 @@ export const Generator = () => {
     // Sets the current font to the index of selected font
     setCf(currentFont[fontIndex]);
   };
-
   // Changes nameOutput to inputed value
   const handleNameChange = (event) => {
     let newText = event.target.value;
@@ -414,49 +416,54 @@ export const Generator = () => {
       setMinkyBack(currentMinkyBack[minkyBackIndex]);
     });
   };
+  const handleModalChange = (event) => {
+    console.log(cF);
+
+    setIsOpen((isOpen) => !isOpen);
+  };
 
   return (
-    <div
-      className="split-holder"
-      style={{
-        backgroundImage: minkyBack.location,
-      }}
-    >
+    <div className="split-holder" style={{}}>
       <div className="split-left">
-        <span>
-          <span>
-            {/* Where name is inputted */}
-            <input
-              type="text"
-              id="name-input"
-              placeholder="Enter Name"
-              onChange={handleNameChange}
-            />
+        {isOpen && (
+          <span className="optionsMenu">
+            <span>
+              {/* Where name is inputted */}
+              <input
+                type="text"
+                id="name-input"
+                placeholder="Enter Name"
+                onChange={handleNameChange}
+              />
+            </span>
+            {/* Select conponent to display font options */}
+            <span
+              style={{
+                paddingLeft: "13%",
+                paddingRight: "13%",
+                display: "flex",
+              }}
+            >
+              <Select
+                options={currentFont}
+                onChange={handleFontChange}
+                styles={{ backgroundColor: "#fffff0", align_self: "center" }}
+              ></Select>
+              <Select
+                options={currentColor}
+                onChange={handleColorChange}
+                styles={{
+                  backgroundColor: "#fffff0",
+                  color: currentColor.color,
+                }}
+              ></Select>
+              <Select
+                options={currentMinkyBack}
+                onChange={handleMinkyBackChange}
+              ></Select>
+            </span>
           </span>
-          {/* Select conponent to display font options */}
-          <span
-            style={{
-              paddingLeft: "13%",
-              paddingRight: "13%",
-              display: "flex",
-            }}
-          >
-            <Select
-              options={currentFont}
-              onChange={handleFontChange}
-              styles={{ backgroundColor: "#fffff0", align_self: "center" }}
-            ></Select>
-            <Select
-              options={currentColor}
-              onChange={handleColorChange}
-              styles={{ backgroundColor: "#fffff0", color: currentColor.color }}
-            ></Select>
-            <Select
-              options={currentMinkyBack}
-              onChange={handleMinkyBackChange}
-            ></Select>
-          </span>
-        </span>
+        )}
       </div>
       <div className="split-right">
         {/* Changes div class to match with font-face css in index.css */}
@@ -466,6 +473,9 @@ export const Generator = () => {
         >
           {nameOutput}
         </div>
+      </div>
+      <div>
+        <button onClick={handleModalChange}>Toggle</button>
       </div>
     </div>
   );

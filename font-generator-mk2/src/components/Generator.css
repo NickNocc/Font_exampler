@@ -1,12 +1,23 @@
 .split-holder {
   /* display: flex, table; */
-  
+
   justify-content: space-between;
   max-width: 100%;
   max-height: 100%;
   flex-wrap: wrap;
 }
 
+.optionsMenu {
+  position: fixed;
+  bottom: 0vh;
+  left: 10vw;
+  right: 10vw;
+  z-index: 50;
+}
+
+.Popup {
+  min-height: 100vh;
+}
 
 .nameOutput {
   align-self: center;
@@ -17,7 +28,6 @@
   padding-left: 13%;
   padding-right: 13%;
 }
-
 
 .split-left {
   /* width: 70%; */
@@ -67,7 +77,6 @@ input {
   padding-left: 10%;
 } */
 
-
 @media screen and (max-width: 900px) {
   input {
     width: 70%;
@@ -88,7 +97,7 @@ input {
     max-width: 100%;
     justify-content: center;
   }
-  
+
   .nameOutput {
     padding-left: 13%;
     padding-right: 13%;
