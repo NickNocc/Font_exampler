@@ -434,48 +434,7 @@ export const Generator = () => {
         backgroundImage: minkyBack.location,
       }}
     >
-      <div className="split-left">
-        <span style={{ display: controlsVisible }}>
-          <span>
-            {/* Where name is inputted */}
-            <input
-              type="text"
-              id="name-input"
-              placeholder="Enter Name"
-              onChange={handleNameChange}
-            />
-          </span>
-          {/* Select conponent to display font options */}
-          <span
-            style={{
-              paddingLeft: "13%",
-              paddingRight: "13%",
-              display: "flex",
-            }}
-          >
-            <Select
-              defaultValue={currentFont[0]}
-              options={currentFont}
-              onChange={handleFontChange}
-              styles={{ backgroundColor: "#fffff0", align_self: "center" }}
-            ></Select>
-            <Select
-              defaultValue={currentColor[0]}
-              options={currentColor}
-              onChange={handleColorChange}
-              styles={{
-                backgroundColor: "#fffff0",
-                color: currentColor.color,
-              }}
-            ></Select>
-            <Select
-              defaultValue={currentMinkyBack[0]}
-              options={currentMinkyBack}
-              onChange={handleMinkyBackChange}
-            ></Select>
-          </span>
-        </span>
-      </div>
+      <div className="split-left"></div>
       <div className="split-right">
         {/* Changes div class to match with font-face css in index.css */}
         <div
@@ -485,6 +444,46 @@ export const Generator = () => {
           {nameOutput}
         </div>
       </div>
+      <span style={{ display: controlsVisible }}>
+        <span>
+          {/* Where name is inputted */}
+          <input
+            type="text"
+            id="name-input"
+            placeholder="Enter Name"
+            onChange={handleNameChange}
+          />
+        </span>
+        {/* Select conponent to display font options */}
+        <span
+          style={{
+            paddingLeft: "13%",
+            paddingRight: "13%",
+            display: "flex",
+          }}
+        >
+          <Select
+            defaultValue={currentFont[0]}
+            options={currentFont}
+            onChange={handleFontChange}
+            styles={{ backgroundColor: "#fffff0", align_self: "center" }}
+          ></Select>
+          <Select
+            defaultValue={currentColor[0]}
+            options={currentColor}
+            onChange={handleColorChange}
+            styles={{
+              backgroundColor: "#fffff0",
+              color: currentColor.color,
+            }}
+          ></Select>
+          <Select
+            defaultValue={currentMinkyBack[0]}
+            options={currentMinkyBack}
+            onChange={handleMinkyBackChange}
+          ></Select>
+        </span>
+      </span>
       <button onClick={handleControls} />
     </div>
   );
