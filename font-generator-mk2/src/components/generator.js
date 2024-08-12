@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Select from "react-select";
 import "./Generator.css";
+import Styled from "styled-components";
 
 export const Generator = () => {
   // List of fonts Loaded onto the website
@@ -342,6 +343,11 @@ export const Generator = () => {
       label: "doubt",
       location: "url(../fabrics/doubt.jpg)",
     },
+    {
+      value: "Safari Babies",
+      label: "Safari Babies",
+      location: "url(../fabrics/safari_babies.jpg)",
+    },
   ];
   // Default value for nameOutput
   let name = "Enter your Name";
@@ -357,7 +363,7 @@ export const Generator = () => {
 
   const [minkyBack, setMinkyBack] = useState(currentMinkyBack[0]);
 
-  const [controlsVisible, setControlsVisible] = useState("none")
+  const [controlsVisible, setControlsVisible] = useState(false);
 
   // Changes font on Select Change
   const handleFontChange = (event) => {
@@ -418,13 +424,11 @@ export const Generator = () => {
   };
 
   const handleControls = () => {
-   if (controlsVisible == "none") {
-    setControlsVisible("inherit")
-   } else if (controlsVisible == "inherit") {
-    setControlsVisible("none");
-
-   }
-   
+    if (controlsVisible === true) {
+      setControlsVisible(false);
+    } else if (controlsVisible === false) {
+      setControlsVisible(true);
+    }
   };
 
   return (
@@ -444,7 +448,7 @@ export const Generator = () => {
           {nameOutput}
         </div>
       </div>
-      <span style={{ display: controlsVisible }}>
+      <Controls open={controlsVisible}>
         <span>
           {/* Where name is inputted */}
           <input
@@ -456,6 +460,7 @@ export const Generator = () => {
         </span>
         {/* Select conponent to display font options */}
         <span
+          open={controlsVisible}
           style={{
             paddingLeft: "13%",
             paddingRight: "13%",
@@ -483,8 +488,14 @@ export const Generator = () => {
             onChange={handleMinkyBackChange}
           ></Select>
         </span>
-      </span>
-      <button onClick={handleControls} />
+      </Controls>
+      <button onClick={handleControls}>peepee squee</button>
     </div>
   );
 };
+
+const Controls = Styled.div`position: absolute; height: fit-content; width: 100%; bottom: ${({
+  open,
+}) => (open ? ".001%" : "15%")};
+visibility: ${({ open }) => (open ? "collapse" : "visible")};
+    transition: bottom ease 0.3s;`;

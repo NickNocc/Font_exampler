@@ -29,5 +29,6 @@
 }
 
 .disclaimer {
-  padding-top: calc(90px + 30vmin);
+  position: absolute;
+  bottom: 1%;
 }
