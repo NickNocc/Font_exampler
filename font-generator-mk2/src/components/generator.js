@@ -429,7 +429,7 @@ export const Generator = () => {
     if (controlsVisible === true) {
       setTimeout(setControlsVisible(false), setButtonText("🔻"), 30);
     } else if (controlsVisible === false) {
-      setTimeout(setControlsVisible(true),setButtonText("🔺"),700);
+      setTimeout(setControlsVisible(true), setButtonText("🔺"), 700);
     }
   };
 
@@ -471,7 +471,6 @@ export const Generator = () => {
             paddingRight: "13%",
             display: "flex",
             border: "2cm, black",
-            overflow: "hidden",
           }}
         >
           <Select
@@ -508,16 +507,19 @@ const Controls = Styled.div`
   visibility: ${({ open }) => (open ? "collapse" : "visible")};
   transition: all 500ms ease;
   opacity: ${({ open }) => (open ? "0%" : "100%")};
-  z-index: 9`;
+  z-index: 9;
+  overflow: hidden;
+  `;
 
+// Button to toggle controls
 const MenuToggle = Styled.div`
   background-color: black;
   height: 5%;
-  width: 10%;
+  width: 11%;
   position: absolute;
   border: 20px, green;
-  bottom: ${({ open }) => (open ? "1vh" : "20vh")};
-  right: 0vw;
+  bottom: ${({ open }) => (open ? "0vh" : "20vh")};
+  right: 5vw;
   transition: all 500ms ease;
   z-index: 10;
   align-content: stretch;
