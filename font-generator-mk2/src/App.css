@@ -31,4 +31,5 @@
 .disclaimer {
   position: absolute;
   bottom: 1%;
+  display: none;
 }

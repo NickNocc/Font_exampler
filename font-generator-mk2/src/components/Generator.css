@@ -5,6 +5,7 @@
   max-width: 100%;
   height: 76%;
   flex-wrap: wrap;
+  background-size: cover;
 }
 
 .nameOutput {
@@ -74,7 +75,6 @@ input {
 
   .split-left {
     width: 100vw;
-    height: 10vh;
   }
 
   .split-right {
@@ -89,7 +89,10 @@ input {
     padding-left: 13%;
     padding-right: 13%;
     font-size: calc(35px + 4vmin);
-    margin: 5px;
     padding-top: calc(20px + 2vmin);
+  }
+
+  .controlModal {
+    border: 2cm, black;
   }
 }

@@ -425,7 +425,7 @@ export const Generator = () => {
 
   const handleControls = () => {
     if (controlsVisible === true) {
-      setControlsVisible(false);
+      setTimeout(setControlsVisible(false), 500);
     } else if (controlsVisible === false) {
       setControlsVisible(true);
     }
@@ -465,6 +465,7 @@ export const Generator = () => {
             paddingLeft: "13%",
             paddingRight: "13%",
             display: "flex",
+            border: "2cm, black",
           }}
         >
           <Select
@@ -494,8 +495,8 @@ export const Generator = () => {
   );
 };
 
-const Controls = Styled.div`position: absolute; height: fit-content; width: 100%; bottom: ${({
+const Controls = Styled.div`background-image: url("https://i.ebayimg.com/images/g/mGMAAOSwdUdjM4BG/s-l1200.webp"); position: absolute; height: fit-content; width: 100%; bottom: ${({
   open,
-}) => (open ? ".001%" : "15%")};
+}) => (open ? "0%" : "3%")};
 visibility: ${({ open }) => (open ? "collapse" : "visible")};
-    transition: bottom ease 0.3s;`;
+    transition: all 500ms ease, bottom ease-in-out 1s;`;
