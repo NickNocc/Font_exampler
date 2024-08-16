@@ -3,6 +3,7 @@ input {
   background-color: #e9dedc;
 }
 
+
 .split-holder {
   /* display: flex, table; */
 
@@ -37,36 +38,38 @@ input {
 
 input {
   align-self: center;
-  border-radius: 9999em;
   padding: 2px;
   margin: 3px;
   display: inline-block;
   width: 73%;
   height: 4vh;
   text-align: center;
-  background-color: white;
 }
 
-/* box around input */
+.innerSelect__indicators {
+  /* The options */
+  display: none;
+  border: none;
+}
+
+.innerSelect__indicator-separator {
+  display: none;
+}
+
+.innerSelect__dropdown-indicator {
+  display: none;
+}
+
+.css-tj5bde-Svg {
+  display: none;
+}
+
 .css-b62m3t-container {
-  align-self: right;
-  color: black;
-  width: 80vw;
+ background-color: transparent;
+ border-color: transparent;
 }
 
-.css-1s2u09g-control {
-  margin: 3px;
-  margin-left: 14px;
-}
 
-/* input box */
-/* .css-b62m3t-container {
-  align-self: center;
-  width: 70%;
-  align-self: center;
-  color: #fffff0;
-  padding-left: 10%;
-} */
 
 @media screen and (max-width: 900px) {
   input {
@@ -96,5 +99,4 @@ input {
     font-size: calc(35px + 4vmin);
     padding-top: calc(20px + 2vmin);
   }
-
 }

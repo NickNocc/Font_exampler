@@ -376,7 +376,6 @@ export const Generator = () => {
     // Function to find index of selected font
     let changeFont = currentFont.filter((font, i) => {
       if (font.fontName === selectedFont) {
-        console.log(currentFont[i]);
         fontIndex = i;
         return;
       }
@@ -477,20 +476,19 @@ export const Generator = () => {
             defaultValue={currentFont[0]}
             options={currentFont}
             onChange={handleFontChange}
+            classNamePrefix="innerSelect"
           ></Select>
           <Select
             defaultValue={currentColor[0]}
             options={currentColor}
             onChange={handleColorChange}
-            styles={{
-              backgroundColor: "#fffff0",
-              color: currentColor.color,
-            }}
+            classNamePrefix="innerSelect"
           ></Select>
           <Select
             defaultValue={currentMinkyBack[0]}
             options={currentMinkyBack}
             onChange={handleMinkyBackChange}
+            classNamePrefix="innerSelect"
           ></Select>
         </span>
       </Controls>
@@ -505,14 +503,13 @@ const Controls = Styled.div`
   bottom: 0%;
   visibility: ${({ open }) => (open ? "collapse" : "visible")};
   transition: all 500ms ease;
-  opacity: ${({ open }) => (open ? "0%" : "100%")};
   z-index: 9;
   overflow: hidden;
   `;
 
 // Button to toggle controls
 const MenuToggle = Styled.div`
-  background-color: black;
+  background-color: #e9dedc;
   height: 5%;
   width: 11%;
   position: absolute;
