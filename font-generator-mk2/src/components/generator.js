@@ -365,6 +365,8 @@ export const Generator = () => {
 
   const [controlsVisible, setControlsVisible] = useState(false);
 
+  const [buttonText, setButtonText] = useState("🔻");
+
   // Changes font on Select Change
   const handleFontChange = (event) => {
     // Stores event in var
@@ -425,9 +427,9 @@ export const Generator = () => {
 
   const handleControls = () => {
     if (controlsVisible === true) {
-      setTimeout(setControlsVisible(false), 500);
+      setTimeout(setControlsVisible(false), setButtonText("🔻"), 30);
     } else if (controlsVisible === false) {
-      setControlsVisible(true);
+      setTimeout(setControlsVisible(true),setButtonText("🔺"),700);
     }
   };
 
@@ -448,6 +450,9 @@ export const Generator = () => {
           {nameOutput}
         </div>
       </div>
+      <MenuToggle onClick={handleControls} open={controlsVisible}>
+        {buttonText}
+      </MenuToggle>
       <Controls open={controlsVisible}>
         <span>
           {/* Where name is inputted */}
@@ -466,6 +471,7 @@ export const Generator = () => {
             paddingRight: "13%",
             display: "flex",
             border: "2cm, black",
+            overflow: "hidden",
           }}
         >
           <Select
@@ -490,13 +496,30 @@ export const Generator = () => {
           ></Select>
         </span>
       </Controls>
-      <button onClick={handleControls}>peepee squee</button>
     </div>
   );
 };
 
-const Controls = Styled.div`background-image: url("https://i.ebayimg.com/images/g/mGMAAOSwdUdjM4BG/s-l1200.webp"); position: absolute; height: fit-content; width: 100%; bottom: ${({
-  open,
-}) => (open ? "0%" : "3%")};
-visibility: ${({ open }) => (open ? "collapse" : "visible")};
-    transition: all 500ms ease, bottom ease-in-out 1s;`;
+const Controls = Styled.div`
+  background-image: url("https://i.ebayimg.com/images/g/mGMAAOSwdUdjM4BG/s-l1200.webp");
+  position: absolute;
+  height: ${({ open }) => (open ? "0px" : "20vh")}; width: 100%;
+  bottom: 0%;
+  visibility: ${({ open }) => (open ? "collapse" : "visible")};
+  transition: all 500ms ease;
+  opacity: ${({ open }) => (open ? "0%" : "100%")};
+  z-index: 9`;
+
+const MenuToggle = Styled.div`
+  background-color: black;
+  height: 5%;
+  width: 10%;
+  position: absolute;
+  border: 20px, green;
+  bottom: ${({ open }) => (open ? "1vh" : "20vh")};
+  right: 0vw;
+  transition: all 500ms ease;
+  z-index: 10;
+  align-content: stretch;
+  font-size: 33px;
+`;

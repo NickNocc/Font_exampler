@@ -92,7 +92,4 @@ input {
     padding-top: calc(20px + 2vmin);
   }
 
-  .controlModal {
-    border: 2cm, black;
-  }
 }
