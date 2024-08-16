@@ -1,3 +1,8 @@
+input {
+  border: none;
+  background-color: #e9dedc;
+}
+
 .split-holder {
   /* display: flex, table; */
 

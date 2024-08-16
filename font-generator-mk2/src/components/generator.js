@@ -467,17 +467,16 @@ export const Generator = () => {
         <span
           open={controlsVisible}
           style={{
-            paddingLeft: "13%",
-            paddingRight: "13%",
+            backgroundColor: "transparent",
+            paddingLeft: "7%",
+            paddingRight: "7%",
             display: "flex",
-            border: "2cm, black",
           }}
         >
           <Select
             defaultValue={currentFont[0]}
             options={currentFont}
             onChange={handleFontChange}
-            styles={{ backgroundColor: "#fffff0", align_self: "center" }}
           ></Select>
           <Select
             defaultValue={currentColor[0]}
@@ -500,7 +499,7 @@ export const Generator = () => {
 };
 
 const Controls = Styled.div`
-  background-image: url("https://i.ebayimg.com/images/g/mGMAAOSwdUdjM4BG/s-l1200.webp");
+  background-color: #e9dedc;
   position: absolute;
   height: ${({ open }) => (open ? "0px" : "20vh")}; width: 100%;
   bottom: 0%;
