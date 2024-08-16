@@ -334,6 +334,11 @@ export const Generator = () => {
   // List of fabric back colors loaded into the site
   const currentMinkyBack = [
     {
+      value: "Safari Babies",
+      label: "Safari Babies",
+      location: "url(../fabrics/safari_babies.jpg)",
+    },
+    {
       value: "liolioli",
       label: "liolioli",
       location: "url(../fabrics/liolioli.jpg)",
@@ -342,11 +347,6 @@ export const Generator = () => {
       value: "doubt",
       label: "doubt",
       location: "url(../fabrics/doubt.jpg)",
-    },
-    {
-      value: "Safari Babies",
-      label: "Safari Babies",
-      location: "url(../fabrics/safari_babies.jpg)",
     },
   ];
   // Default value for nameOutput
