@@ -349,6 +349,20 @@ export const Generator = () => {
       location: "url(../fabrics/doubt.jpg)",
     },
   ];
+
+  const currentMinkyFront = [
+    {
+      value: "1",
+      label: "saltwater",
+      location: "url(https://media.rainpos.com/Checker/CD-DKTURQ.jpg)",
+    },
+    {
+      value: "2",
+      label: "hunter",
+      location:
+        "url(https://cdn11.bigcommerce.com/s-rv5ea8/images/stencil/2048x2048/products/99/313/CD_HNTR__82974.1582646689.jpg?c=2)",
+    },
+  ];
   // Default value for nameOutput
   let name = "Enter your Name";
 
@@ -363,6 +377,8 @@ export const Generator = () => {
 
   const [minkyBack, setMinkyBack] = useState(currentMinkyBack[0]);
 
+  const [minkyFront, setMinkyFront] = useState(currentMinkyFront[0]);
+
   const [controlsVisible, setControlsVisible] = useState(false);
 
   const [buttonText, setButtonText] = useState("🔻");
@@ -370,17 +386,19 @@ export const Generator = () => {
   // Changes font on Select Change
   const handleFontChange = (event) => {
     // Stores event in var
-    let selectedFont = event.fontName;
+    let selectedFont = event.target.value;
+
     // Empty var to hold index position
     let fontIndex;
+
     // Function to find index of selected font
-    let changeFont = currentFont.filter((font, i) => {
-      if (font.fontName === selectedFont) {
+    currentFont.filter((font, i) => {
+      if (font.value === selectedFont) {
         fontIndex = i;
-        return;
       }
     });
     // Sets the current font to the index of selected font
+
     setCf(currentFont[fontIndex]);
   };
 
@@ -391,19 +409,21 @@ export const Generator = () => {
     const regex = /[^a-zA-Z\u002D\u0027]+/gi;
 
     globalText = newText.replaceAll(regex, "");
-
-    setNameOutput(globalText);
+    if (globalText === "") {
+      setNameOutput("Enter Name");
+    } else {
+      setNameOutput(globalText);
+    }
   };
   // Changes fontColor to inputed value
   const handleColorChange = (event) => {
-    const newColor = event.value;
+    const newColor = event.target.value;
 
     let colorIndex;
 
-    let changeColor = currentColor.filter((style, i) => {
+    currentColor.filter((style, i) => {
       if (style.value === newColor) {
         colorIndex = i;
-        return;
       }
     });
 
@@ -411,16 +431,29 @@ export const Generator = () => {
   };
   // Changes currentMinkyBack
   const handleMinkyBackChange = (event) => {
-    const newMinkyBack = event.value;
+    const newMinkyBack = event.target.value;
 
     let minkyBackIndex;
 
-    let changeMinkyBack = currentMinkyBack.filter((style, i) => {
+    currentMinkyBack.filter((style, i) => {
       if (style.value === newMinkyBack) {
         minkyBackIndex = i;
       }
 
       setMinkyBack(currentMinkyBack[minkyBackIndex]);
+    });
+  };
+  const handleMinkyFrontChange = (event) => {
+    const newMinkyFront = event.target.value;
+
+    let minkyFrontIndex;
+
+    currentMinkyFront.filter((style, i) => {
+      if (style.value === newMinkyFront) {
+        minkyFrontIndex = i;
+      }
+
+      setMinkyFront(currentMinkyFront[minkyFrontIndex]);
     });
   };
 
@@ -440,7 +473,12 @@ export const Generator = () => {
       }}
     >
       <div className="split-left"></div>
-      <div className="split-right">
+      <div
+        className="split-right"
+        style={{
+          backgroundImage: minkyFront.location,
+        }}
+      >
         {/* Changes div class to match with font-face css in index.css */}
         <div
           style={{ color: fontColor.color }}
@@ -454,15 +492,79 @@ export const Generator = () => {
       </MenuToggle>
       <Controls open={controlsVisible}>
         <span>
-          {/* Where name is inputted */}
-          <input
+          <span className="menuBox">
+            <span className="topControls">
+              <select
+                value={minkyBack.value}
+                onChange={(e) => handleMinkyBackChange(e)}
+              >
+                {currentMinkyBack.map((minkBack, i) => (
+                  <option
+                    key={i}
+                    defaultValue={currentMinkyBack[0]}
+                    value={minkBack.value}
+                    label={minkBack.label}
+                  ></option>
+                ))}
+              </select>
+              <p>&</p>
+              <select
+                value={minkyFront.value}
+                onChange={(e) => handleMinkyFrontChange(e)}
+              >
+                {currentMinkyFront.map((minkFront, i) => (
+                  <option
+                    key={i}
+                    defaultValue={currentMinkyFront[0]}
+                    value={minkFront.value}
+                    label={minkFront.label}
+                  ></option>
+                ))}
+              </select>
+              <p>with</p>
+            </span>
+            <span className="bottomControls">
+              <select value={cF.value} onChange={(e) => handleFontChange(e)}>
+                {currentFont.map((font, i) => (
+                  <option
+                    key={i}
+                    defaultValue={currentFont[0]}
+                    value={font.value}
+                    label={font.label}
+                  ></option>
+                ))}
+              </select>
+              <p>&</p>
+              <select
+                value={fontColor.value}
+                onChange={(e) => handleColorChange(e)}
+              >
+                {currentColor.map((hue, i) => (
+                  <option
+                    key={i}
+                    defaultValue={currentColor[0]}
+                    value={hue.value}
+                    label={hue.label}
+                  ></option>
+                ))}
+              </select>
+              <p>thread </p>
+              <p>For:</p>
+              <input
+                type="text"
+                placeholder="Enter Name!"
+                onChange={handleNameChange}
+              />
+            </span>
+            {/* Where name is inputted */}
+            {/* <input
             type="text"
             id="name-input"
             placeholder="Enter Name"
             onChange={handleNameChange}
           />
         </span>
-        {/* Select conponent to display font options */}
+         Select conponent to display font options 
         <span
           open={controlsVisible}
           style={{
@@ -472,7 +574,7 @@ export const Generator = () => {
             display: "flex",
           }}
         >
-          <span className="menuBox">
+          
             <Select
               defaultValue={currentFont[0]}
               options={currentFont}
@@ -490,7 +592,8 @@ export const Generator = () => {
               options={currentMinkyBack}
               onChange={handleMinkyBackChange}
               classNamePrefix="innerSelect"
-            ></Select>
+              ></Select> 
+          */}
           </span>
         </span>
       </Controls>
@@ -503,7 +606,7 @@ const Controls = Styled.div`
   position: absolute;
   height: ${({ open }) => (open ? "0px" : "20vh")}; width: 100%;
   bottom: 0%;
-  visibility: ${({ open }) => (open ? "collapse" : "visible")};
+  visibility: visible;
   transition: all 500ms ease;
   z-index: 9;
   overflow: hidden;
