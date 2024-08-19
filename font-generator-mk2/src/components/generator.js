@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Select from "react-select";
 import "./Generator.css";
 import Styled from "styled-components";
 
@@ -173,27 +172,27 @@ export const Generator = () => {
     {
       color: "rgb(0, 0, 0)",
       value: "Black",
-      label: "Black",
+      label: "Black thread",
     },
     {
       color: "rgb(255, 255, 255)",
       value: "White",
-      label: "White",
+      label: "White thread",
     },
     {
       color: "#ebeec6",
       value: "Ivory",
-      label: "Ivory",
+      label: "Ivory thread",
     },
     {
       color: "#a9aaa4",
       value: "Silver",
-      label: "Silver",
+      label: "Silver thread",
     },
     {
       color: "#606164",
       value: "Charcoal",
-      label: "Charcoal",
+      label: "Charcoal thread",
     },
     // {
     //   color: "",
@@ -203,132 +202,132 @@ export const Generator = () => {
     {
       color: "#8e7256",
       value: "Coffee",
-      label: "Coffee",
+      label: "Coffee thread",
     },
     {
       color: "#483a39",
       value: "Brown",
-      label: "Brown",
+      label: "Brown thread",
     },
     {
       color: "#cda547",
       value: "Gold",
-      label: "Gold",
+      label: "Gold thread",
     },
     {
       color: "#f6c62d",
       value: "Yellow",
-      label: "Yellow",
+      label: "Yellow thread",
     },
     {
       color: "#e75c34",
       value: "Orange",
-      label: "Orange",
+      label: "Orange thread",
     },
     {
       color: "#9d583c",
       value: "Rust",
-      label: "Rust",
+      label: "Rust thread",
     },
     {
       color: "#b92a33",
       value: "Red",
-      label: "Red",
+      label: "Red thread",
     },
     {
       color: "#84324a",
       value: "Merlot",
-      label: "Merlot",
+      label: "Merlot thread",
     },
     {
       color: "#d66196",
       value: "Hot Pink",
-      label: "Hot Pink",
+      label: "Hot Pink thread",
     },
     {
       color: "#feb6d8",
       value: "Paris Pink",
-      label: "Paris Pink",
+      label: "Paris Pink thread",
     },
     {
       color: "#ba8c90",
       value: "Wood Rose",
-      label: "Wood Rose",
+      label: "Wood Rose thread",
     },
     {
       color: "#e2bdba",
       value: "Rose Water",
-      label: "Rose Water",
+      label: "Rose Water thread",
     },
     {
       color: "#fbbed3",
       value: "Baby Pink",
-      label: "Baby Pink",
+      label: "Baby Pink thread",
     },
     {
       color: "#f88f99",
       value: "Coral",
-      label: "Coral",
+      label: "Coral thread",
     },
     {
       color: "#978fba",
       value: "Lavender",
-      label: "Lavender",
+      label: "Lavender thread",
     },
     {
       color: "#9879a2",
       value: "Amethyst",
-      label: "Amethyst",
+      label: "Amethyst thread",
     },
     {
       color: "#303647",
       value: "Navy",
-      label: "Navy",
+      label: "Navy thread",
     },
     {
       color: "#224379",
       value: "Royal Blue",
-      label: "Royal Blue",
+      label: "Royal Blue thread",
     },
     {
       color: "#68c7e7",
       value: "Aqua",
-      label: "Aqua",
+      label: "Aqua thread",
     },
     {
       color: "#7fc7cd",
       value: "Saltwater",
-      label: "Saltwater",
+      label: "Saltwater thread",
     },
     {
       color: "#a7c6e1",
       value: "Baby Blue",
-      label: "Baby Blue",
+      label: "Baby Blue thread",
     },
     {
       color: "#b9c2a0",
       value: "Sage",
-      label: "Sage",
+      label: "Sage thread",
     },
     {
       color: "#729730",
       value: "Lime",
-      label: "Lime",
+      label: "Lime thread",
     },
     {
       color: "#00cd00",
       value: "Green",
-      label: "Green",
+      label: "Green thread",
     },
     {
       color: "#354e3c",
       value: "Emerald",
-      label: "Emerald",
+      label: "Emerald thread",
     },
     {
       color: "#3b4b38",
       value: "Hunter",
-      label: "Hunter",
+      label: "Hunter thread",
     },
   ];
   // List of fabric back colors loaded into the site
@@ -353,12 +352,12 @@ export const Generator = () => {
   const currentMinkyFront = [
     {
       value: "1",
-      label: "saltwater",
+      label: "saltwater dot",
       location: "url(https://media.rainpos.com/Checker/CD-DKTURQ.jpg)",
     },
     {
       value: "2",
-      label: "hunter",
+      label: "hunter dot",
       location:
         "url(https://cdn11.bigcommerce.com/s-rv5ea8/images/stencil/2048x2048/products/99/313/CD_HNTR__82974.1582646689.jpg?c=2)",
     },
@@ -492,7 +491,7 @@ export const Generator = () => {
       </MenuToggle>
       <Controls open={controlsVisible}>
         <span>
-          <span className="menuBox">
+          <span className="menuBox font-face-Brittany">
             <span className="topControls">
               <select
                 value={minkyBack.value}
@@ -548,7 +547,8 @@ export const Generator = () => {
                   ></option>
                 ))}
               </select>
-              <p>thread </p>
+            </span>
+            <span className="nameControls">
               <p>For:</p>
               <input
                 type="text"
