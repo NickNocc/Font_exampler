@@ -472,24 +472,26 @@ export const Generator = () => {
             display: "flex",
           }}
         >
-          <Select
-            defaultValue={currentFont[0]}
-            options={currentFont}
-            onChange={handleFontChange}
-            classNamePrefix="innerSelect"
-          ></Select>
-          <Select
-            defaultValue={currentColor[0]}
-            options={currentColor}
-            onChange={handleColorChange}
-            classNamePrefix="innerSelect"
-          ></Select>
-          <Select
-            defaultValue={currentMinkyBack[0]}
-            options={currentMinkyBack}
-            onChange={handleMinkyBackChange}
-            classNamePrefix="innerSelect"
-          ></Select>
+          <span className="menuBox">
+            <Select
+              defaultValue={currentFont[0]}
+              options={currentFont}
+              onChange={handleFontChange}
+              classNamePrefix="innerSelect"
+            ></Select>
+            <Select
+              defaultValue={currentColor[0]}
+              options={currentColor}
+              onChange={handleColorChange}
+              classNamePrefix="innerSelect"
+            ></Select>
+            <Select
+              defaultValue={currentMinkyBack[0]}
+              options={currentMinkyBack}
+              onChange={handleMinkyBackChange}
+              classNamePrefix="innerSelect"
+            ></Select>
+          </span>
         </span>
       </Controls>
     </div>
