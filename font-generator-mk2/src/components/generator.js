@@ -551,6 +551,7 @@ export const Generator = () => {
             <span className="nameControls">
               <p>For:</p>
               <input
+                className="font-face-Brittany"
                 type="text"
                 placeholder="Enter Name!"
                 onChange={handleNameChange}
