@@ -162,7 +162,7 @@ export const Generator = () => {
       label: "Violetta",
     },
   ];
-  // List of colors loaded onto the site
+  // List of colors thread loaded onto the site
   const currentColor = [
     // {
     //   color: "",
@@ -330,12 +330,23 @@ export const Generator = () => {
       label: "Hunter thread",
     },
   ];
-  // List of fabric back colors loaded into the site
-  const currentMinkyBack = [
+  // List of fabric front colors loaded into the site. Non-Customizable Side
+  const currentMinkyFront = [
+    // {
+    // value: ,
+    // label: ,
+    // location: ,
+    // },
     {
       value: "Safari Babies",
       label: "Safari Babies",
       location: "url(../fabrics/safari_babies.jpg)",
+    },
+    {
+      value: "Brown Sugar Pony",
+      label: "Brown Sugar Pony",
+      location:
+        "url(https://cdn.discordapp.com/attachments/767464080553672744/1275493332780453908/image.png?ex=66c6173c&is=66c4c5bc&hm=34bddb6e042784f160429a59a17ca27d8ad99595a38ac16b44dcbafaf10c8f77&)",
     },
     {
       value: "liolioli",
@@ -348,18 +359,23 @@ export const Generator = () => {
       location: "url(../fabrics/doubt.jpg)",
     },
   ];
-
-  const currentMinkyFront = [
+  //List of fabric back colors loaded into the site. Customizable side
+  const currentMinkyBack = [
     {
-      value: "1",
-      label: "saltwater dot",
+      value: "satlwater Dot",
+      label: "saltwater Dot",
       location: "url(https://media.rainpos.com/Checker/CD-DKTURQ.jpg)",
     },
     {
-      value: "2",
-      label: "hunter dot",
+      value: "hunter Dot",
+      label: "hunter Dot",
       location:
-        "url(https://cdn11.bigcommerce.com/s-rv5ea8/images/stencil/2048x2048/products/99/313/CD_HNTR__82974.1582646689.jpg?c=2)",
+        "url(https://cdn.discordapp.com/attachments/767464080553672744/1275492686052458589/image.png?ex=66c616a1&is=66c4c521&hm=cf2546d46bd29d8207278289a4c5a8640b4a1e527872effd123f765d8332d31d&)",
+    },
+    {
+      value: "Amethyst Dot",
+      label: "Amethyst Dot",
+      location: "",
     },
   ];
   // Default value for nameOutput
@@ -374,9 +390,9 @@ export const Generator = () => {
   // State for currently selected color
   const [fontColor, setFontColor] = useState(currentColor[0]);
 
-  const [minkyBack, setMinkyBack] = useState(currentMinkyBack[0]);
+  const [minkyBack, setMinkyBack] = useState(currentMinkyFront[0]);
 
-  const [minkyFront, setMinkyFront] = useState(currentMinkyFront[0]);
+  const [minkyFront, setMinkyFront] = useState(currentMinkyBack[0]);
 
   const [controlsVisible, setControlsVisible] = useState(false);
 
@@ -428,18 +444,18 @@ export const Generator = () => {
 
     setFontColor(currentColor[colorIndex]);
   };
-  // Changes currentMinkyBack
+  // Changes currentMinkyFront
   const handleMinkyBackChange = (event) => {
     const newMinkyBack = event.target.value;
 
     let minkyBackIndex;
 
-    currentMinkyBack.filter((style, i) => {
+    currentMinkyFront.filter((style, i) => {
       if (style.value === newMinkyBack) {
         minkyBackIndex = i;
       }
 
-      setMinkyBack(currentMinkyBack[minkyBackIndex]);
+      setMinkyBack(currentMinkyFront[minkyBackIndex]);
     });
   };
   const handleMinkyFrontChange = (event) => {
@@ -447,12 +463,12 @@ export const Generator = () => {
 
     let minkyFrontIndex;
 
-    currentMinkyFront.filter((style, i) => {
+    currentMinkyBack.filter((style, i) => {
       if (style.value === newMinkyFront) {
         minkyFrontIndex = i;
       }
 
-      setMinkyFront(currentMinkyFront[minkyFrontIndex]);
+      setMinkyFront(currentMinkyBack[minkyFrontIndex]);
     });
   };
 
@@ -497,10 +513,10 @@ export const Generator = () => {
                 value={minkyBack.value}
                 onChange={(e) => handleMinkyBackChange(e)}
               >
-                {currentMinkyBack.map((minkBack, i) => (
+                {currentMinkyFront.map((minkBack, i) => (
                   <option
                     key={i}
-                    defaultValue={currentMinkyBack[0]}
+                    defaultValue={currentMinkyFront[0]}
                     value={minkBack.value}
                     label={minkBack.label}
                   ></option>
@@ -511,10 +527,10 @@ export const Generator = () => {
                 value={minkyFront.value}
                 onChange={(e) => handleMinkyFrontChange(e)}
               >
-                {currentMinkyFront.map((minkFront, i) => (
+                {currentMinkyBack.map((minkFront, i) => (
                   <option
                     key={i}
-                    defaultValue={currentMinkyFront[0]}
+                    defaultValue={currentMinkyBack[0]}
                     value={minkFront.value}
                     label={minkFront.label}
                   ></option>
@@ -557,44 +573,6 @@ export const Generator = () => {
                 onChange={handleNameChange}
               />
             </span>
-            {/* Where name is inputted */}
-            {/* <input
-            type="text"
-            id="name-input"
-            placeholder="Enter Name"
-            onChange={handleNameChange}
-          />
-        </span>
-         Select conponent to display font options 
-        <span
-          open={controlsVisible}
-          style={{
-            backgroundColor: "transparent",
-            paddingLeft: "7%",
-            paddingRight: "7%",
-            display: "flex",
-          }}
-        >
-          
-            <Select
-              defaultValue={currentFont[0]}
-              options={currentFont}
-              onChange={handleFontChange}
-              classNamePrefix="innerSelect"
-            ></Select>
-            <Select
-              defaultValue={currentColor[0]}
-              options={currentColor}
-              onChange={handleColorChange}
-              classNamePrefix="innerSelect"
-            ></Select>
-            <Select
-              defaultValue={currentMinkyBack[0]}
-              options={currentMinkyBack}
-              onChange={handleMinkyBackChange}
-              classNamePrefix="innerSelect"
-              ></Select> 
-          */}
           </span>
         </span>
       </Controls>
