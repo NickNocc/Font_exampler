@@ -340,7 +340,7 @@ export const Generator = () => {
     {
       value: "Safari Babies",
       label: "Safari Babies",
-      location: "url(../fabrics/safari_babies.jpg)",
+      location: "url(../fabrics/safariBabies.jpg)",
     },
     {
       value: "Brown Sugar Pony",
@@ -779,17 +779,17 @@ export const Generator = () => {
     {
       value: "satlwater Dot",
       label: "saltwater Dot",
-      location: "url(../fabrics/saltwater.jpg)",
+      location: "url(../fabrics/saltwaterDot.jpg)",
     },
     {
       value: "hunter Dot",
       label: "hunter Dot",
-      location: "url(../fabrics/hunter.png)",
+      location: "url(../fabrics/hunterDot.png)",
     },
     {
       value: "Amethyst Dot",
       label: "Amethyst Dot",
-      location: "url(../fabrics/)",
+      location: "url(../fabrics/amethystDot.png)",
     },
     {
       value: "Aquamarine Dot",
