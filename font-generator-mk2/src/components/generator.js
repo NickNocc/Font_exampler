@@ -779,18 +779,17 @@ export const Generator = () => {
     {
       value: "satlwater Dot",
       label: "saltwater Dot",
-      location: "url(https://media.rainpos.com/Checker/CD-DKTURQ.jpg)",
+      location: "url(../fabrics/saltwater.jpg)",
     },
     {
       value: "hunter Dot",
       label: "hunter Dot",
-      location:
-        "url(https://cdn.discordapp.com/attachments/767464080553672744/1275492686052458589/image.png?ex=66c616a1&is=66c4c521&hm=cf2546d46bd29d8207278289a4c5a8640b4a1e527872effd123f765d8332d31d&)",
+      location: "url(../fabrics/hunter.png)",
     },
     {
       value: "Amethyst Dot",
       label: "Amethyst Dot",
-      location: "",
+      location: "url(../fabrics/)",
     },
     {
       value: "Aquamarine Dot",
