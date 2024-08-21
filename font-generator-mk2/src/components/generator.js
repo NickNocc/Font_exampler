@@ -1609,7 +1609,7 @@ export const Generator = () => {
               </select>
             </span>
             <span className="nameControls">
-              <p>For:</p>
+              <p className="withPadding">For:</p>
               <input
                 className="font-face-blossom"
                 type="text"

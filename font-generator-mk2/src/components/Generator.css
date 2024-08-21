@@ -99,6 +99,7 @@ select {
   padding-top: 7px;
 }
 
+
 @keyframes changeColor {
   from {
     color: rgba(194, 0, 220, 0.714);
@@ -138,6 +139,7 @@ p {
   height: fit-content;
   margin: 0;
   padding: 0;
+  margin-right: 10px;
 }
 
 option {
