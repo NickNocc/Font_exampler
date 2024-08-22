@@ -7,15 +7,14 @@ function App() {
     <div className="App">
       <header className="App-header font-face-Brittany">
         Baby Boo's Font Generator
+        <div className="disclaimer font-face-blossom">
+          {" "}
+          * Please note: Sizing and setup of letters is approximate. If you have
+          any questions please feel free to contact us at shop@boosblankets.com{" "}
+        </div>
       </header>
       {/* Loads Generator conponent */}
       <Generator />
-      <div className="disclaimer">
-        {" "}
-        * Please note: Not all fonts will register numbers, special characters,
-        etc. Sizing and setup of letters is approximate. If you have any
-        questions please feel free to contact us at shop@boosblankets.com
-      </div>
     </div>
   );
 }

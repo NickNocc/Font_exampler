@@ -1299,7 +1299,7 @@ export const Generator = () => {
     let globalText = "";
     const regex = /[^a-zA-Z\u002D\u0027]+/gi;
 
-    globalText = newText.replaceAll(regex, "");
+    globalText = newText.replaceAll(regex, " ");
     if (globalText === "") {
       setNameOutput("Enter Name");
     } else {
