@@ -1261,7 +1261,18 @@ export const Generator = () => {
 
   const [controlsVisible, setControlsVisible] = useState(false);
 
-  const [buttonText, setButtonText] = useState("🔻");
+  const [buttonText, setButtonText] = useState(
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="30"
+      height="30"
+      class="bi bi-caret-down-fill"
+      fill="currentColor"
+      viewBox="0 0 16 16"
+    >
+      <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+    </svg>
+  );
 
   // Changes font on Select Change
   const handleFontChange = (event) => {
@@ -1338,9 +1349,39 @@ export const Generator = () => {
 
   const handleControls = () => {
     if (controlsVisible === true) {
-      setTimeout(setControlsVisible(false), setButtonText("🔻"), 30);
+      setTimeout(
+        setControlsVisible(false),
+        setButtonText(
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            class="bi bi-caret-down-fill"
+            fill="currentColor"
+            viewBox="0 0 16 16"
+          >
+            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+          </svg>
+        ),
+        30
+      );
     } else if (controlsVisible === false) {
-      setTimeout(setControlsVisible(true), setButtonText("🔺"), 700);
+      setTimeout(
+        setControlsVisible(true),
+        setButtonText(
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-caret-up-fill"
+            viewBox="0 0 16 16"
+          >
+            <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z" />
+          </svg>
+        ),
+        700
+      );
     }
   };
   // L randomizer

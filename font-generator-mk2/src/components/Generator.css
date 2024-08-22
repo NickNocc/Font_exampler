@@ -30,7 +30,7 @@ input {
 .split-right {
   width: 100%;
   height: 45%;
-  clip-path: polygon(50% 100%, 100% 0, 0 0);
+  /* clip-path: polygon(50% 100%, 100% 0, 0 0); */
   background-color: transparent;
 }
 
@@ -127,6 +127,11 @@ select {
   justify-content: space-evenly;
 }
 
+svg {
+      color: rgba(194, 0, 220, 0.714);
+
+}
+
 .nameControls {
   display: flex;
   width: 100%;
@@ -166,8 +171,8 @@ option {
 
   .split-right {
     width: 100%;
-    height: 45%;
-    clip-path: polygon(50% 100%, 100% 0, 0 0);
+    height: 25%;
+    /* clip-path: polygon(50% 100%, 100% 0, 0 0); */
     background-color: transparent;
   }
 
