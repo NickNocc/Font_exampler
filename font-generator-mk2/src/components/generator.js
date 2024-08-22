@@ -1411,4 +1411,5 @@ const MenuToggle = Styled.div`
   z-index: 10;
   align-content: stretch;
   font-size: 33px;
+  overflow: hidden;
 `;
