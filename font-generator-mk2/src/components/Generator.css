@@ -3,6 +3,12 @@ input {
   background-color: #e9dedc;
 }
 
+.disclaimer {
+  height: min-content;
+  font-family: blossom;
+  font-size: calc(6px + 1.75vmin);
+}
+
 .split-holder {
   /* display: flex, table; */
 
@@ -99,7 +105,6 @@ select {
   padding-top: 7px;
 }
 
-
 @keyframes changeColor {
   from {
     color: rgba(194, 0, 220, 0.714);
@@ -118,6 +123,7 @@ select {
   width: 100%;
   height: 50%;
   justify-content: space-between;
+  max-height: 70px;
 }
 
 .bottomControls {
@@ -125,11 +131,11 @@ select {
   width: 100%;
   height: 50%;
   justify-content: space-evenly;
+  max-height: 70px;
 }
 
 svg {
-      color: rgba(194, 0, 220, 0.714);
-
+  color: rgba(194, 0, 220, 0.714);
 }
 
 .nameControls {
@@ -137,6 +143,7 @@ svg {
   width: 100%;
   height: 50%;
   justify-content: space-evenly;
+  max-height: 70px;
 }
 
 p {

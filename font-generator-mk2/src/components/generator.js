@@ -355,7 +355,7 @@ export const Generator = () => {
     {
       value: "Ivory/Brown Pony",
       label: "Ivory/Brown Pony",
-      location: "",
+      location: "url(../fabrics/brownPony.png)",
     },
     {
       value: "Vienna Crystal",
@@ -378,8 +378,8 @@ export const Generator = () => {
       location: "url(../fabrics/rosewaterHide.png)",
     },
     {
-      value: "Fawn Minky",
-      label: "Fawn Minky",
+      value: "Brown Fawn",
+      label: "Brown Fawn",
       location: "url(../fabrics/fawnMinky.png)",
     },
     {
@@ -398,8 +398,8 @@ export const Generator = () => {
       location: "url(../fabrics/riteofSpring.png)",
     },
     {
-      value: "Green Glacier",
-      label: "Green Glacier",
+      value: "Evergreen Glacier",
+      label: "Evergreen Glacier",
       location: "url(../fabrics/greenGlacier.png)",
     },
     {
@@ -417,7 +417,7 @@ export const Generator = () => {
       label: "Lilac Glacier",
       location: "url(../fabrics/lavenderGlacier.png)",
     },
-    //maybe wrong color again
+    //def wrong, may need pic
     {
       value: "Gray Hide",
       label: "Gray Hide",
@@ -452,11 +452,6 @@ export const Generator = () => {
       value: "Latte Glacier",
       label: "Latte Glacier",
       location: "url(../fabrics/latteGlacier.png)",
-    },
-    {
-      value: "Buffalo Check",
-      label: "Buffalo Check",
-      location: "url(../fabrics/buffaloCheck.png)",
     },
     {
       value: "Mud Pie Pony",
@@ -589,8 +584,8 @@ export const Generator = () => {
       location: "url(../fabrics/viennaPlumwine.png)",
     },
     {
-      value: "Latte Mushroom Checkers",
-      label: "Latte Mushroom Checkers",
+      value: "Latte Checkers",
+      label: "Latte Checkers",
       location: "url(../fabrics/latteMushroomCheckers.png)",
     },
     {
@@ -618,8 +613,8 @@ export const Generator = () => {
       location: "url(../fabrics/amethystDot.png)",
     },
     {
-      value: "Aquamarine Dot",
-      label: "Aquamarine Dot",
+      value: "Aqua Dot",
+      label: "Aqua Dot",
       location: "url(../fabrics/aquamarineDot.png)",
     },
     {
@@ -641,11 +636,6 @@ export const Generator = () => {
       value: "Brown Dot",
       label: "Brown Dot",
       location: "url(../fabrics/brownDot.png)",
-    },
-    {
-      value: "Camel Dot",
-      label: "Camel Dot",
-      location: "url(../fabrics/camelDot.png)",
     },
     // {
     //   value: "Chocolate Dot",
@@ -688,9 +678,9 @@ export const Generator = () => {
     //   location: "url(../fabrics/)",
     // },
     {
-      value: "Fuschia Dot",
-      label: "Fuschia Dot",
-      location: "url(../fabrics/FuschiaDot.png)",
+      value: "Hot Pink Dot",
+      label: "Hot Pink Dot",
+      location: "url(../fabrics/fuschiaDot.png)",
     },
     {
       value: "Gold Dot",
@@ -733,19 +723,9 @@ export const Generator = () => {
       location: "url(../fabrics/lavenderDot.png)",
     },
     {
-      value: "Lilac Dot",
-      label: "Lilac Dot",
-      location: "url(../fabrics/lilacDot.png)",
-    },
-    {
       value: "Mallard Dot",
       label: "Mallard Dot",
       location: "url(../fabrics/mallardDot.png)",
-    },
-    {
-      value: "Mango Dot",
-      label: "Mango Dot",
-      location: "url(../fabrics/mangoDot.png)",
     },
     {
       value: "Merlot Dot",
@@ -761,11 +741,6 @@ export const Generator = () => {
       value: "Navy Dot",
       label: "Navy Dot",
       location: "url(../fabrics/navyDot.png)",
-    },
-    {
-      value: "Natural Dot",
-      label: "Natural Dot",
-      location: "url(../fabrics/naturalDot.png)",
     },
     {
       value: "Opal Dot",
@@ -823,11 +798,6 @@ export const Generator = () => {
       location: "url(../fabrics/shellDot.png)",
     },
     {
-      value: "Sky Dot",
-      label: "Sky Dot",
-      location: "url(../fabrics/skyDot.png)",
-    },
-    {
       value: "Steel Dot",
       label: "Steel Dot",
       location: "url(../fabrics/steelDot.png)",
@@ -847,11 +817,7 @@ export const Generator = () => {
     //   label: "Taupe Dot",
     //   location: "url(../fabrics/)",
     // },
-    {
-      value: "Turquoise Dot",
-      label: "Turquoise Dot",
-      location: "url(../fabrics/turquoiseDot.png)",
-    },
+
     {
       value: "White Dot",
       label: "White Dot",
@@ -890,7 +856,7 @@ export const Generator = () => {
     {
       value: "Evergreen Glacier",
       label: "Evergreen Glacier",
-      location: "url(../fabrics/evergreenGlacier.png)",
+      location: "url(../fabrics/greenGlacier.png)",
     },
     {
       value: "Ginger Glacier",
@@ -950,7 +916,7 @@ export const Generator = () => {
     {
       value: "Moss Glacier",
       label: "Moss Glacier",
-      location: "url(../fabrics/mossGlaicer.png)",
+      location: "url(../fabrics/mossGlacier.png)",
     },
     {
       value: "Navy Glacier",
@@ -968,15 +934,16 @@ export const Generator = () => {
       location: "url(../fabrics/plumWineGlacier.png)",
     },
     {
-      value: "Red Glacier",
-      label: "Red Glacier",
-      location: "url(../fabrics/redGlacier.png)",
+      value: "Cardinal Glacier",
+      label: "Cardinal Glacier",
+      location: "url(../fabrics/cardinalGlacier.png)",
     },
     {
       value: "Royal Glacier",
       label: "Royal Glacier",
       location: "url(../fabrics/royalGlacier.png)",
     },
+    //Looks kinda ugly, ask alexis
     {
       value: "Silver Glacier",
       label: "Silver Glacier",
@@ -988,8 +955,8 @@ export const Generator = () => {
       location: "url(../fabrics/simplyTaupeGlacier.png)",
     },
     {
-      value: "Snow Glacier",
-      label: "Snow Glacier",
+      value: "White Glacier",
+      label: "White Glacier",
       location: "url(../fabrics/snowGlacier.png)",
     },
     {
@@ -1013,11 +980,6 @@ export const Generator = () => {
       location: "url(../fabrics/bellflowerHide.png)",
     },
     {
-      value: "Berry Hide",
-      label: "Berry Hide",
-      location: "url(../fabrics/berryHide.png)",
-    },
-    {
       value: "Black Hide",
       label: "Black Hide",
       location: "url(../fabrics/blackHide.png)",
@@ -1026,11 +988,6 @@ export const Generator = () => {
       value: "Blush Hide",
       label: "Blush Hide",
       location: "url(../fabrics/blushHide.png)",
-    },
-    {
-      value: "Cardinal Hide",
-      label: "Cardinal Hide",
-      location: "url(../fabrics/cardinalHide.png)",
     },
     {
       value: "Cerise Hide",
@@ -1043,11 +1000,6 @@ export const Generator = () => {
       location: "url(../fabrics/champagneHide.png)",
     },
     {
-      value: "Chestnut Hide",
-      label: "Chestnut Hide",
-      location: "url(../fabrics/chestnutHide.png)",
-    },
-    {
       value: "Chive Hide",
       label: "Chive Hide",
       location: "url(../fabrics/chiveHide.png)",
@@ -1058,18 +1010,13 @@ export const Generator = () => {
       location: "url(../fabrics/elderberryHide.png)",
     },
     {
-      value: "Frosted Spearmint Hide",
-      label: "Frosted Spearmint Hide",
-      location: "url(../fabrics/spearmingHide.png)",
-    },
-    {
       value: "Gray Hide",
       label: "Gray Hide",
       location: "url(../fabrics/grayHide.png)",
     },
     {
-      value: "Ice Hide",
-      label: "Ice Hide",
+      value: "Ice Mint Hide",
+      label: "Ice Mint Hide",
       location: "url(../fabrics/iceHide.png)",
     },
     {
@@ -1108,13 +1055,8 @@ export const Generator = () => {
       location: "url(../fabrics/rosewaterHide.png)",
     },
     {
-      value: "Sea Glass Hide",
-      label: "Sea Glass Hide",
-      location: "url(../fabrics/seaGlassHide.png)",
-    },
-    {
-      value: "Snow Hide",
-      label: "Snow Hide",
+      value: "White Hide",
+      label: "White Hide",
       location: "url(../fabrics/snowHide.png)",
     },
     {
@@ -1123,18 +1065,13 @@ export const Generator = () => {
       location: "url(../fabrics/spiceHide.png)",
     },
     {
-      value: "Spruce Hide",
-      label: "Spruce Hide",
+      value: "Willow Spruce",
+      label: "Willow Spruce",
       location: "url(../fabrics/spruceHide.png)",
     },
     {
-      value: "Stone Hide",
-      label: "Stone Hide",
-      location: "url(../fabrics/stoneHide.png)",
-    },
-    {
-      value: "Thyme Hide",
-      label: "Thyme Hide",
+      value: "Sage Hide",
+      label: "Sage Hide",
       location: "url(../fabrics/thymeHide.png)",
     },
     {
@@ -1181,11 +1118,6 @@ export const Generator = () => {
       value: "Truffle Seal",
       label: "Truffle Seal",
       location: "url(../fabrics/truffleSeal.png)",
-    },
-    {
-      value: "Atlantis Sorbet",
-      label: "Atlantis Sorbet",
-      location: "url(../fabrics/atlantisSorbet.png)",
     },
     {
       value: "Blue Sorbet",
@@ -1494,6 +1426,12 @@ export const Generator = () => {
                 onChange={handleNameChange}
               />
             </span>
+            <div className="disclaimer">
+              {" "}
+              * Please note: Sizing and setup of letters is approximate. Color may depend on device. If you
+              have any questions please feel free to contact us at
+              shop@boosblankets.com{" "}
+            </div>
           </span>
         </span>
       </Controls>
@@ -1504,7 +1442,7 @@ export const Generator = () => {
 const Controls = Styled.div`
   background-color: #e9dedc;
   position: absolute;
-  height: ${({ open }) => (open ? "0px" : "20vh")}; width: 100%;
+  height: ${({ open }) => (open ? "0px" : "28vh")}; width: 100%;
   bottom: 0%;
   visibility: visible;
   transition: all 500ms ease;
@@ -1519,7 +1457,7 @@ const MenuToggle = Styled.div`
   width: 11%;
   position: absolute;
   border: 20px, green;
-  bottom: ${({ open }) => (open ? "0vh" : "20vh")};
+  bottom: ${({ open }) => (open ? "0vh" : "28vh")};
   right: 5vw;
   transition: all 500ms ease;
   z-index: 10;
