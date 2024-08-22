@@ -647,16 +647,6 @@ export const Generator = () => {
       label: "Coral Dot",
       location: "url(../fabrics/coralDot.png)",
     },
-    // {
-    //   value: "Coral Reef Dot",
-    //   label: "Coral Reef Dot",
-    //   location: "url(../fabrics/)",
-    // },
-    // {
-    //   value: "Dark Turquoiose Dot",
-    //   label: "Dark Turquoiose Dot",
-    //   location: "url(../fabrics/)",
-    // },
     {
       value: "Denim Dot",
       label: "Denim Dot",
@@ -672,11 +662,6 @@ export const Generator = () => {
       label: "Electric Blue Dot",
       location: "url(../fabrics/electricBlueDot.png)",
     },
-    // {
-    //   value: "Emerald Dot",
-    //   label: "Emerald Dot",
-    //   location: "url(../fabrics/)",
-    // },
     {
       value: "Hot Pink Dot",
       label: "Hot Pink Dot",
@@ -868,11 +853,6 @@ export const Generator = () => {
       label: "Hot Pink Glacier",
       location: "url(../fabrics/hotPinkGlacier.png)",
     },
-    // {
-    //   value: "  Glacier",
-    //   label: "Ice Glacier",
-    //   location: "url(../fabrics/)",
-    // },
     {
       value: "Ice Pink Glacier",
       label: "Ice Pink Glacier",
@@ -898,11 +878,6 @@ export const Generator = () => {
       label: "Latte Glacier",
       location: "url(../fabrics/latteGlacier.png)",
     },
-    // {
-    //   value: "Mauve glow Glacier",
-    //   label: "Mauve glow Glacier",
-    //   location: "url(../fabrics/)",
-    // },
     {
       value: "Merlot Glacier",
       label: "Merlot Glacier",
@@ -1084,16 +1059,6 @@ export const Generator = () => {
       label: "Black Seal",
       location: "url(../fabrics/blackSeal.png)",
     },
-    // {
-    //   value: "Evergreen Seal",
-    //   label: "Evergreen Seal",
-    //   location: "url(../fabrics/)",
-    // },
-    // {
-    //   value: "Green Tea Seal",
-    //   label: "Green Tea Seal",
-    //   location: "url(../fabrics/)",
-    // },
     {
       value: "Ice Pink Seal",
       label: "Ice Pink Seal",
@@ -1160,13 +1125,13 @@ export const Generator = () => {
       location: "url(../fabrics/razzledazzleSorbet.png)",
     },
     {
-      value: "Tie-Dye Rabbit Beige",
-      label: "Tie-Dye Rabbit Beige",
+      value: "Beige Tie-Dye Rabbit",
+      label: "Beige Tie-Dye Rabbit",
       location: "url(../fabrics/tiedyeRabbitBeige.png)",
     },
     {
-      value: "Tie-Dye Rabbit Brown",
-      label: "Tie-Dye Rabbit Brown",
+      value: "Brown Tie-Dye Rabbit",
+      label: "Brown Tie-Dye Rabbit",
       location: "url(../fabrics/tiedyeRabbitBrown.png)",
     },
     {
@@ -1316,23 +1281,6 @@ export const Generator = () => {
       );
     }
   };
-  // L randomizer
-  // const randomizeBlanket = () => {
-  //   let randomBack = Math.floor(
-  //     Math.random() * (currentMinkyBack.length - 0 + 1) + 0
-  //   );
-  //   let randomFront = Math.floor(
-  //     Math.random() * (currentMinkyFront.length - 0 + 1) + 0
-  //   );
-  //   console.log("random front: ");
-  //   console.log(currentMinkyFront[randomFront]);
-  //   console.log("random back: ");
-  //   console.log(currentMinkyBack[randomBack]);
-  //   setMinkyBack(currentMinkyFront[randomBack]);
-  //   console.log(minkyBack);
-  //   setMinkyFront(currentMinkyBack[randomFront]);
-  //   console.log(minkyFront);
-  // };
 
   return (
     <div
@@ -1428,9 +1376,9 @@ export const Generator = () => {
             </span>
             <div className="disclaimer">
               {" "}
-              * Please note: Sizing and setup of letters is approximate. Color may depend on device. If you
-              have any questions please feel free to contact us at
-              shop@boosblankets.com{" "}
+              * Please note: Sizing and setup of letters is approximate. Color
+              may depend on device. If you have any questions please feel free
+              to contact us at shop@boosblankets.com{" "}
             </div>
           </span>
         </span>
