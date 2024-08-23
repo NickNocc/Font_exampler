@@ -1378,7 +1378,7 @@ export const Generator = () => {
               {" "}
               * Please note: Sizing and setup of letters is approximate. Color
               may depend on device. If you have any questions please feel free
-              to contact us at shop@boosblankets.com{" "}
+              to contact us at shop@boosblankets.com
             </div>
           </span>
         </span>
