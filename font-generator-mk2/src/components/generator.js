@@ -4,7 +4,7 @@ import Styled from "styled-components";
 
 export const Generator = () => {
   // List of fonts Loaded onto the website
-  const currentFont = [
+  const fontList = [
     //  {
     //    fontName: "X",     Name Listed
     //    fontClass: "X-X",  Connects to the font's css class
@@ -331,7 +331,7 @@ export const Generator = () => {
     },
   ];
   // List of fabric front colors loaded into the site. Non-Customizable Side
-  const currentMinkyFront = [
+  const currentMinkyStatic = [
     // {
     // value: ,
     // label: ,
@@ -601,7 +601,7 @@ export const Generator = () => {
     //^^ this may be a different color, revisit
   ];
   //List of fabric back colors loaded into the site. Customizable side
-  const currentMinkyBack = [
+  const currentMinkyCustom = [
     {
       value: "Basil Glacier",
       label: "Basil Glacier",
@@ -1142,22 +1142,21 @@ export const Generator = () => {
   ];
   // Default value for nameOutput
   let name = "Enter your Name";
-
   // State for nameOutput
   const [nameOutput, setNameOutput] = useState(name);
 
   // State for currently selected font
-  const [cF, setCf] = useState(currentFont[0]);
+  const [currentFont, setCurrentFont] = useState(fontList[0]);
 
   // State for currently selected color
   const [fontColor, setFontColor] = useState(currentColor[0]);
-
-  const [minkyBack, setMinkyBack] = useState(currentMinkyFront[0]);
-
-  const [minkyFront, setMinkyFront] = useState(currentMinkyBack[0]);
-
+  // State for the static side of the minky blanket
+  const [minkyStatic, setMinkyStatic] = useState(currentMinkyStatic[0]);
+  // State for cusomizable side of minky blanket
+  const [minkyCustom, setMinkyCustom] = useState(currentMinkyCustom[0]);
+  // State for visibility of control box
   const [controlsVisible, setControlsVisible] = useState(false);
-
+  // State for the arrow button
   const [buttonText, setButtonText] = useState(
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -1180,22 +1179,26 @@ export const Generator = () => {
     let fontIndex;
 
     // Function to find index of selected font
-    currentFont.filter((font, i) => {
+    fontList.filter((font, i) => {
       if (font.value === selectedFont) {
         fontIndex = i;
+        return;
       }
     });
     // Sets the current font to the index of selected font
 
-    setCf(currentFont[fontIndex]);
+    setCurrentFont(fontList[fontIndex]);
   };
 
   // Changes nameOutput to inputed value
   const handleNameChange = (event) => {
+    // gets inputed value
     let newText = event.target.value;
+    // keeps track of inputed name
     let globalText = "";
+    // keep all the symbols we dont want outta here
     const regex = /[^a-zA-Z\u002D\u0027]+/gi;
-
+    // Replaces any unwanted text with an empty space
     globalText = newText.replaceAll(regex, " ");
     if (globalText === "") {
       setNameOutput("Enter Name");
@@ -1217,35 +1220,36 @@ export const Generator = () => {
 
     setFontColor(currentColor[colorIndex]);
   };
-  // Changes currentMinkyFront
-  const handleMinkyBackChange = (event) => {
-    const newMinkyFront = event.target.value;
-    let minkyBackIndex;
+  // Changes currentMinkyStatic
+  const handleMinkyStaticChange = (event) => {
+    const newMinkyStatic = event.target.value;
+    let minkyStaticIndex;
 
-    currentMinkyFront.filter((style, i) => {
-      if (style.value === newMinkyFront) {
-        minkyBackIndex = i;
+    currentMinkyStatic.filter((style, i) => {
+      if (style.value === newMinkyStatic) {
+        minkyStaticIndex = i;
       }
 
-      setMinkyBack(currentMinkyFront[minkyBackIndex]);
+      setMinkyStatic(currentMinkyStatic[minkyStaticIndex]);
     });
   };
-  const handleMinkyFrontChange = (event) => {
-    const newMinkyFront = event.target.value;
+  // Changes currentMinkyCustom
+  const handleMinkyCustomChange = (event) => {
+    const newMinkyCustom = event.target.value;
 
-    let minkyFrontIndex;
+    let minkyCustomIndex;
 
-    currentMinkyBack.filter((style, i) => {
-      if (style.value === newMinkyFront) {
-        minkyFrontIndex = i;
+    currentMinkyCustom.filter((style, i) => {
+      if (style.value === newMinkyCustom) {
+        minkyCustomIndex = i;
       }
 
-      setMinkyFront(currentMinkyBack[minkyFrontIndex]);
+      setMinkyCustom(currentMinkyCustom[minkyCustomIndex]);
     });
   };
 
   const handleControls = () => {
-    if (controlsVisible === true) {
+    if (controlsVisible === true) {      
       setTimeout(
         setControlsVisible(false),
         setButtonText(
@@ -1286,20 +1290,20 @@ export const Generator = () => {
     <div
       className="split-holder"
       style={{
-        backgroundImage: minkyBack.location,
+        backgroundImage: minkyStatic.location,
       }}
     >
       <div className="split-left"></div>
       <div
         className="split-right"
         style={{
-          backgroundImage: minkyFront.location,
+          backgroundImage: minkyCustom.location,
         }}
       >
         {/* Changes div class to match with font-face css in index.css */}
         <div
           style={{ color: fontColor.color }}
-          className={cF.fontClass + " nameOutput"}
+          className={currentFont.fontClass + " nameOutput"}
         >
           {nameOutput}
         </div>
@@ -1312,13 +1316,13 @@ export const Generator = () => {
           <span className="menuBox">
             <span className="topControls">
               <select
-                value={minkyBack.value}
-                onChange={(e) => handleMinkyBackChange(e)}
+                value={minkyStatic.value}
+                onChange={(e) => handleMinkyStaticChange(e)}
               >
-                {currentMinkyFront.map((minkBack, i) => (
+                {currentMinkyStatic.map((minkBack, i) => (
                   <option
                     key={i}
-                    defaultValue={currentMinkyFront[0]}
+                    defaultValue={currentMinkyStatic[0]}
                     value={minkBack.value}
                     label={minkBack.label}
                   ></option>
@@ -1326,10 +1330,10 @@ export const Generator = () => {
               </select>
               <p>&</p>
               <select
-                value={minkyFront.value}
-                onChange={(e) => handleMinkyFrontChange(e)}
+                value={minkyCustom.value}
+                onChange={(e) => handleMinkyCustomChange(e)}
               >
-                {currentMinkyBack.map((minkFront, i) => (
+                {currentMinkyCustom.map((minkFront, i) => (
                   <option
                     key={i}
                     value={minkFront.value}
@@ -1340,11 +1344,14 @@ export const Generator = () => {
               <p>with</p>
             </span>
             <span className="bottomControls">
-              <select value={cF.value} onChange={(e) => handleFontChange(e)}>
-                {currentFont.map((font, i) => (
+              <select
+                value={currentFont.value}
+                onChange={(e) => handleFontChange(e)}
+              >
+                {fontList.map((font, i) => (
                   <option
                     key={i}
-                    defaultValue={currentFont[0]}
+                    defaultValue={fontList[0]}
                     value={font.value}
                     label={font.label}
                   ></option>

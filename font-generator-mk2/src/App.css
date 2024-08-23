@@ -1,7 +1,6 @@
 .App {
   text-align: center;
   background-color: white;
-  height: 100vh;
   width: 100vw;
   overflow: hidden;
 }
@@ -36,8 +35,5 @@
 }
 
 @media screen and (max-width: 900px) { 
-  .App {
-    height: calc(95vh + 1vmin);
-  }
 
 }

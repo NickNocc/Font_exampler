@@ -35,7 +35,7 @@ input {
 
 .split-right {
   width: 100%;
-  height: 45%;
+  height: 30%;
   /* clip-path: polygon(50% 100%, 100% 0, 0 0); */
   background-color: transparent;
 }
@@ -178,7 +178,7 @@ option {
 
   .split-right {
     width: 100%;
-    height: 25%;
+    height: 20%;
     /* clip-path: polygon(50% 100%, 100% 0, 0 0); */
     background-color: transparent;
   }

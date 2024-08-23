@@ -3,8 +3,11 @@ import React from "react";
 import { Generator } from "./components/generator";
 
 function App() {
+  // Finds the users screen size to adjust our size
+  let screenSize = window.innerHeight;
+
   return (
-    <div className="App">
+    <div className="App" style={{ height: screenSize }}>
       <header className="App-header font-face-Brittany">
         Baby Boo's Font Generator{" "}
         <div className="linkOut">
