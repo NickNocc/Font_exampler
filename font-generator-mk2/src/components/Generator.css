@@ -1,6 +1,10 @@
 input {
   border: none;
-  background-color: #e9dedc;
+  background-color: transparent;
+  align-self: center;
+  display: inline-block;
+  height: max-content;
+  overflow-wrap: break-word;
 }
 
 .disclaimer {
@@ -21,11 +25,19 @@ input {
 
 .nameOutput {
   align-self: center;
+  max-height: inherit;
+  max-width: 80%;
   font-size: calc(35px + 4vmin);
-  word-wrap: break-word;
-  padding-top: calc(20px + 2vmin);
-  padding-left: 13%;
-  padding-right: 13%;
+  word-break: break-word;
+  justify-content: center;
+  background-color: transparent;
+  text-align: center;
+  text-overflow: clip;
+  white-space: pre-wrap;
+}
+
+input:focus {
+  outline: none;
 }
 
 .split-left {
@@ -33,23 +45,20 @@ input {
   align-items: center;
 }
 
+::placeholder {
+  color: black;
+}
+
 .split-right {
   width: 100%;
   height: 30%;
+  display: flex;
+  justify-content: center;
   /* clip-path: polygon(50% 100%, 100% 0, 0 0); */
   background-color: transparent;
 }
 
 input {
-  align-self: center;
-  padding: 2px;
-  margin: 3px;
-  display: inline-block;
-  max-width: max-content;
-  height: max-content;
-  text-align: center;
-  font-size: 2.5vh;
-  overflow: visible;
 }
 
 .innerSelect__indicators {
@@ -159,14 +168,6 @@ option {
 }
 
 @media screen and (max-width: 900px) {
-  input {
-    overflow: visible;
-    width: max-content;
-    height: 4vh;
-    font-size: 2.8vh;
-    margin-bottom: 5%;
-  }
-
   .css-b62m3t-container {
     width: 80vw;
     margin-left: 5px;
@@ -178,15 +179,14 @@ option {
 
   .split-right {
     width: 100%;
-    height: 20%;
+    height: 30%;
     /* clip-path: polygon(50% 100%, 100% 0, 0 0); */
     background-color: transparent;
   }
 
   .nameOutput {
-    padding-left: 13%;
-    padding-right: 13%;
-    font-size: calc(35px + 4vmin);
-    padding-top: calc(20px + 2vmin);
+    /* padding-left: 13%;
+    padding-right: 13%; */
+    /* padding-top: calc(20px + 2vmin); */
   }
 }

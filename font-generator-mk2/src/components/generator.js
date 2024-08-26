@@ -1141,7 +1141,9 @@ export const Generator = () => {
     },
   ];
   // Default value for nameOutput
-  let name = "Enter your Name";
+  let name = "";
+
+  const [windowHeight, setWindowHeight] = useState(window.innerHeight);
   // State for nameOutput
   const [nameOutput, setNameOutput] = useState(name);
 
@@ -1174,7 +1176,6 @@ export const Generator = () => {
   const handleFontChange = (event) => {
     // Stores event in var
     let selectedFont = event.target.value;
-
     // Empty var to hold index position
     let fontIndex;
 
@@ -1198,11 +1199,14 @@ export const Generator = () => {
     let globalText = "";
     // keep all the symbols we dont want outta here
     const regex = /[^a-zA-Z\u002D\u0027]+/gi;
+
     // Replaces any unwanted text with an empty space
     globalText = newText.replaceAll(regex, " ");
     if (globalText === "") {
-      setNameOutput("Enter Name");
+      setNameOutput("");
     } else {
+      globalText = globalText.replaceAll(" ", "\n");
+
       setNameOutput(globalText);
     }
   };
@@ -1249,7 +1253,7 @@ export const Generator = () => {
   };
 
   const handleControls = () => {
-    if (controlsVisible === true) {      
+    if (controlsVisible === true) {
       setTimeout(
         setControlsVisible(false),
         setButtonText(
@@ -1291,6 +1295,7 @@ export const Generator = () => {
       className="split-holder"
       style={{
         backgroundImage: minkyStatic.location,
+        height: windowHeight,
       }}
     >
       <div className="split-left"></div>
@@ -1301,12 +1306,15 @@ export const Generator = () => {
         }}
       >
         {/* Changes div class to match with font-face css in index.css */}
-        <div
+        <textarea
           style={{ color: fontColor.color }}
+          wrap="hard"
           className={currentFont.fontClass + " nameOutput"}
-        >
-          {nameOutput}
-        </div>
+          type="text"
+          placeholder="Enter Name!"
+          value={nameOutput}
+          onChange={handleNameChange}
+        />
       </div>
       <MenuToggle onClick={handleControls} open={controlsVisible}>
         {buttonText}
@@ -1372,7 +1380,7 @@ export const Generator = () => {
                 ))}
               </select>
             </span>
-            <span className="nameControls">
+            {/* <span className="nameControls">
               <p className="withPadding">For:</p>
               <input
                 className="font-face-blossom"
@@ -1380,7 +1388,7 @@ export const Generator = () => {
                 placeholder="Enter Name!"
                 onChange={handleNameChange}
               />
-            </span>
+            </span> */}
             <div className="disclaimer">
               {" "}
               * Please note: Sizing and setup of letters is approximate. Color
@@ -1397,7 +1405,8 @@ export const Generator = () => {
 const Controls = Styled.div`
   background-color: #e9dedc;
   position: absolute;
-  height: ${({ open }) => (open ? "0px" : "28vh")}; width: 100%;
+  height: ${({ open }) => (open ? "0px" : "28vh")};
+  width: 100%;
   bottom: 0%;
   visibility: visible;
   transition: all 500ms ease;
@@ -1412,7 +1421,7 @@ const MenuToggle = Styled.div`
   width: 11%;
   position: absolute;
   border: 20px, green;
-  bottom: ${({ open }) => (open ? "0vh" : "28vh")};
+  bottom: ${({ open }) => (open ? ".05px" : "28vh")};
   right: 5vw;
   transition: all 500ms ease;
   z-index: 10;
