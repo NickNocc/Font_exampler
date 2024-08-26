@@ -167,6 +167,7 @@ svg {
 
 option {
   background-color: #e8dedc;
+  text-align: center;
 }
 
 @media screen and (max-width: 900px) {

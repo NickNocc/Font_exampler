@@ -1125,7 +1125,6 @@ export const Generator = () => {
       location: "url(../fabrics/unicornSorbet.png)",
     },
   ];
-  const [windowHeight, setWindowHeight] = useState(window.innerHeight);
   // State for nameOutput
   const [nameOutput, setNameOutput] = useState("");
 
@@ -1276,9 +1275,7 @@ export const Generator = () => {
     <div
       className="split-holder"
       style={{
-        backgroundImage: minkyStatic.location,
-        height: windowHeight,
-      }}
+        backgroundImage: minkyStatic.location,      }}
     >
       <div className="split-left"></div>
       <div
@@ -1297,7 +1294,7 @@ export const Generator = () => {
           placeholder={"\n" + "Enter Name!"}
           value={nameOutput}
           onChange={handleNameChange}
-        />
+        />{window.screen.height}
       </div>
       <MenuToggle onClick={handleControls} open={controlsVisible}>
         {buttonText}
