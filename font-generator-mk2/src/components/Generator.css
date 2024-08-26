@@ -13,6 +13,12 @@ input {
   font-size: calc(6px + 1.75vmin);
 }
 
+.customOptions {
+  padding-top: 1%;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+}
+
 .split-holder {
   /* display: flex, table; */
 
@@ -25,18 +31,24 @@ input {
 
 .nameOutput {
   align-self: center;
-  max-height: inherit;
+  height: fit-content;
   max-width: 80%;
   font-size: calc(35px + 4vmin);
   word-break: break-word;
   justify-content: center;
   background-color: transparent;
-  text-align: center;
+  text-align: justify;
+  text-align-last: center;
   text-overflow: clip;
   white-space: pre-wrap;
 }
 
-input:focus {
+textarea {
+  border: none;
+  caret-color: transparent;
+}
+
+textarea:focus {
   outline: none;
 }
 
@@ -58,8 +70,6 @@ input:focus {
   background-color: transparent;
 }
 
-input {
-}
 
 .innerSelect__indicators {
   /* The options */
@@ -153,14 +163,6 @@ svg {
   height: 50%;
   justify-content: space-evenly;
   max-height: 70px;
-}
-
-p {
-  width: fit-content;
-  height: fit-content;
-  margin: 0;
-  padding: 0;
-  margin-right: 10px;
 }
 
 option {

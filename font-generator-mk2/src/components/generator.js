@@ -15,151 +15,151 @@ export const Generator = () => {
       fontName: "Almond Butter",
       fontClass: "font-face-Almondbutter",
       value: "Almondbutter",
-      label: "Almond Butter font",
+      label: "Almond Butter",
     },
     {
       fontName: "Amazingly beautiful",
       fontClass: "font-face-Amazingly",
       value: "Amazingly beautiful",
-      label: "Amazingly Beautiful font",
+      label: "Amazingly Beautiful",
     },
     {
       fontName: "Andrea",
       fontClass: "font-face-Andrea",
       value: "Andrea",
-      label: "Andrea font",
+      label: "Andrea",
     },
     {
       fontName: "Aurora",
       fontClass: "font-face-aurora",
       value: "Aurora",
-      label: "Aurora font",
+      label: "Aurora",
     },
     {
       fontName: "Autery",
       fontClass: "font-face-Autery",
       value: "Autery",
-      label: "Autery font",
+      label: "Autery",
     },
     {
       fontName: "Baby Point",
       fontClass: "font-face-Babypoint",
       value: "Babypoint",
-      label: "Baby Point font",
+      label: "Baby Point",
     },
     {
       fontName: "Baked Fresh",
       fontClass: "font-face-Bakedfresh",
       value: "Bakedfresh",
-      label: "Baked Fresh font",
+      label: "Baked Fresh",
     },
     {
       fontName: "Blossom",
       fontClass: "font-face-blossom",
       value: "Blossom",
-      label: "Blossom font",
+      label: "Blossom",
     },
     {
       fontName: "Boho Flowers",
       fontClass: "font-face-BohoFlowers",
       value: "BohoFlowers",
-      label: "BohoFlowers font",
+      label: "BohoFlowers",
     },
     {
       fontName: "Chakra",
       fontClass: "font-face-Chakra",
       value: "Chakra",
-      label: "Chakra font",
+      label: "Chakra",
     },
     {
       fontName: "Chalk",
       fontClass: "font-face-Chalk",
       value: "Chalk",
-      label: "Chalk font",
+      label: "Chalk",
     },
     {
       fontName: "Classico",
       fontClass: "font-face-classico",
       value: "classico",
-      label: "Classico font",
+      label: "Classico",
     },
     {
       fontName: "Clocks",
       fontClass: "font-face-Clocks",
       value: "Clocks",
-      label: "Clocks font",
+      label: "Clocks",
     },
     {
       fontName: "Cookie",
       fontClass: "font-face-Cookie",
       value: "Cookie",
-      label: "Cookie font",
+      label: "Cookie",
     },
     {
       fontName: "Doodle",
       fontClass: "font-face-Doodle",
       value: "Doodle",
-      label: "Doodle font",
+      label: "Doodle",
     },
     {
       fontName: "Eduarda",
       fontClass: "font-face-Eduarda",
       value: "Eduarda",
-      label: "Eduarda font",
+      label: "Eduarda",
     },
     {
       fontName: "Ghisella",
       fontClass: "font-face-Ghisella",
       value: "Ghisella",
-      label: "Ghisella font",
+      label: "Ghisella",
     },
     {
       fontName: "Hancock",
       fontClass: "font-face-Hancock",
       value: "Hancock",
-      label: "Hancock font",
+      label: "Hancock",
     },
     {
       fontName: "Harpsichord",
       fontClass: "font-face-Harpsichord",
       value: "Harpsichord",
-      label: "Harpsichord font",
+      label: "Harpsichord",
     },
     {
       fontName: "Langrish",
       fontClass: "font-face-Langrish",
       value: "Langrish",
-      label: "Langrish font",
+      label: "Langrish",
     },
     {
       fontName: "Layla",
       fontClass: "font-face-Layla",
       value: "Layla",
-      label: "Layla font",
+      label: "Layla",
     },
     {
       fontName: "Lively",
       fontClass: "font-face-Lively",
       value: "Lively",
-      label: "Lively font",
+      label: "Lively",
     },
     {
       fontName: "Sweetheart",
       fontClass: "font-face-Sweetheart",
       value: "Sweetheart",
-      label: "Sweetheart font",
+      label: "Sweetheart",
     },
     {
       fontName: "Tatertot",
       fontClass: "font-face-Tatertot",
       value: "Tatertot",
-      label: "Tatertot font",
+      label: "Tatertot",
     },
     {
       fontName: "Violetta",
       fontClass: "font-face-Violetta",
       value: "Violetta",
-      label: "Violetta font",
+      label: "Violetta",
     },
   ];
   // List of colors thread loaded onto the site
@@ -170,165 +170,165 @@ export const Generator = () => {
     //   label: "",
     // },
     {
+      color: "#9879a2",
+      value: "Amethyst",
+      label: "Amethyst",
+    },
+    {
+      color: "#68c7e7",
+      value: "Aqua",
+      label: "Aqua",
+    },
+    {
+      color: "#a7c6e1",
+      value: "Baby Blue",
+      label: "Baby Blue",
+    },
+    {
+      color: "#fbbed3",
+      value: "Baby Pink",
+      label: "Baby Pink",
+    },
+    {
       color: "rgb(0, 0, 0)",
       value: "Black",
-      label: "Black thread",
+      label: "Black",
     },
     {
-      color: "rgb(255, 255, 255)",
-      value: "White",
-      label: "White thread",
-    },
-    {
-      color: "#ebeec6",
-      value: "Ivory",
-      label: "Ivory thread",
-    },
-    {
-      color: "#a9aaa4",
-      value: "Silver",
-      label: "Silver thread",
+      color: "#483a39",
+      value: "Brown",
+      label: "Brown",
     },
     {
       color: "#606164",
       value: "Charcoal",
-      label: "Charcoal thread",
+      label: "Charcoal",
+    },
+    {
+      color: "#8e7256",
+      value: "Coffee",
+      label: "Coffee",
+    },
+    {
+      color: "#f88f99",
+      value: "Coral",
+      label: "Coral",
+    },
+    {
+      color: "#354e3c",
+      value: "Emerald",
+      label: "Emerald",
+    },
+    {
+      color: "#cda547",
+      value: "Gold",
+      label: "Gold",
+    },
+    {
+      color: "#00cd00",
+      value: "Green",
+      label: "Green",
+    },
+    {
+      color: "#d66196",
+      value: "Hot Pink",
+      label: "Hot Pink",
+    },
+    {
+      color: "#3b4b38",
+      value: "Hunter",
+      label: "Hunter",
+    },
+    {
+      color: "#ebeec6",
+      value: "Ivory",
+      label: "Ivory",
+    },
+    {
+      color: "#978fba",
+      value: "Lavender",
+      label: "Lavender",
+    },
+    {
+      color: "#729730",
+      value: "Lime",
+      label: "Lime",
+    },
+    {
+      color: "#84324a",
+      value: "Merlot",
+      label: "Merlot",
+    },
+    {
+      color: "#303647",
+      value: "Navy",
+      label: "Navy",
+    },
+    {
+      color: "#e75c34",
+      value: "Orange",
+      label: "Orange",
+    },
+    {
+      color: "#feb6d8",
+      value: "Paris Pink",
+      label: "Paris Pink",
+    },
+    {
+      color: "#b92a33",
+      value: "Red",
+      label: "Red",
+    },
+    {
+      color: "#224379",
+      value: "Royal Blue",
+      label: "Royal Blue",
+    },
+    {
+      color: "#e2bdba",
+      value: "Rose Water",
+      label: "Rose Water",
+    },
+    {
+      color: "#9d583c",
+      value: "Rust",
+      label: "Rust",
+    },
+    {
+      color: "#b9c2a0",
+      value: "Sage",
+      label: "Sage",
+    },
+    {
+      color: "#7fc7cd",
+      value: "Saltwater",
+      label: "Saltwater",
+    },
+    {
+      color: "#a9aaa4",
+      value: "Silver",
+      label: "Silver",
+    },
+    {
+      color: "rgb(255, 255, 255)",
+      value: "White",
+      label: "White",
+    },
+    {
+      color: "#ba8c90",
+      value: "Wood Rose",
+      label: "Wood Rose",
+    },
+    {
+      color: "#f6c62d",
+      value: "Yellow",
+      label: "Yellow",
     },
     // {
     //   color: "",
     //   value: "Latte",
     //   label: "Latte",
     // },
-    {
-      color: "#8e7256",
-      value: "Coffee",
-      label: "Coffee thread",
-    },
-    {
-      color: "#483a39",
-      value: "Brown",
-      label: "Brown thread",
-    },
-    {
-      color: "#cda547",
-      value: "Gold",
-      label: "Gold thread",
-    },
-    {
-      color: "#f6c62d",
-      value: "Yellow",
-      label: "Yellow thread",
-    },
-    {
-      color: "#e75c34",
-      value: "Orange",
-      label: "Orange thread",
-    },
-    {
-      color: "#9d583c",
-      value: "Rust",
-      label: "Rust thread",
-    },
-    {
-      color: "#b92a33",
-      value: "Red",
-      label: "Red thread",
-    },
-    {
-      color: "#84324a",
-      value: "Merlot",
-      label: "Merlot thread",
-    },
-    {
-      color: "#d66196",
-      value: "Hot Pink",
-      label: "Hot Pink thread",
-    },
-    {
-      color: "#feb6d8",
-      value: "Paris Pink",
-      label: "Paris Pink thread",
-    },
-    {
-      color: "#ba8c90",
-      value: "Wood Rose",
-      label: "Wood Rose thread",
-    },
-    {
-      color: "#e2bdba",
-      value: "Rose Water",
-      label: "Rose Water thread",
-    },
-    {
-      color: "#fbbed3",
-      value: "Baby Pink",
-      label: "Baby Pink thread",
-    },
-    {
-      color: "#f88f99",
-      value: "Coral",
-      label: "Coral thread",
-    },
-    {
-      color: "#978fba",
-      value: "Lavender",
-      label: "Lavender thread",
-    },
-    {
-      color: "#9879a2",
-      value: "Amethyst",
-      label: "Amethyst thread",
-    },
-    {
-      color: "#303647",
-      value: "Navy",
-      label: "Navy thread",
-    },
-    {
-      color: "#224379",
-      value: "Royal Blue",
-      label: "Royal Blue thread",
-    },
-    {
-      color: "#68c7e7",
-      value: "Aqua",
-      label: "Aqua thread",
-    },
-    {
-      color: "#7fc7cd",
-      value: "Saltwater",
-      label: "Saltwater thread",
-    },
-    {
-      color: "#a7c6e1",
-      value: "Baby Blue",
-      label: "Baby Blue thread",
-    },
-    {
-      color: "#b9c2a0",
-      value: "Sage",
-      label: "Sage thread",
-    },
-    {
-      color: "#729730",
-      value: "Lime",
-      label: "Lime thread",
-    },
-    {
-      color: "#00cd00",
-      value: "Green",
-      label: "Green thread",
-    },
-    {
-      color: "#354e3c",
-      value: "Emerald",
-      label: "Emerald thread",
-    },
-    {
-      color: "#3b4b38",
-      value: "Hunter",
-      label: "Hunter thread",
-    },
   ];
   // List of fabric front colors loaded into the site. Non-Customizable Side
   const currentMinkyStatic = [
@@ -338,205 +338,9 @@ export const Generator = () => {
     // location: ,
     // },
     {
-      value: "Safari Babies",
-      label: "Safari Babies",
-      location: "url(../fabrics/safariBabies.jpg)",
-    },
-    {
-      value: "Brown Sugar Pony",
-      label: "Brown Sugar Pony",
-      location: "url(../fabrics/brownsugarPony.png)",
-    },
-    {
-      value: "Wildrose Lynx",
-      label: "Wildrose Lynx",
-      location: "url(../fabrics/wildroseLynx.png)",
-    },
-    {
-      value: "Ivory/Brown Pony",
-      label: "Ivory/Brown Pony",
-      location: "url(../fabrics/brownPony.png)",
-    },
-    {
-      value: "Vienna Crystal",
-      label: "Vienna Crystal",
-      location: "url(../fabrics/viennaCrystal.png)",
-    },
-    {
-      value: "Mushroom Minky",
-      label: "Mushroom Minky",
-      location: "url(../fabrics/mushroomMinky.png)",
-    },
-    {
-      value: "Lavender Glacier",
-      label: "Lavender Glacier",
-      location: "url(../fabrics/lavenderGlacier.png)",
-    },
-    {
-      value: "Rosewater Hide",
-      label: "Rosewater Hide",
-      location: "url(../fabrics/rosewaterHide.png)",
-    },
-    {
-      value: "Brown Fawn",
-      label: "Brown Fawn",
-      location: "url(../fabrics/fawnMinky.png)",
-    },
-    {
-      value: "Latte Glacier",
-      label: "Latte Glacier",
-      location: "url(../fabrics/latteGlacier.png)",
-    },
-    {
-      value: "Blue Tie-Dye",
-      label: "Blue Tie-Dye",
-      location: "url(../fabrics/blueTieDye.png)",
-    },
-    {
-      value: "Rite of Spring",
-      label: "Rite of Spring",
-      location: "url(../fabrics/riteofSpring.png)",
-    },
-    {
-      value: "Evergreen Glacier",
-      label: "Evergreen Glacier",
-      location: "url(../fabrics/greenGlacier.png)",
-    },
-    {
-      value: "Gray Galaxy",
-      label: "Gray Galaxy",
-      location: "url(../fabrics/grayGalaxy.png)",
-    },
-    {
-      value: "Jeans Glacier",
-      label: "Jeans Glacier",
-      location: "url(../fabrics/jeansGlacier.png)",
-    },
-    {
-      value: "Lilac Glacier",
-      label: "Lilac Glacier",
-      location: "url(../fabrics/lavenderGlacier.png)",
-    },
-    //def wrong, may need pic
-    {
-      value: "Gray Hide",
-      label: "Gray Hide",
-      location: "url(../fabrics/grayHide.png)",
-    },
-    {
-      value: "Clay Sky Minky",
-      label: "Clay Sky Minky",
-      location: "url(../fabrics/claySky.png)",
-    },
-    {
-      value: "Woodrose Glacier",
-      label: "Woodrose Glacier",
-      location: "url(../fabrics/woodroseGlacier.png)",
-    },
-    {
-      value: "Blue Sorbet",
-      label: "Blue Sorbet",
-      location: "url(../fabrics/blueSorbet.png)",
-    },
-    {
-      value: "Teddy Quartz",
-      label: "Teddy Quartz",
-      location: "url(../fabrics/teddyQuartz.png)",
-    },
-    {
-      value: "Vienna Spruce",
-      label: "Vienna Spruce",
-      location: "url(../fabrics/viennaSpruce.png)",
-    },
-    {
-      value: "Latte Glacier",
-      label: "Latte Glacier",
-      location: "url(../fabrics/latteGlacier.png)",
-    },
-    {
-      value: "Mud Pie Pony",
-      label: "Mud Pie Pony",
-      location: "url(../fabrics/mudpiePony.png)",
-    },
-    {
-      value: "Brown Sugar Pony",
-      label: "Brown Sugar Pony",
-      location: "url(../fabrics/brownsugarPony.png)",
-    },
-    {
-      value: "Unicorn Sorbet",
-      label: "Unicorn Sorbet",
-      location: "url(../fabrics/unicornSorbet.png)",
-    },
-    {
-      value: "Ice Pink Glacier",
-      label: "Ice Pink Glacier",
-      location: "url(../fabrics/icePinkGlacier.png)",
-    },
-    {
-      value: "Call of the Wild",
-      label: "Call of the Wild",
-      location: "url(../fabrics/calloftheWild.png)",
-    },
-    {
-      value: "Navy Glacier",
-      label: "Navy Glacier",
-      location: "url(../fabrics/navyGlacier.png)",
-    },
-    {
-      value: "Natural Snow Owl",
-      label: "Natural Snow Owl",
-      location: "url(../fabrics/naturalSnowOwl.png)",
-    },
-    {
-      value: "Nine Iron",
-      label: "Nine Iron",
-      location: "url(../fabrics/nineIron.png)",
-    },
-    {
-      value: "Safari Dreams Blue",
-      label: "Safari Dreams Blue",
-      location: "url(../fabrics/safariDreamsBlue.png)",
-    },
-    {
-      value: "Navy Snow Owl",
-      label: "Navy Snow Owl",
-      location: "url(../fabrics/navySnowOwl.png)",
-    },
-    {
-      value: "Sandshell Rabbit",
-      label: "Sandshell Rabbit",
-      location: "url(../fabrics/sandshellRabbit.png)",
-    },
-    {
-      value: "Firefighter",
-      label: "Firefighter",
-      location: "url(../fabrics/firefighter.png)",
-    },
-    {
-      value: "Fairytale Blush",
-      label: "Fairytale Blush",
-      location: "url(../fabrics/fairytaleBlush.png)",
-    },
-    {
-      value: "Brown Pony",
-      label: "Brown Pony",
-      location: "url(../fabrics/brownPony.png)",
-    },
-    {
-      value: "Rosewater Fawn",
-      label: "Rosewater Fawn",
-      location: "url(../fabrics/rosewaterFawn.png)",
-    },
-    {
-      value: "Leopard Blush",
-      label: "Leopard Blush",
-      location: "url(../fabrics/leopardBlush.png)",
-    },
-    {
-      value: "Lavender Lynx",
-      label: "Lavender Lynx",
-      location: "url(../fabrics/lavenderLynx.png)",
+      value: "Cactus",
+      label: "Cactus",
+      location: "url(../fabrics/cactus.png)",
     },
     {
       value: "Mint Calf",
@@ -544,44 +348,9 @@ export const Generator = () => {
       location: "url(../fabrics/mintCalf.png)",
     },
     {
-      value: "Mighty Jungle",
-      label: "Mighty Jungle",
-      location: "url(../fabrics/mightyJungle.png)",
-    },
-    {
-      value: "Lavender Heather",
-      label: "Lavender Heather",
-      location: "url(../fabrics/lavenderHeather.png)",
-    },
-    {
-      value: "Leopard Sand",
-      label: "Leopard Sand",
-      location: "url(../fabrics/leopardSand.png)",
-    },
-    {
-      value: "Cedarwood Glacier",
-      label: "Cedarwood Glacier",
-      location: "url(../fabrics/cedarwoodGlacier.png)",
-    },
-    {
-      value: "Lavender Fawn",
-      label: "Lavender Fawn",
-      location: "url(../fabrics/lavenderFawn.png)",
-    },
-    {
-      value: "Christmas Trucks",
-      label: "Christmas Trucks",
-      location: "url(../fabrics/xmasTrucks.png)",
-    },
-    {
-      value: "Cactus",
-      label: "Cactus",
-      location: "url(../fabrics/cactus.png)",
-    },
-    {
-      value: "Vienna Plumwine",
-      label: "Vienna Plumwine",
-      location: "url(../fabrics/viennaPlumwine.png)",
+      value: "Call of the Wild",
+      label: "Call of the Wild",
+      location: "url(../fabrics/calloftheWild.png)",
     },
     {
       value: "Latte Checkers",
@@ -589,24 +358,235 @@ export const Generator = () => {
       location: "url(../fabrics/latteMushroomCheckers.png)",
     },
     {
+      value: "Christmas Trucks",
+      label: "Christmas Trucks",
+      location: "url(../fabrics/xmasTrucks.png)",
+    },
+    {
+      value: "Fairytale Blush",
+      label: "Fairytale Blush",
+      location: "url(../fabrics/fairytaleBlush.png)",
+    },
+    {
+      value: "Brown Fawn",
+      label: "Brown Fawn",
+      location: "url(../fabrics/fawnMinky.png)",
+    },
+    {
+      value: "Lavender Fawn",
+      label: "Lavender Fawn",
+      location: "url(../fabrics/lavenderFawn.png)",
+    },
+    {
+      value: "Rosewater Fawn",
+      label: "Rosewater Fawn",
+      location: "url(../fabrics/rosewaterFawn.png)",
+    },
+    {
+      value: "Firefighter",
+      label: "Firefighter",
+      location: "url(../fabrics/firefighter.png)",
+    },
+    {
+      value: "Gray Galaxy",
+      label: "Gray Galaxy",
+      location: "url(../fabrics/grayGalaxy.png)",
+    },
+    {
       value: "Hunter Galaxy",
       label: "Hunter Galaxy",
       location: "url(../fabrics/hunterGalaxy.png)",
+    },
+    {
+      value: "Cedarwood Glacier",
+      label: "Cedarwood Glacier",
+      location: "url(../fabrics/cedarwoodGlacier.png)",
+    },
+    {
+      value: "Evergreen Glacier",
+      label: "Evergreen Glacier",
+      location: "url(../fabrics/greenGlacier.png)",
+    },
+    {
+      value: "Jeans Glacier",
+      label: "Jeans Glacier",
+      location: "url(../fabrics/jeansGlacier.png)",
+    },
+    {
+      value: "Latte Glacier",
+      label: "Latte Glacier",
+      location: "url(../fabrics/latteGlacier.png)",
+    },
+    {
+      value: "Lavender Glacier",
+      label: "Lavender Glacier",
+      location: "url(../fabrics/lavenderGlacier.png)",
+    },
+    {
+      value: "Lilac Glacier",
+      label: "Lilac Glacier",
+      location: "url(../fabrics/lavenderGlacier.png)",
+    },
+    {
+      value: "Navy Glacier",
+      label: "Navy Glacier",
+      location: "url(../fabrics/navyGlacier.png)",
+    },
+    {
+      value: "Woodrose Glacier",
+      label: "Woodrose Glacier",
+      location: "url(../fabrics/woodroseGlacier.png)",
+    },
+    {
+      value: "Ice Pink Glacier",
+      label: "Ice Pink Glacier",
+      location: "url(../fabrics/icePinkGlacier.png)",
+    },
+    {
+      value: "Lavender Heather",
+      label: "Lavender Heather",
+      location: "url(../fabrics/lavenderHeather.png)",
+    },
+    {
+      value: "Gray Hide",
+      label: "Gray Hide",
+      location: "url(../fabrics/grayHide.png)",
+    },
+    {
+      value: "Rosewater Hide",
+      label: "Rosewater Hide",
+      location: "url(../fabrics/rosewaterHide.png)",
+    },
+    {
+      value: "Leopard Blush",
+      label: "Leopard Blush",
+      location: "url(../fabrics/leopardBlush.png)",
+    },
+    {
+      value: "Leopard Sand",
+      label: "Leopard Sand",
+      location: "url(../fabrics/leopardSand.png)",
+    },
+    {
+      value: "Lavender Lynx",
+      label: "Lavender Lynx",
+      location: "url(../fabrics/lavenderLynx.png)",
+    },
+    {
+      value: "Wildrose Lynx",
+      label: "Wildrose Lynx",
+      location: "url(../fabrics/wildroseLynx.png)",
+    },
+    {
+      value: "Mighty Jungle",
+      label: "Mighty Jungle",
+      location: "url(../fabrics/mightyJungle.png)",
+    },
+    {
+      value: "Clay Sky Minky",
+      label: "Clay Sky Minky",
+      location: "url(../fabrics/claySky.png)",
+    },
+    {
+      value: "Mushroom Minky",
+      label: "Mushroom Minky",
+      location: "url(../fabrics/mushroomMinky.png)",
+    },
+    {
+      value: "Nine Iron",
+      label: "Nine Iron",
+      location: "url(../fabrics/nineIron.png)",
+    },
+    {
+      value: "Brown Pony",
+      label: "Brown Pony",
+      location: "url(../fabrics/brownPony.png)",
+    },
+    {
+      value: "Brown Sugar Pony",
+      label: "Brown Sugar Pony",
+      location: "url(../fabrics/brownsugarPony.png)",
+    },
+    {
+      value: "Mud Pie Pony",
+      label: "Mud Pie Pony",
+      location: "url(../fabrics/mudpiePony.png)",
+    },
+    {
+      value: "Teddy Quartz",
+      label: "Teddy Quartz",
+      location: "url(../fabrics/teddyQuartz.png)",
     },
     {
       value: "Driftwood Rabbit",
       label: "Driftwood Rabbit",
       location: "url(../fabrics/driftwoodRabbit.png)",
     },
+    {
+      value: "Sandshell Rabbit",
+      label: "Sandshell Rabbit",
+      location: "url(../fabrics/sandshellRabbit.png)",
+    },
+    {
+      value: "Rite of Spring",
+      label: "Rite of Spring",
+      location: "url(../fabrics/riteofSpring.png)",
+    },
+    {
+      value: "Safari Babies",
+      label: "Safari Babies",
+      location: "url(../fabrics/safariBabies.jpg)",
+    },
+    {
+      value: "Safari Dreams Blue",
+      label: "Safari Dreams Blue",
+      location: "url(../fabrics/safariDreamsBlue.png)",
+    },
+    {
+      value: "Natural Snow Owl",
+      label: "Natural Snow Owl",
+      location: "url(../fabrics/naturalSnowOwl.png)",
+    },
+    {
+      value: "Navy Snow Owl",
+      label: "Navy Snow Owl",
+      location: "url(../fabrics/navySnowOwl.png)",
+    },
+    {
+      value: "Blue Sorbet",
+      label: "Blue Sorbet",
+      location: "url(../fabrics/blueSorbet.png)",
+    },
+    {
+      value: "Unicorn Sorbet",
+      label: "Unicorn Sorbet",
+      location: "url(../fabrics/unicornSorbet.png)",
+    },
+    {
+      value: "Blue Tie-Dye",
+      label: "Blue Tie-Dye",
+      location: "url(../fabrics/blueTieDye.png)",
+    },
+    {
+      value: "Vienna Crystal",
+      label: "Vienna Crystal",
+      location: "url(../fabrics/viennaCrystal.png)",
+    },
+    {
+      value: "Vienna Plumwine",
+      label: "Vienna Plumwine",
+      location: "url(../fabrics/viennaPlumwine.png)",
+    },
+    {
+      value: "Vienna Spruce",
+      label: "Vienna Spruce",
+      location: "url(../fabrics/viennaSpruce.png)",
+    },
+
     //^^ this may be a different color, revisit
   ];
   //List of fabric back colors loaded into the site. Customizable side
   const currentMinkyCustom = [
-    {
-      value: "Basil Glacier",
-      label: "Basil Glacier",
-      location: "url(../fabrics/basilGlacier.png)",
-    },
     {
       value: "Amethyst Dot",
       label: "Amethyst Dot",
@@ -822,6 +802,11 @@ export const Generator = () => {
       value: "Aruba Glacier",
       label: "Aruba Glacier",
       location: "url(../fabrics/arubaGlacier.png)",
+    },
+    {
+      value: "Basil Glacier",
+      label: "Basil Glacier",
+      location: "url(../fabrics/basilGlacier.png)",
     },
     {
       value: "Black Glacier",
@@ -1140,22 +1125,19 @@ export const Generator = () => {
       location: "url(../fabrics/unicornSorbet.png)",
     },
   ];
-  // Default value for nameOutput
-  let name = "";
-
   const [windowHeight, setWindowHeight] = useState(window.innerHeight);
   // State for nameOutput
-  const [nameOutput, setNameOutput] = useState(name);
+  const [nameOutput, setNameOutput] = useState("");
 
   // State for currently selected font
-  const [currentFont, setCurrentFont] = useState(fontList[0]);
+  const [currentFont, setCurrentFont] = useState(fontList[21]);
 
   // State for currently selected color
-  const [fontColor, setFontColor] = useState(currentColor[0]);
+  const [fontColor, setFontColor] = useState(currentColor[10]);
   // State for the static side of the minky blanket
-  const [minkyStatic, setMinkyStatic] = useState(currentMinkyStatic[0]);
+  const [minkyStatic, setMinkyStatic] = useState(currentMinkyStatic[39]);
   // State for cusomizable side of minky blanket
-  const [minkyCustom, setMinkyCustom] = useState(currentMinkyCustom[0]);
+  const [minkyCustom, setMinkyCustom] = useState(currentMinkyCustom[40]);
   // State for visibility of control box
   const [controlsVisible, setControlsVisible] = useState(false);
   // State for the arrow button
@@ -1307,11 +1289,12 @@ export const Generator = () => {
       >
         {/* Changes div class to match with font-face css in index.css */}
         <textarea
+          rows={3}
           style={{ color: fontColor.color }}
           wrap="hard"
           className={currentFont.fontClass + " nameOutput"}
           type="text"
-          placeholder="Enter Name!"
+          placeholder={"\n" + "Enter Name!"}
           value={nameOutput}
           onChange={handleNameChange}
         />
@@ -1322,6 +1305,14 @@ export const Generator = () => {
       <Controls open={controlsVisible}>
         <span>
           <span className="menuBox">
+            <span style={{ display: "flex", justifyContent: "space-around" }}>
+              <span className="font-face-blossom customOptions">
+                Front fabric:
+              </span>
+              <span className="font-face-blossom customOptions">
+                Back fabric:
+              </span>
+            </span>
             <span className="topControls">
               <select
                 value={minkyStatic.value}
@@ -1336,7 +1327,6 @@ export const Generator = () => {
                   ></option>
                 ))}
               </select>
-              <p>&</p>
               <select
                 value={minkyCustom.value}
                 onChange={(e) => handleMinkyCustomChange(e)}
@@ -1349,7 +1339,14 @@ export const Generator = () => {
                   ></option>
                 ))}
               </select>
-              <p>with</p>
+            </span>
+            <span style={{ display: "flex", justifyContent: "space-around" }}>
+              <span className="font-face-blossom customOptions">
+                Font Style:
+              </span>
+              <span className="font-face-blossom customOptions">
+                Thread Color:
+              </span>
             </span>
             <span className="bottomControls">
               <select
@@ -1365,7 +1362,6 @@ export const Generator = () => {
                   ></option>
                 ))}
               </select>
-              <p>&</p>
               <select
                 value={fontColor.value}
                 onChange={(e) => handleColorChange(e)}
