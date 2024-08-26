@@ -1294,7 +1294,7 @@ export const Generator = () => {
           placeholder={"\n" + "Enter Name!"}
           value={nameOutput}
           onChange={handleNameChange}
-        />{window.screen.height}
+        />
       </div>
       <MenuToggle onClick={handleControls} open={controlsVisible}>
         {buttonText}
