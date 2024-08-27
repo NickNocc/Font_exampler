@@ -498,8 +498,8 @@ export const Generator = () => {
       location: "url(../fabrics/nineIron.png)",
     },
     {
-      value: "Brown Pony",
-      label: "Brown Pony",
+      value: "Ivory Brown Pony",
+      label: "Ivory Brown Pony",
       location: "url(../fabrics/brownPony.png)",
     },
     {
@@ -753,7 +753,7 @@ export const Generator = () => {
       location: "url(../fabrics/sageDot.png)",
     },
     {
-      value: "Satlwater Dot",
+      value: "Saltwater Dot",
       label: "Saltwater Dot",
       location: "url(../fabrics/saltwaterDot.jpg)",
     },
@@ -1303,9 +1303,21 @@ export const Generator = () => {
       <Controls open={controlsVisible}>
         <span>
           <span className="menuBox">
-            <span style={{ display: "flex", justifyContent: "space-around", textAlign:"left" }}>
-              <span className=" customOptions">Front fabric:</span>
-              <span className="customOptions">Embroiderd side:</span>
+            <span
+              style={{
+                display: "flex",
+                width: "100%",
+                height: "25%",
+                outline: "none",
+                textAlign: "left",
+              }}
+            >
+              <span style={{ width: "50%" }} className="customOptions">
+                Front fabric:
+              </span>
+              <span style={{ width: "50%" }} className="customOptions">
+                Embroidered Side:
+              </span>
             </span>
             <span className="topControls">
               <select
@@ -1334,7 +1346,15 @@ export const Generator = () => {
                 ))}
               </select>
             </span>
-            <span style={{ display: "flex", width: "100%", height:"25%", outline:"none", textAlign:"left" }}>
+            <span
+              style={{
+                display: "flex",
+                width: "100%",
+                height: "25%",
+                outline: "none",
+                textAlign: "left",
+              }}
+            >
               <span style={{ width: "50%" }} className="customOptions">
                 Font Style:
               </span>
