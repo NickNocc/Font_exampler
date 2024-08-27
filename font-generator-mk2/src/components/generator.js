@@ -1275,7 +1275,8 @@ export const Generator = () => {
     <div
       className="split-holder"
       style={{
-        backgroundImage: minkyStatic.location,      }}
+        backgroundImage: minkyStatic.location,
+      }}
     >
       <div className="split-left"></div>
       <div
@@ -1302,13 +1303,9 @@ export const Generator = () => {
       <Controls open={controlsVisible}>
         <span>
           <span className="menuBox">
-            <span style={{ display: "flex", justifyContent: "space-around" }}>
-              <span className="font-face-blossom customOptions">
-                Front fabric:
-              </span>
-              <span className="font-face-blossom customOptions">
-                Back fabric:
-              </span>
+            <span style={{ display: "flex", justifyContent: "space-around", textAlign:"left" }}>
+              <span className=" customOptions">Front fabric:</span>
+              <span className="customOptions">Embroiderd side:</span>
             </span>
             <span className="topControls">
               <select
@@ -1337,11 +1334,11 @@ export const Generator = () => {
                 ))}
               </select>
             </span>
-            <span style={{ display: "flex", justifyContent: "space-around" }}>
-              <span className="font-face-blossom customOptions">
+            <span style={{ display: "flex", width: "100%", height:"25%", outline:"none", textAlign:"left" }}>
+              <span style={{ width: "50%" }} className="customOptions">
                 Font Style:
               </span>
-              <span className="font-face-blossom customOptions">
+              <span style={{ width: "50%" }} className="customOptions">
                 Thread Color:
               </span>
             </span>
