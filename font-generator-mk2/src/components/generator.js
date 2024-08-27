@@ -352,11 +352,11 @@ export const Generator = () => {
       label: "Call of the Wild",
       location: "url(../fabrics/calloftheWild.jpg)",
     },
-    {
-      value: "Latte Checkers",
-      label: "Latte Checkers",
-      location: "url(../fabrics/latteMushroomCheckers.jpg)",
-    },
+    // {
+    //   value: "Latte Checkers",
+    //   label: "Latte Checkers",
+    //   location: "url(../fabrics/latteMushroomCheckers.jpg)",
+    // },
     {
       value: "Christmas Trucks",
       label: "Christmas Trucks",
@@ -1134,7 +1134,7 @@ export const Generator = () => {
   // State for currently selected color
   const [fontColor, setFontColor] = useState(currentColor[10]);
   // State for the static side of the minky blanket
-  const [minkyStatic, setMinkyStatic] = useState(currentMinkyStatic[39]);
+  const [minkyStatic, setMinkyStatic] = useState(currentMinkyStatic[38]);
   // State for cusomizable side of minky blanket
   const [minkyCustom, setMinkyCustom] = useState(currentMinkyCustom[40]);
   // State for visibility of control box
@@ -1288,7 +1288,7 @@ export const Generator = () => {
         {/* Changes div class to match with font-face css in index.css */}
         <textarea
           rows={3}
-          style={{ color: fontColor.color }}
+          style={{ color: fontColor.color  }}
           wrap="hard"
           className={currentFont.fontClass + " nameOutput"}
           type="text"

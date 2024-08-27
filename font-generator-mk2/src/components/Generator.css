@@ -26,7 +26,9 @@ input {
   max-width: 100%;
   height: 100%;
   flex-wrap: wrap;
-  background-size: cover;
+  background-repeat: repeat-y;
+  background-size: 225vw;
+  background-position: center;
 }
 
 .nameOutput {
@@ -51,14 +53,22 @@ textarea {
 textarea:focus {
   outline: none;
 }
+/* 
+@keyframes placeholderColor {
+  0% {
+    --placeholder-text-color: hsl(56, 100%, 79%);
+  }
+  50% {
+    --placeholder-text-color: hsl(56, 100%, 68%);
+  }
+  100% {
+    --placeholder-text-color: hsl(56, 100%, 79%);
+  }
+} */
 
 .split-left {
   /* width: 70%; */
   align-items: center;
-}
-
-::placeholder {
-  color: black;
 }
 
 .split-right {
@@ -102,6 +112,10 @@ textarea:focus {
   font-size: 4vh;
   font-family: Arial, Helvetica, sans-serif;
   padding-left: 2%;
+}
+
+::placeholder {
+  color: white;
 }
 
 select {
