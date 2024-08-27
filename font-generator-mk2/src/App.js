@@ -15,8 +15,6 @@ function App() {
 
   setTimeout(getHeight, 20);
 
-  console.log(window.screen.height);
-
   return (
     <div className="App" style={{ height: windowHeight }}>
       <header className="App-header font-face-Brittany">

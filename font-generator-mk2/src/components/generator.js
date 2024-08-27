@@ -1278,7 +1278,6 @@ export const Generator = () => {
         backgroundImage: minkyStatic.location,
       }}
     >
-      <div className="split-left"></div>
       <div
         className="split-right"
         style={{
@@ -1288,7 +1287,7 @@ export const Generator = () => {
         {/* Changes div class to match with font-face css in index.css */}
         <textarea
           rows={3}
-          style={{ color: fontColor.color  }}
+          style={{ color: fontColor.color }}
           wrap="hard"
           className={currentFont.fontClass + " nameOutput"}
           type="text"
@@ -1296,6 +1295,11 @@ export const Generator = () => {
           value={nameOutput}
           onChange={handleNameChange}
         />
+        <style>
+          {`
+          ::placeholder {
+          color:${fontColor.color}}`}
+        </style>
       </div>
       <MenuToggle onClick={handleControls} open={controlsVisible}>
         {buttonText}

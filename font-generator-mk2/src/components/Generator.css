@@ -114,9 +114,6 @@ textarea:focus {
   padding-left: 2%;
 }
 
-::placeholder {
-  color: white;
-}
 
 select {
   font-size: 3vh;
