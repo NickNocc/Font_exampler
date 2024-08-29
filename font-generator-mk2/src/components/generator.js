@@ -1301,27 +1301,18 @@ export const Generator = () => {
           color:${fontColor.color}}`}
         </style>
       </div>
-      <MenuToggle onClick={handleControls} open={controlsVisible}>
+      <MenuToggle
+        onClick={handleControls}
+        open={controlsVisible}
+        className="menuToggler"
+      >
         {buttonText}
       </MenuToggle>
-      <Controls open={controlsVisible}>
-        <span>
+      <Controls open={controlsVisible} className="controlBoxStyle">
+        <span style={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}>
           <span className="menuBox">
-            <span
-              style={{
-                display: "flex",
-                width: "100%",
-                height: "25%",
-                outline: "none",
-                textAlign: "left",
-              }}
-            >
-              <span
-                style={{ width: "50%", caretColor: "transparent" }}
-                className="customOptions"
-              >
-                Front fabric:
-              </span>
+            <span className="menuTopHalf">
+              <span className="customOptions">Front fabric:</span>
               <span
                 style={{ width: "50%", caretColor: "transparent" }}
                 className="customOptions"
@@ -1356,7 +1347,7 @@ export const Generator = () => {
                 ))}
               </select>
             </span>
-            <span
+            <span className="menuBottomHalf"
               style={{
                 display: "flex",
                 width: "100%",
@@ -1365,18 +1356,8 @@ export const Generator = () => {
                 textAlign: "left",
               }}
             >
-              <span
-                style={{ width: "50%", caretColor: "transparent" }}
-                className="customOptions"
-              >
-                Font Style:
-              </span>
-              <span
-                style={{ width: "50%", caretColor: "transparent" }}
-                className="customOptions"
-              >
-                Thread Color:
-              </span>
+              <span className="customOptions">Font Style:</span>
+              <span className="customOptions">Thread Color:</span>
             </span>
             <span className="bottomControls">
               <select
@@ -1420,15 +1401,19 @@ export const Generator = () => {
 };
 
 const Controls = Styled.div`
-  background-color: #e9dedc;
-  position: absolute;
-  height: ${({ open }) => (open ? "0px" : "28vh")};
-  width: 100%;
-  bottom: 0%;
-  visibility: visible;
-  transition: all 500ms ease;
-  z-index: 9;
-  overflow: hidden;
+    display: flex;
+    background-color: #e9dedc;
+    transition: all 500ms ease;
+    z-index: 9;
+    overflow: hidden;
+    width: 50%;
+
+  @media screen and (max-width: 900px) {
+    position: absolute;
+    height: ${({ open }) => (open ? "0px" : "28vh")};
+    width: 100%;
+    bottom: 0%;
+  }
   `;
 
 // Button to toggle controls
