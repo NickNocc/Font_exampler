@@ -1316,10 +1316,16 @@ export const Generator = () => {
                 textAlign: "left",
               }}
             >
-              <span style={{ width: "50%" }} className="customOptions">
+              <span
+                style={{ width: "50%", caretColor: "transparent" }}
+                className="customOptions"
+              >
                 Front fabric:
               </span>
-              <span style={{ width: "50%" }} className="customOptions">
+              <span
+                style={{ width: "50%", caretColor: "transparent" }}
+                className="customOptions"
+              >
                 Embroidered Side:
               </span>
             </span>
@@ -1359,10 +1365,16 @@ export const Generator = () => {
                 textAlign: "left",
               }}
             >
-              <span style={{ width: "50%" }} className="customOptions">
+              <span
+                style={{ width: "50%", caretColor: "transparent" }}
+                className="customOptions"
+              >
                 Font Style:
               </span>
-              <span style={{ width: "50%" }} className="customOptions">
+              <span
+                style={{ width: "50%", caretColor: "transparent" }}
+                className="customOptions"
+              >
                 Thread Color:
               </span>
             </span>
