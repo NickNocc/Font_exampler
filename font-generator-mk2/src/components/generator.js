@@ -950,8 +950,8 @@ export const Generator = () => {
       location: "url(../fabrics/blushHide.jpg)",
     },
     {
-      value: "Cerise Hide",
-      label: "Cerise Hide",
+      value: "Fuschia Hide",
+      label: "Fuschia Hide",
       location: "url(../fabrics/ceriseHide.jpg)",
     },
     {
