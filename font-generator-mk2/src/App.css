@@ -33,7 +33,8 @@
 
 .linkOut {
   font-family: blossom;
-    font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 2vmin);
+  padding-bottom: 0.25%;
 }
 
 @media screen and (max-width: 900px) { 

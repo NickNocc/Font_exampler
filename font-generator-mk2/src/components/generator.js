@@ -1309,7 +1309,9 @@ export const Generator = () => {
         {buttonText}
       </MenuToggle>
       <Controls open={controlsVisible} className="controlBoxStyle">
-        <span style={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}>
+        <span
+          style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", justifyContent: "space-around" }}
+        >
           <span className="menuBox">
             <span className="menuTopHalf">
               <span className="customOptions">Front fabric:</span>
@@ -1347,15 +1349,7 @@ export const Generator = () => {
                 ))}
               </select>
             </span>
-            <span className="menuBottomHalf"
-              style={{
-                display: "flex",
-                width: "100%",
-                height: "25%",
-                outline: "none",
-                textAlign: "left",
-              }}
-            >
+            <span className="menuBottomHalf">
               <span className="customOptions">Font Style:</span>
               <span className="customOptions">Thread Color:</span>
             </span>
