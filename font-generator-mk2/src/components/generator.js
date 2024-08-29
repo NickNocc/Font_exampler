@@ -7,7 +7,7 @@ export const Generator = () => {
   const fontList = [
     //  {
     //    fontName: "X",     Name Listed
-    //    fontClass: "X-X",  Connects to the font's css class
+    //    fontClass: "X-X",  Connects to the font's css className
     //    value: "X",        Im not sure honestly lmao
     //    label: "X"         The label in the list
     //  },
@@ -425,7 +425,7 @@ export const Generator = () => {
     {
       value: "Lilac Glacier",
       label: "Lilac Glacier",
-      location: "url(../fabrics/lavenderGlacier.jpg)",
+      location: "url(../fabrics/lilacGlacier.jpg)",
     },
     {
       value: "Navy Glacier",
@@ -1145,7 +1145,7 @@ export const Generator = () => {
       xmlns="http://www.w3.org/2000/svg"
       width="30"
       height="30"
-      class="bi bi-caret-down-fill"
+      className="bi bi-caret-down-fill"
       fill="currentColor"
       viewBox="0 0 16 16"
     >
@@ -1242,7 +1242,7 @@ export const Generator = () => {
             xmlns="http://www.w3.org/2000/svg"
             width="30"
             height="30"
-            class="bi bi-caret-down-fill"
+            className="bi bi-caret-down-fill"
             fill="currentColor"
             viewBox="0 0 16 16"
           >
@@ -1260,7 +1260,7 @@ export const Generator = () => {
             width="30"
             height="30"
             fill="currentColor"
-            class="bi bi-caret-up-fill"
+            className="bi bi-caret-up-fill"
             viewBox="0 0 16 16"
           >
             <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z" />
@@ -1284,7 +1284,7 @@ export const Generator = () => {
           backgroundImage: minkyCustom.location,
         }}
       >
-        {/* Changes div class to match with font-face css in index.css */}
+        {/* Changes div className to match with font-face css in index.css */}
         <textarea
           rows={3}
           style={{ color: fontColor.color }}
@@ -1394,15 +1394,6 @@ export const Generator = () => {
                 ))}
               </select>
             </span>
-            {/* <span className="nameControls">
-              <p className="withPadding">For:</p>
-              <input
-                className="font-face-blossom"
-                type="text"
-                placeholder="Enter Name!"
-                onChange={handleNameChange}
-              />
-            </span> */}
             <div className="disclaimer">
               {" "}
               * Please note: Sizing and setup of letters is approximate. Color
