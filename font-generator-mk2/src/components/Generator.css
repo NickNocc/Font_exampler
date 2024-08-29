@@ -20,7 +20,7 @@ input {
 .nameOutput {
   align-self: center;
   height: fit-content;
-  max-width: 80%;
+  /* max-width: 80%; */
   font-size: calc(65px + 4vmin);
   word-break: break-word;
   justify-content: center;
@@ -29,10 +29,6 @@ input {
   text-align-last: center;
   text-overflow: clip;
   white-space: pre-wrap;
-}
-
-.menuBox {
-  justify-content: space-evenly;
 }
 
 textarea {
@@ -73,9 +69,12 @@ textarea:focus {
   padding-left: 3%;
   padding-top: 10%;
   max-height: fit-content;
+  padding-right: 1%;
 }
 
 .menuBottomHalf {
+  padding-right: 1%;
+
   display: flex;
   width: 50vw;
   height: 10%;
@@ -89,10 +88,11 @@ textarea:focus {
 .customOptions {
   padding-left: 3%;
   justify-content: space-between;
-  font-size: calc(20px + 2vmin);
+  font-size: calc(20px + 1.75vmin);
   height: fit-content;
   width: 50%;
   caret-color: transparent;
+  word-wrap: normal;
 }
 
 select {
@@ -160,9 +160,12 @@ option {
     height: 100%;
     flex-wrap: wrap;
     background-repeat: repeat-y;
-    background-size: 225vw;
+    background-size: 225vw 100vh;
     background-position: center;
+    background-attachment: fixed;
+    background-clip: border-box;
   }
+
   .menuBox {
     display: flex;
     text-wrap: wrap;
@@ -171,11 +174,11 @@ option {
     flex-direction: column;
     font-size: 4vh;
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 2%;
+    padding-left: 2.5%;
   }
 
   select {
-    font-size: 3vh;
+    font-size: calc(15px + 2vmin);
     font-weight: 600;
     color: white;
     animation-name: changeColor;
@@ -188,7 +191,6 @@ option {
     border: none;
     background-color: transparent;
     right: auto;
-    padding: 13px 45px 15px 0px;
     direction: ltr;
     appearance: none;
     text-wrap: wrap;
@@ -201,15 +203,22 @@ option {
   .menuTopHalf {
     display: flex;
     width: 100%;
-    height: 25%;
+    height: fit-content;
     outline: none;
     padding-top: 0%;
+    padding-left: 0%;
     text-align: left;
+
   }
 
   .menuBottomHalf {
     width: 100%;
-    padding-top: 5%;
+    padding-top: 2%;
+    padding-left: 0%;
+  }
+
+  .customOptions {
+    padding-left: 0%;
   }
 
   .split-right {
@@ -223,12 +232,13 @@ option {
     padding-top: 1%;
     display: flex;
     width: 100%;
-    height: 50%;
+    height: fit-content;
     justify-content: space-between;
-    max-height: 70px;
+    max-height: fit-content;
   }
 
   .bottomControls {
+    padding-top: 1%;
     display: flex;
     width: 100%;
     height: 50%;
@@ -239,7 +249,7 @@ option {
   .customOptions {
     padding-top: 1%;
     justify-content: space-between;
-    font-size: calc(10px + 2vmin);
+    font-size: calc(15px + 1vmin);
   }
 
   .split-left {
@@ -260,9 +270,11 @@ option {
   .disclaimer {
     height: min-content;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: calc(6px + 1.75vmin);
-    align-self: flex-end;
+    font-size: calc(6px + 1.5vmin);
     position: relative;
     padding-left: 0.25%;
+  }
+  .menuToggler {
+    display: block;
   }
 }
