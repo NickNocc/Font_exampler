@@ -54,6 +54,7 @@ textarea:focus {
   height: 40%;
   display: flex;
   justify-content: center;
+  background-size: cover;
 }
 
 .menuToggler {
