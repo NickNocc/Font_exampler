@@ -1291,7 +1291,7 @@ export const Generator = () => {
           wrap="hard"
           className={currentFont.fontClass + " nameOutput"}
           type="text"
-          placeholder={"\n" + "Enter Name!"}
+          placeholder={"\n" + "Enter Name Here!"}
           value={nameOutput}
           onChange={handleNameChange}
         />

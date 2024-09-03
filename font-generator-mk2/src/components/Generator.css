@@ -34,6 +34,7 @@ input {
 textarea {
   border: none;
   caret-color: transparent;
+  resize: none;
 }
 
 textarea:focus {
@@ -46,7 +47,7 @@ textarea:focus {
   flex-direction: row;
   background-attachment: fixed;
   background-clip: border-box;
-  background-size: 100vh;
+  background-size: 108vh;
 }
 
 .split-right {
@@ -68,7 +69,7 @@ textarea:focus {
   outline: none;
   text-align: left;
   padding-left: 3%;
-  padding-top: 10%;
+  padding-top: 7%;
   max-height: fit-content;
   padding-right: 1%;
 }
@@ -116,10 +117,15 @@ select {
   font-family: Arial;
   padding-top: 2%;
   text-align: left;
+  caret-color: transparent;
 }
 
 select:focus {
   outline: none;
+}
+
+.menuBox {
+  justify-content: space-evenly;
 }
 
 @keyframes changeColor {
