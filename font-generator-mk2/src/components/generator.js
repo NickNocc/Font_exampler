@@ -1287,18 +1287,20 @@ export const Generator = () => {
         {/* Changes div className to match with font-face css in index.css */}
         <textarea
           rows={3}
-          style={{ color: fontColor.color }}
+          style={{ color: fontColor.color, overflow: "hidden" }}
           wrap="hard"
           className={currentFont.fontClass + " nameOutput"}
           type="text"
           placeholder={"\n" + "Enter Name Here!"}
           value={nameOutput}
           onChange={handleNameChange}
+          maxLength={40}
         />
         <style>
           {`
           ::placeholder {
-          color:${fontColor.color}}`}
+          color:${fontColor.color}
+          }`}
         </style>
       </div>
       <MenuToggle
@@ -1310,11 +1312,16 @@ export const Generator = () => {
       </MenuToggle>
       <Controls open={controlsVisible} className="controlBoxStyle">
         <span
-          style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", justifyContent: "space-around" }}
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            flexWrap: "wrap",
+            justifyContent: "space-around",
+          }}
         >
           <span className="menuBox">
             <span className="menuTopHalf">
-              <span className="customOptions">Front fabric:</span>
+              <span className="customOptions">Front Fabric:</span>
               <span
                 style={{ width: "50%", caretColor: "transparent" }}
                 className="customOptions"
@@ -1383,7 +1390,7 @@ export const Generator = () => {
             </span>
             <div className="disclaimer">
               {" "}
-              * Please note: Sizing and setup of letters is approximate. Color
+              * Please note: Sizing and setup of letters is approximate. Colors
               may depend on device. If you have any questions please feel free
               to contact us at shop@boosblankets.com
             </div>

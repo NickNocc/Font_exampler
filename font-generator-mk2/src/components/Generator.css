@@ -1,3 +1,10 @@
+:root {
+  --select: #8E4162;
+  --selectGlow: #5B7553;
+  /* #FFF45C */
+  --mainBackground: #e8dedc;
+}
+
 input {
   border: none;
   background-color: transparent;
@@ -21,7 +28,7 @@ input {
   align-self: center;
   height: fit-content;
   /* max-width: 80%; */
-  font-size: calc(65px + 4vmin);
+  font-size: calc(55px + 4vmin);
   word-break: break-word;
   justify-content: center;
   background-color: transparent;
@@ -95,12 +102,12 @@ textarea:focus {
   width: 50%;
   caret-color: transparent;
   word-wrap: normal;
-}
+ }
 
 select {
   font-size: calc(27px + 2vmin);
   font-weight: 600;
-  color: white;
+  color: var(--select);
   animation-name: changeColor;
   animation-delay: 150ms;
   animation-duration: 4s;
@@ -118,6 +125,9 @@ select {
   padding-top: 2%;
   text-align: left;
   caret-color: transparent;
+  /* text-shadow: 0 0 3px black, 0 0 3px black;
+   -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black; */
 }
 
 select:focus {
@@ -131,15 +141,15 @@ select:focus {
 @keyframes changeColor {
   from {
     /* color: #003849; */
-    color: white;
+    color: var(--select);
   }
   50% {
     /* color: #008cb7; */
-    color: hsl(56, 100%, 68%);
+    color: var(--selectGlow);
   }
   to {
     /* color: #00222d; */
-    color: white;
+    color: var(--select);
   }
 }
 
@@ -158,6 +168,10 @@ svg {
 option {
   background-color: #e8dedc;
   text-align: left;
+}
+
+textarea::-moz-placeholder {
+  opacity: 100%;
 }
 
 @media screen and (max-width: 900px) {
@@ -215,7 +229,6 @@ option {
     padding-top: 0%;
     padding-left: 0%;
     text-align: left;
-
   }
 
   .menuBottomHalf {
