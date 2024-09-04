@@ -66,6 +66,12 @@ export const Generator = () => {
       label: "BohoFlowers",
     },
     {
+      fontName: "Brooklyn",
+      fontClass: "font-face-Brooklyn",
+      value: "Brooklyn",
+      label: "Brooklyn",
+    },
+    {
       fontName: "Chakra",
       fontClass: "font-face-Chakra",
       value: "Chakra",
@@ -106,6 +112,12 @@ export const Generator = () => {
       fontClass: "font-face-Eduarda",
       value: "Eduarda",
       label: "Eduarda",
+    },
+    {
+      fontName: "Farmhouse",
+      fontClass: "font-face-Farmhouse",
+      value: "Farmhouse",
+      label: "Farmhouse",
     },
     {
       fontName: "Ghisella",
@@ -160,6 +172,12 @@ export const Generator = () => {
       fontClass: "font-face-Violetta",
       value: "Violetta",
       label: "Violetta",
+    },
+    {
+      fontName: "Wonderful",
+      fontClass: "font-face-Wonderful",
+      value: "Wonderful",
+      label: "Wonderful",
     },
   ];
   // List of colors thread loaded onto the site
