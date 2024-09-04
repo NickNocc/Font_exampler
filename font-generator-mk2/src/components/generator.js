@@ -1147,7 +1147,7 @@ export const Generator = () => {
   const [nameOutput, setNameOutput] = useState("");
 
   // State for currently selected font
-  const [currentFont, setCurrentFont] = useState(fontList[21]);
+  const [currentFont, setCurrentFont] = useState(fontList[23]);
 
   // State for currently selected color
   const [fontColor, setFontColor] = useState(currentColor[10]);
