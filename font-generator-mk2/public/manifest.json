@@ -1,15 +1,30 @@
 {
   "short_name": "Boo's Fonts",
+  "start_url": "/",
   "name": "BoosBlankets-version_01",
   "icons": [
     {
-      "src": "Baby-boos-logo.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "Baby-boos-logo.png",
+      "sizes": "160x160",
+      "type": "image/x-icon",
+      "purpose": "any"
     }
   ],
   "display": "standalone",
+  "offline_enabled": "true",
   "theme_color": "#000000",
   "description": "An app that allows users to sample their blanket designs before ordering with Baby Boos.",
+  "screenshots": [{
+    "src": "desktopScreenshot.png",
+    "type": "image/png",
+    "sizes": "1911x903",
+    "form_factor": "wide"
+  },{
+    "src": "mobileScreenshot.png",
+    "type": "image/png",
+    "sizes": "377x820",
+    "form_factor": "narrow"
+  }
+],
   "background_color": "#ffffff"
 }
