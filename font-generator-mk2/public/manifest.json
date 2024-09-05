@@ -20,5 +20,6 @@
   ],
   "display": "standalone",
   "theme_color": "#000000",
+  "description": "An app that allows users to sample their blanket designs before ordering with Baby Boos.",
   "background_color": "#ffffff"
 }
