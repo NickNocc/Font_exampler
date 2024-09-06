@@ -41,7 +41,6 @@
 .linkOut {
   font-family: blossom;
     color: var(--select);
-
   font-size: calc(10px + 2vmin);
   padding-bottom: 0.25%;
 }

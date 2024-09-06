@@ -192,6 +192,8 @@ textarea::-moz-placeholder {
     font-size: 4vh;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 2.5%;
+    border: none;
+    
   }
 
   select {
@@ -293,5 +295,9 @@ textarea::-moz-placeholder {
   }
   .menuToggler {
     display: block;
+  }
+
+  option {
+    background-color: var(--secondaryColor7);
   }
 }

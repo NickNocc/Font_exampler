@@ -1426,8 +1426,6 @@ const Controls = Styled.div`
     z-index: 9;
     overflow: hidden;
     width: 50%;
-    border: 2px solid #41424C;
-
   @media screen and (max-width: 900px) {
     position: absolute;
     height: ${({ open }) => (open ? "0px" : "28vh")};
@@ -1442,7 +1440,6 @@ const MenuToggle = Styled.div`
   height: 5%;
   width: 11%;
   position: absolute;
-  border: 20px, green;
   bottom: ${({ open }) => (open ? ".05px" : "28vh")};
   right: 5vw;
   transition: all 500ms ease;
