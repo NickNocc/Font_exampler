@@ -1426,6 +1426,7 @@ const Controls = Styled.div`
     z-index: 9;
     overflow: hidden;
     width: 50%;
+    border: 2px solid #41424C;
 
   @media screen and (max-width: 900px) {
     position: absolute;
@@ -1437,7 +1438,7 @@ const Controls = Styled.div`
 
 // Button to toggle controls
 const MenuToggle = Styled.div`
-  background-color: #e9dedc;
+  background-color: Ivory;
   height: 5%;
   width: 11%;
   position: absolute;

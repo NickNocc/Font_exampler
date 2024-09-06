@@ -1,6 +1,13 @@
+:root {
+  --select: #41424C;
+  --selectGlow: #b4aa15;
+  --mainBackground: #e8dedc;
+  --secondaryColor: Ivory;
+  --testGlow: #CC76A1;
+}
+
 .App {
   text-align: center;
-  background-color: white;
   width: 100vw;
   overflow: hidden;
 }
@@ -11,14 +18,14 @@
 }
 
 .App-header {
-  background-color: #E9DEDC;
+  background-color: var(--mainBackground);
   min-height: 15vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   font-size: calc(20px + 4vmin);
-  color: black;
+  color: var(--select);
   padding-top: 1%;
   caret-color: transparent;
 }
@@ -33,6 +40,8 @@
 
 .linkOut {
   font-family: blossom;
+    color: var(--select);
+
   font-size: calc(10px + 2vmin);
   padding-bottom: 0.25%;
 }
