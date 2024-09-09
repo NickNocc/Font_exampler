@@ -1,9 +1,8 @@
 :root {
   --select: #41424C;
-  --selectGlow: #b4aa15;
+  --selectGlow: #7d7a7a;
   --mainBackground: #e8dedc;
   --secondaryColor: Ivory;
-  --testGlow: #CC76A1;
 }
 
 .App {

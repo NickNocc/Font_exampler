@@ -1351,7 +1351,6 @@ export const Generator = () => {
               <select
                 value={minkyStatic.value}
                 onChange={(e) => handleMinkyStaticChange(e)}
-                className="rainbow_text_animated"
               >
                 {currentMinkyStatic.map((minkBack, i) => (
                   <option
@@ -1365,7 +1364,6 @@ export const Generator = () => {
               <select
                 value={minkyCustom.value}
                 onChange={(e) => handleMinkyCustomChange(e)}
-                className="rainbow_text_animated"
               >
                 {currentMinkyCustom.map((minkFront, i) => (
                   <option
@@ -1384,7 +1382,6 @@ export const Generator = () => {
               <select
                 value={currentFont.value}
                 onChange={(e) => handleFontChange(e)}
-                className="rainbow_text_animated"
               >
                 {fontList.map((font, i) => (
                   <option
@@ -1398,7 +1395,6 @@ export const Generator = () => {
               <select
                 value={fontColor.value}
                 onChange={(e) => handleColorChange(e)}
-                className="rainbow_text_animated"
               >
                 {currentColor.map((hue, i) => (
                   <option
