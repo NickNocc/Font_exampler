@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "./static/css/main.a7655ec9.css",
-    "main.js": "./static/js/main.14d2f145.js",
+    "main.css": "./static/css/main.eb74b25c.css",
+    "main.js": "./static/js/main.855656a5.js",
     "static/js/453.f582e2b8.chunk.js": "./static/js/453.f582e2b8.chunk.js",
     "static/media/Chakra.ttf": "./static/media/Chakra.452025db44dcd89e65cc.ttf",
     "static/media/AmazinglyBeautifulRegular.ttf": "./static/media/AmazinglyBeautifulRegular.89190ca088dbc1762a2b.ttf",
     "static/media/Ghisella.ttf": "./static/media/Ghisella.a8699065d99e1ae5413b.ttf",
     "static/media/BohoFlowers.otf": "./static/media/BohoFlowers.89dd9ed91dbd1d63b1cf.otf",
+    "static/media/Wonderful.otf": "./static/media/Wonderful.f4e5a85e91d051899f92.otf",
     "static/media/blossom.ttf": "./static/media/blossom.13a024714de53cbabbd4.ttf",
     "static/media/Cookie.ttf": "./static/media/Cookie.f7a638e09e95aca4ac87.ttf",
     "static/media/Sweetheart.ttf": "./static/media/Sweetheart.3b0b08bb48a0cfea3c72.ttf",
@@ -15,6 +16,7 @@
     "static/media/Autery.ttf": "./static/media/Autery.100a0c0dfed7457b847c.ttf",
     "static/media/Tatertot.ttf": "./static/media/Tatertot.cd029edc7a96c22a8915.ttf",
     "static/media/BrittanySignature.ttf": "./static/media/BrittanySignature.0d8ad040c68381fe6600.ttf",
+    "static/media/Brooklyn.ttf": "./static/media/Brooklyn.ba597d9e27a26a9f80c3.ttf",
     "static/media/aurora.ttf": "./static/media/aurora.3df9630f0df6f38e8ad7.ttf",
     "static/media/Andrea.ttf": "./static/media/Andrea.f8483af439ce44e1b0d6.ttf",
     "static/media/Babypoint.ttf": "./static/media/Babypoint.802dadb1860eb71dffe9.ttf",
@@ -24,18 +26,19 @@
     "static/media/Layla.ttf": "./static/media/Layla.72d29ad231d10db4e8d2.ttf",
     "static/media/Eduarda.ttf": "./static/media/Eduarda.1bdc8681f168781b5f54.ttf",
     "static/media/Lively.ttf": "./static/media/Lively.199e50f38c3a361f6bf1.ttf",
+    "static/media/Farmhouse.ttf": "./static/media/Farmhouse.ac6b6356e7c17a121eab.ttf",
     "static/media/Chalk.ttf": "./static/media/Chalk.43dd0dc5b90871afccfd.ttf",
     "static/media/Hancock.ttf": "./static/media/Hancock.a45d007426704f2e284a.ttf",
     "static/media/Bakedfresh.ttf": "./static/media/Bakedfresh.0e1b23495bf48e145fe0.ttf",
     "static/media/Clocks.ttf": "./static/media/Clocks.d5221a072eda862daee6.ttf",
     "static/media/classico.ttf": "./static/media/classico.254d4a5c26a94573a704.ttf",
     "index.html": "./index.html",
-    "main.a7655ec9.css.map": "./static/css/main.a7655ec9.css.map",
-    "main.14d2f145.js.map": "./static/js/main.14d2f145.js.map",
+    "main.eb74b25c.css.map": "./static/css/main.eb74b25c.css.map",
+    "main.855656a5.js.map": "./static/js/main.855656a5.js.map",
     "453.f582e2b8.chunk.js.map": "./static/js/453.f582e2b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7655ec9.css",
-    "static/js/main.14d2f145.js"
+    "static/css/main.eb74b25c.css",
+    "static/js/main.855656a5.js"
   ]
 }
