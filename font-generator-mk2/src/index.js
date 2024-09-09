@@ -12,12 +12,14 @@ import "./fonts/Babypoint.ttf";
 import "./fonts/Bakedfresh.ttf";
 import "./fonts/blossom.ttf";
 import "./fonts/BohoFlowers.otf";
+import "./fonts/Brooklyn.ttf"
 import "./fonts/Chakra.ttf";
 import "./fonts/classico.ttf";
 import "./fonts/Clocks.ttf";
 import "./fonts/Cookie.ttf";
 import "./fonts/Doodle.ttf";
-import "./fonts/Eduarda.ttf"
+import "./fonts/Eduarda.ttf";
+import "./fonts/Farmhouse.ttf";
 import "./fonts/Ghisella.ttf";
 import "./fonts/Hancock.ttf";
 import "./fonts/Harpsichord.ttf";
@@ -27,6 +29,7 @@ import "./fonts/Lively.ttf";
 import "./fonts/Sweetheart.ttf";
 import "./fonts/Tatertot.ttf";
 import "./fonts/Violetta.ttf";
+import "./fonts/Wonderful.otf";
 
 
 

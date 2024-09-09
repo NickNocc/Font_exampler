@@ -64,6 +64,11 @@ code {
   src: local("BohoFlowers"), url("./fonts/BohoFlowers.otf") format("opentype");
 }
 
+	@font-face {
+  font-family: "Brooklyn";
+  src: local("Brooklyn"), url("./fonts/Brooklyn.ttf") format("truetype");
+}
+
 @font-face {
   font-family: "Chakra";
   src: local("Chakra"), url("./fonts/Chakra.ttf") format("truetype");
@@ -97,6 +102,11 @@ code {
 @font-face {
   font-family: "Eduarda";
   src: local("Eduarda"), url("./fonts/Eduarda.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Farmhouse";
+  src: local("Farmhouse"), url("./fonts/Farmhouse.ttf") format("truetype");
 }
 
 @font-face {
@@ -144,6 +154,11 @@ code {
   src: local("Violetta"), url("./fonts/Violetta.ttf") format("truetype");
 }
 
+	@font-face {
+  font-family: "Wonderful";
+  src: local("Wonderful"), url("./fonts/Wonderful.otf") format("opentype");
+}	
+
 /* Classes used by different conponents to change font */
 
 .font-face-Almondbutter {
@@ -186,6 +201,10 @@ code {
   font-family: "Brittany";
 }
 
+	.font-face-Brooklyn {
+  font-family: "Brooklyn";
+}
+
 .font-face-classico {
   font-family: "classico";
 }
@@ -212,6 +231,10 @@ code {
 
 .font-face-Eduarda {
   font-family: "Eduarda";
+}
+
+.font-face-Farmhouse {
+  font-family: "Farmhouse";
 }
 
 .font-face-Ghisella {
@@ -248,4 +271,8 @@ code {
 
 .font-face-Violetta {
   font-family: "Violetta";
+}
+
+.font-face-Wonderful {
+  font-family: "Wonderful";
 }

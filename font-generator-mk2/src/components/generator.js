@@ -66,6 +66,12 @@ export const Generator = () => {
       label: "BohoFlowers",
     },
     {
+      fontName: "Brooklyn",
+      fontClass: "font-face-Brooklyn",
+      value: "Brooklyn",
+      label: "Brooklyn",
+    },
+    {
       fontName: "Chakra",
       fontClass: "font-face-Chakra",
       value: "Chakra",
@@ -106,6 +112,12 @@ export const Generator = () => {
       fontClass: "font-face-Eduarda",
       value: "Eduarda",
       label: "Eduarda",
+    },
+    {
+      fontName: "Farmhouse",
+      fontClass: "font-face-Farmhouse",
+      value: "Farmhouse",
+      label: "Farmhouse",
     },
     {
       fontName: "Ghisella",
@@ -161,6 +173,12 @@ export const Generator = () => {
       value: "Violetta",
       label: "Violetta",
     },
+    {
+      fontName: "Wonderful",
+      fontClass: "font-face-Wonderful",
+      value: "Wonderful",
+      label: "Wonderful",
+    },
   ];
 
   // Default value for nameOutput
@@ -191,7 +209,6 @@ export const Generator = () => {
     setCf(currentFont[fontIndex]);
   };
 
-
   // Changes nameOutput to inputed value
   const handleNameChange = (event) => {
     let newText = event.target.value;
@@ -204,7 +221,6 @@ export const Generator = () => {
     console.log("First Regex: " + globalText);
 
     setNameOutput(globalText);
-
   };
 
   return (
