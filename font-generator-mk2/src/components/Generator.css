@@ -33,7 +33,6 @@ input {
 
 textarea {
   border: none;
-  caret-color: transparent;
   resize: none;
 }
 
@@ -41,6 +40,24 @@ textarea:focus {
   outline: none;
 }
 
+.rainbow_text_animated {
+    background: linear-gradient(to right, var(--select), var(--select), var(--select), #6666ff, #0099ff , #00ff00, #ff3399, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation ease-in-out 10s 3;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+  }
 .split-holder {
   display: flex;
   height: 100%;
@@ -101,10 +118,10 @@ select {
   font-size: calc(27px + 2vmin);
   font-weight: 600;
   color: var(--select);
-  animation-name: changeColor;
+  /* animation-name: changeColor;
   animation-delay: 150ms;
   animation-duration: 4s;
-  animation-iteration-count: 5;
+  animation-iteration-count: 5; */
   padding-left: 6%;
   width: 50%;
   height: max-content;
@@ -200,10 +217,10 @@ textarea::-moz-placeholder {
     font-size: calc(15px + 2vmin);
     font-weight: 600;
     color: var(--select);
-    animation-name: changeColor;
+    /* animation-name: changeColor;
     animation-delay: 150ms;
     animation-duration: 4s;
-    animation-iteration-count: 5;
+    animation-iteration-count: 5; */
     overflow: hidden;
     width: 50%;
     height: max-content;
