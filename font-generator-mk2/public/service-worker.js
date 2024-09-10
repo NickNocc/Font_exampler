@@ -3,11 +3,18 @@ const VERSION = "version_01";
 const CACHE_NAME = APP_PREFIX + VERSION;
 
  const FILES_TO_CACHE = [
+  "/font-generator",
    "./Baby-boos-logo.png",
    "./desktopScreenshot.png",
    "./mobileScreenshot.png",
    "./index.html",
    "./manifest.json",
+   "../src/components/Generator.css",
+   "../src/components/Generator.js",
+   "../src/App.css",
+   "../src/App.js",
+   "../src/index.css",
+   "../src/index.js",
    "./fabrics/basilGlacier.jpg",
    "./fabrics/safariBabies.jpg",
    "./fabrics/alloyGlacier.jpg",
@@ -178,12 +185,6 @@ const CACHE_NAME = APP_PREFIX + VERSION;
    "../src/fonts/Violetta.ttf",
    "../src/fonts/Wonderful.ttf",
    "../src/fonts/BrittanySignature.ttf",
-   "../src/components/Generator.css",
-   "../src/components/Generator.js",
-   "../src/App.css",
-   "../src/App.js",
-   "../src/index.css",
-   "../src/index.js",
  ];
 
 self.addEventListener("install", function (e) {
