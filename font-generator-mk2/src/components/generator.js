@@ -1351,6 +1351,7 @@ export const Generator = () => {
               <select
                 value={minkyStatic.value}
                 onChange={(e) => handleMinkyStaticChange(e)}
+                aria-label="Choose a fabric for your blanket's front side!"
               >
                 {currentMinkyStatic.map((minkBack, i) => (
                   <option
@@ -1364,6 +1365,7 @@ export const Generator = () => {
               <select
                 value={minkyCustom.value}
                 onChange={(e) => handleMinkyCustomChange(e)}
+                aria-label="Choose a fabric for your blanket's customizable side!"
               >
                 {currentMinkyCustom.map((minkFront, i) => (
                   <option
@@ -1382,6 +1384,7 @@ export const Generator = () => {
               <select
                 value={currentFont.value}
                 onChange={(e) => handleFontChange(e)}
+                aria-label="Choose a font for your blanket's embroidery!"
               >
                 {fontList.map((font, i) => (
                   <option
@@ -1395,6 +1398,7 @@ export const Generator = () => {
               <select
                 value={fontColor.value}
                 onChange={(e) => handleColorChange(e)}
+                aria-label="Choose a color for your blanket's thread color!"
               >
                 {currentColor.map((hue, i) => (
                   <option

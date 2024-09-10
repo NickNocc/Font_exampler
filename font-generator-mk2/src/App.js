@@ -25,6 +25,7 @@ function App() {
             href="https://www.instagram.com/babyboosdesigns/"
             target="_blank"
             rel="noreferrer"
+            aria-label="Share your blanket designs with us on instagram!"
           >
             <span width={16} height={15} fill="none">
               <svg
