@@ -3,7 +3,9 @@ const VERSION = "version_02";
 const CACHE_NAME = APP_PREFIX + VERSION;
 
 const FILES_TO_CACHE = [
-  "./static/js/bundle.js",
+  "./static/js/*",
+  "./static/media/*",
+  "./static/css/*",
   "/font-generator-mk2",
   "./Baby-boos-logo.png",
   "./desktopScreenshot.png",
