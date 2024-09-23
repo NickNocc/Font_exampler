@@ -376,6 +376,31 @@ export const Generator = () => {
       location: "url(../fabrics/fairytaleBlush.jpg)",
     },
     {
+      value: "Baby Calf Woodland",
+      label: "Baby Calf Woodland",
+      location: "url(../fabrics/babyCalfWoodland.jpg)",
+    },
+    {
+      value: "Bessie Calf",
+      label: "Bessie Calf",
+      location: "url(../fabrics/bessieCalf)",
+    },
+    {
+      value: "Brownie Calf",
+      label: "Brownie Calf",
+      location: "url(../fabrics/brownieCalf.jpg)",
+    },
+    {
+      value: "Clararose Calf",
+      label: "Clararose Calf",
+      location: "url(../fabrics/clararoseCalf.jpg)",
+    },
+    {
+      value: "Beige Fawn",
+      label: "Beige Fawn",
+      location: "url(../fabrics/beige)"
+    },
+    {
       value: "Brown Fawn",
       label: "Brown Fawn",
       location: "url(../fabrics/fawnMinky.jpg)",
@@ -399,6 +424,11 @@ export const Generator = () => {
       value: "Hunter Galaxy",
       label: "Hunter Galaxy",
       location: "url(../fabrics/hunterGalaxy.jpg)",
+    },
+    {
+      value: "Basil Glacier",
+      label: "Basil Glacier",
+      location: "url(../fabrics/basilGlacier.jpg)",
     },
     {
       value: "Evergreen Glacier",
@@ -431,6 +461,11 @@ export const Generator = () => {
       location: "url(../fabrics/woodroseGlacier.jpg)",
     },
     {
+      value: "Elderberry Hide",
+      label: "Elderberry Hide",
+      location: "url(../fabrics/elderberryHide.jpg)",
+    },
+    {
       value: "Ice Pink Glacier",
       label: "Ice Pink Glacier",
       location: "url(../fabrics/icePinkGlacier.jpg)",
@@ -454,6 +489,11 @@ export const Generator = () => {
       value: "Leopard Blush",
       label: "Leopard Blush",
       location: "url(../fabrics/leopardBlush.jpg)",
+    },
+    {
+      value: "Foxxy Rust",
+      label: "Foxxy Rust",
+      location: "url(../fabrics/foxxyRust.jpg)",
     },
     {
       value: "Leopard Sand",
@@ -486,6 +526,16 @@ export const Generator = () => {
       location: "url(../fabrics/nineIron.jpg)",
     },
     {
+      value: "Gray Plaid",
+      label: "Gray Plaid",
+      location: "url(../fabrics/grayPlaid.jpg)",
+    },
+    {
+      value: "Biscotti Ocelot",
+      label: "Biscotti Ocelot",
+      location: "url(../fabrics/biscottiOcelot.jpg)",
+    },
+    {
       value: "Ivory Brown Pony",
       label: "Ivory Brown Pony",
       location: "url(../fabrics/brownPony.jpg)",
@@ -506,6 +556,11 @@ export const Generator = () => {
       location: "url(../fabrics/teddyQuartz.jpg)",
     },
     {
+      value: "Artichoke Wild Rabbit",
+      label: "Artichoke Wild Rabbit",
+      location: "url(../wildRabbitArtichoke.jpg)",
+    },
+    {
       value: "Driftwood Rabbit",
       label: "Driftwood Rabbit",
       location: "url(../fabrics/driftwoodRabbit.jpg)",
@@ -516,9 +571,29 @@ export const Generator = () => {
       location: "url(../fabrics/sandshellRabbit.jpg)",
     },
     {
+      value: "Silver Lining Wild Rabbit",
+      lavel: "Silver Lining Wild Rabbit",
+      location: "url(../fabrics/wildRabbitSilverLining.jpg)",
+    },
+    {
+      value: "Walnut Wild Rabbit",
+      label: "Walnut Wild Rabbit",
+      locaiton: "url(../fabrics/wildRabbitWalnut.jpg)",
+    },
+    {
+      value: "Sweet Darlings",
+      label: "Sweet Darlings",
+      location: "url(../fabrics/sweetDarlings.jpg)",
+    },
+    {
       value: "Rite of Spring",
       label: "Rite of Spring",
       location: "url(../fabrics/riteofSpring.jpg)",
+    },
+    {
+      value: "Once upon a time",
+      label: "Once upon a time",
+      location: "url(../fabrics/oneuponatime.jpg)",
     },
     {
       value: "Safari Babies",
@@ -529,6 +604,11 @@ export const Generator = () => {
       value: "Safari Dreams",
       label: "Safari Dreams",
       location: "url(../fabrics/safariDreamsBlue.jpg)",
+    },
+    {
+      value: "Sydney Natural",
+      label: "Sydney Natural",
+      location: "url(../fabrics/sydneyNatural.jpg)",
     },
     {
       value: "Natural Snow Owl",
@@ -554,6 +634,16 @@ export const Generator = () => {
       value: "Vienna Crystal",
       label: "Vienna Crystal",
       location: "url(../fabrics/viennaCrystal.jpg)",
+    },
+    {
+      value: "Vienna Latte",
+      label: "Vienna Latte",
+      locaiton: "url(../fabrics/viennaLatte.jpg)",
+    },
+    {
+      value: "Vienna Pecan",
+      label: "Vienna Pecan",
+      location: "url(../fabrics/viennaPecan.jpg)",
     },
     {
       value: "Vienna Plumwine",
