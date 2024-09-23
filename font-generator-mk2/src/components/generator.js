@@ -777,9 +777,9 @@ export const Generator = () => {
       location: "url(../fabrics/cedarwoodGlacier.jpg)",
     },
     {
-      value: "Chocolate Glacier",
-      label: "Chocolate Glacier",
-      location: "url(../fabrics/chocolateGlacier.jpg)",
+      value: "Brown Glacier",
+      label: "Brown Glacier",
+      location: "url(../fabrics/brownGlacier.jpg)",
     },
     {
       value: "Evergreen Glacier",
