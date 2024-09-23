@@ -403,7 +403,7 @@ export const Generator = () => {
     {
       value: "Beige Fawn",
       label: "Beige Fawn",
-      location: "url(../fabrics/fawnMinky.jpg)",
+      location: "url(../fabrics/beigeFawn.jpg)",
     },
     {
       value: "Brown Fawn",

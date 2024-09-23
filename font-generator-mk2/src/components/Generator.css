@@ -103,7 +103,7 @@ select {
   animation-name: changeColor;
   animation-delay: 150ms;
   animation-duration: 4s;
-  animation-iteration-count: 5; 
+  animation-iteration-count: 5;
   padding-left: 6%;
   width: 50%;
   height: max-content;
@@ -189,7 +189,6 @@ textarea::-moz-placeholder {
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 2.5%;
     border: none;
-    
   }
 
   select {
@@ -212,6 +211,11 @@ textarea::-moz-placeholder {
     font-family: Arial;
     padding-top: 7px;
     padding-left: 0%;
+    text-align: left;
+  }
+
+  option {
+    background-color: var(--secondaryColor);
     text-align: left;
   }
 
