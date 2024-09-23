@@ -356,16 +356,6 @@ export const Generator = () => {
     // location: ,
     // },
     {
-      value: "Cactus",
-      label: "Cactus",
-      location: "url(../fabrics/cactus.jpg)",
-    },
-    {
-      value: "Mint Calf",
-      label: "Mint Calf",
-      location: "url(../fabrics/mintCalf.jpg)",
-    },
-    {
       value: "Call of the Wild",
       label: "Call of the Wild",
       location: "url(../fabrics/calloftheWild.jpg)",
@@ -401,11 +391,6 @@ export const Generator = () => {
       location: "url(../fabrics/rosewaterFawn.jpg)",
     },
     {
-      value: "Firefighter",
-      label: "Firefighter",
-      location: "url(../fabrics/firefighters.jpg)",
-    },
-    {
       value: "Gray Galaxy",
       label: "Gray Galaxy",
       location: "url(../fabrics/grayGalaxy.jpg)",
@@ -414,11 +399,6 @@ export const Generator = () => {
       value: "Hunter Galaxy",
       label: "Hunter Galaxy",
       location: "url(../fabrics/hunterGalaxy.jpg)",
-    },
-    {
-      value: "Cedarwood Glacier",
-      label: "Cedarwood Glacier",
-      location: "url(../fabrics/cedarwoodGlacier.jpg)",
     },
     {
       value: "Evergreen Glacier",
@@ -439,11 +419,6 @@ export const Generator = () => {
       value: "Lavender Glacier",
       label: "Lavender Glacier",
       location: "url(../fabrics/lavenderGlacier.jpg)",
-    },
-    {
-      value: "Lilac Glacier",
-      label: "Lilac Glacier",
-      location: "url(../fabrics/lilacGlacier.jpg)",
     },
     {
       value: "Navy Glacier",
@@ -501,11 +476,6 @@ export const Generator = () => {
       location: "url(../fabrics/mightyJungle.jpg)",
     },
     {
-      value: "Clay Sky Minky",
-      label: "Clay Sky Minky",
-      location: "url(../fabrics/claySky.jpg)",
-    },
-    {
       value: "Mushroom Minky",
       label: "Mushroom Minky",
       location: "url(../fabrics/mushroomMinky.jpg)",
@@ -556,8 +526,8 @@ export const Generator = () => {
       location: "url(../fabrics/safariBabies.jpg)",
     },
     {
-      value: "Safari Dreams Blue",
-      label: "Safari Dreams Blue",
+      value: "Safari Dreams",
+      label: "Safari Dreams",
       location: "url(../fabrics/safariDreamsBlue.jpg)",
     },
     {
@@ -569,11 +539,6 @@ export const Generator = () => {
       value: "Navy Snow Owl",
       label: "Navy Snow Owl",
       location: "url(../fabrics/navySnowOwl.jpg)",
-    },
-    {
-      value: "Blue Sorbet",
-      label: "Blue Sorbet",
-      location: "url(../fabrics/blueSorbet.jpg)",
     },
     {
       value: "Unicorn Sorbet",
@@ -666,11 +631,6 @@ export const Generator = () => {
       location: "url(../fabrics/fuschiaDot.jpg)",
     },
     {
-      value: "Gold Dot",
-      label: "Gold Dot",
-      location: "url(../fabrics/goldDot.jpg)",
-    },
-    {
       value: "Graphite Dot",
       label: "Graphite Dot",
       location: "url(../fabrics/graphiteDot.jpg)",
@@ -684,11 +644,6 @@ export const Generator = () => {
       value: "Ivory Dot",
       label: "Ivory Dot",
       location: "url(../fabrics/ivoryDot.jpg)",
-    },
-    {
-      value: "Jade Dot",
-      label: "Jade Dot",
-      location: "url(../fabrics/jadeDot.jpg)",
     },
     {
       value: "Kelly Green Dot",
@@ -709,11 +664,6 @@ export const Generator = () => {
       value: "Mallard Dot",
       label: "Mallard Dot",
       location: "url(../fabrics/mallardDot.jpg)",
-    },
-    {
-      value: "Merlot Dot",
-      label: "Merlot Dot",
-      location: "url(../fabrics/merlotDot.jpg)",
     },
     {
       value: "Midnight Dot",
@@ -790,11 +740,6 @@ export const Generator = () => {
       label: "Sunshine Dot",
       location: "url(../fabrics/sunshineDot.jpg)",
     },
-    {
-      value: "Tangerine Dot",
-      label: "Tangerine Dot",
-      location: "url(../fabrics/tangerineDot.jpg)",
-    },
     // {
     //   value: "Taupe Dot",
     //   label: "Taupe Dot",
@@ -815,11 +760,6 @@ export const Generator = () => {
       value: "Alloy Glacier",
       label: "Alloy Glacier",
       location: "url(../fabrics/alloyGlacier.jpg)",
-    },
-    {
-      value: "Aruba Glacier",
-      label: "Aruba Glacier",
-      location: "url(../fabrics/arubaGlacier.jpg)",
     },
     {
       value: "Basil Glacier",
@@ -953,11 +893,6 @@ export const Generator = () => {
       location: "url(../fabrics/bananaHide.jpg)",
     },
     {
-      value: "Bellflower Hide",
-      label: "Bellflower Hide",
-      location: "url(../fabrics/bellflowerHide.jpg)",
-    },
-    {
       value: "Black Hide",
       label: "Black Hide",
       location: "url(../fabrics/blackHide.jpg)",
@@ -966,11 +901,6 @@ export const Generator = () => {
       value: "Blush Hide",
       label: "Blush Hide",
       location: "url(../fabrics/blushHide.jpg)",
-    },
-    {
-      value: "Fuschia Hide",
-      label: "Fuschia Hide",
-      location: "url(../fabrics/ceriseHide.jpg)",
     },
     {
       value: "Champagne Hide",
@@ -996,11 +926,6 @@ export const Generator = () => {
       value: "Ice Mint Hide",
       label: "Ice Mint Hide",
       location: "url(../fabrics/iceHide.jpg)",
-    },
-    {
-      value: "Ice Pink Hide",
-      label: "Ice Pink Hide",
-      location: "url(../fabrics/icePinkHide.jpg)",
     },
     {
       value: "Ivory Hide",
@@ -1036,11 +961,6 @@ export const Generator = () => {
       value: "White Hide",
       label: "White Hide",
       location: "url(../fabrics/snowHide.jpg)",
-    },
-    {
-      value: "Spice Hide",
-      label: "Spice Hide",
-      location: "url(../fabrics/spiceHide.jpg)",
     },
     {
       value: "Willow Spruce",
@@ -1082,21 +1002,6 @@ export const Generator = () => {
       label: "Snow White Seal",
       location: "url(../fabrics/snowWhiteSeal.jpg)",
     },
-    {
-      value: "Truffle Seal",
-      label: "Truffle Seal",
-      location: "url(../fabrics/truffleSeal.jpg)",
-    },
-    {
-      value: "Blue Sorbet",
-      label: "Blue Sorbet",
-      location: "url(../fabrics/blueSorbet.jpg)",
-    },
-    {
-      value: "Coca Mocha Sorbet",
-      label: "Coca Mocha Sorbet",
-      location: "url(../fabrics/cocaMochaSorbet.jpg)",
-    },
     // {
     //   value: "Limestone Chrome Sorbet",
     //   label: "Limestone Chrome Sorbet",
@@ -1107,11 +1012,6 @@ export const Generator = () => {
       label: "Mermaid Sorbet",
       location: "url(../fabrics/mermaidSorbet.jpg)",
     },
-    {
-      value: "Mystic Sorbet",
-      label: "Mystic Sorbet",
-      location: "url(../fabrics/mysticSorbet.jpg)",
-    },
     // {
     //   value: "Navy Tie Dye Sorbet",
     //   label: "Navy Tie Dye Sorbet",
@@ -1121,21 +1021,6 @@ export const Generator = () => {
       value: "Pastel Tie Dye Sorbet",
       label: "Pastel Tie Dye Sorbet",
       location: "url(../fabrics/pastelSorbet.jpg)",
-    },
-    {
-      value: "Razzle Dazzle Sorbet",
-      label: "Razzle Dazzle Sorbet",
-      location: "url(../fabrics/razzledazzleSorbet.jpg)",
-    },
-    {
-      value: "Beige Tie-Dye Rabbit",
-      label: "Beige Tie-Dye Rabbit",
-      location: "url(../fabrics/tiedyeRabbitBeige.jpg)",
-    },
-    {
-      value: "Brown Tie-Dye Rabbit",
-      label: "Brown Tie-Dye Rabbit",
-      location: "url(../fabrics/tiedyeRabbitBrown.jpg)",
     },
     {
       value: "Unicorn Sorbet",
