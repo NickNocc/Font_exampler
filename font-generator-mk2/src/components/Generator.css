@@ -21,7 +21,7 @@ input {
   align-self: center;
   height: fit-content;
   /* max-width: 80%; */
-  font-size: calc(55px + 3vmin);
+  font-size: calc(55px + 4vmin);
   word-break: break-word;
   justify-content: center;
   background-color: transparent;
