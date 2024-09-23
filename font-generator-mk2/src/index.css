@@ -7,6 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+root {
+  overflow: hidden;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -52,6 +56,11 @@ code {
 @font-face {
   font-family: "Brittany";
   src: local("Brittany"), url("./fonts/BrittanySignature.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Brooklyn";
+  src: local("Brooklyn"), url("./fonts/Brooklyn.ttf") format("truetype");
 }
 
 @font-face {
@@ -154,10 +163,10 @@ code {
   src: local("Violetta"), url("./fonts/Violetta.ttf") format("truetype");
 }
 
-	@font-face {
+@font-face {
   font-family: "Wonderful";
   src: local("Wonderful"), url("./fonts/Wonderful.otf") format("opentype");
-}	
+}
 
 /* Classes used by different conponents to change font */
 
@@ -201,7 +210,7 @@ code {
   font-family: "Brittany";
 }
 
-	.font-face-Brooklyn {
+.font-face-Brooklyn {
   font-family: "Brooklyn";
 }
 

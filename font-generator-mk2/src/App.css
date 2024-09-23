@@ -1,7 +1,14 @@
+:root {
+  --select: #41424C;
+  --selectGlow: #7d7a7a;
+  --mainBackground: #e8dedc;
+  --secondaryColor: Ivory;
+}
+
 .App {
   text-align: center;
-  background-color: white;
-  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
 }
 
 .App-logo {
@@ -10,14 +17,16 @@
 }
 
 .App-header {
-  background-color: #E9DEDC;
-  min-height: 20vh;
+  background-color: var(--mainBackground);
+  min-height: 15vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(35px + 4vmin);
-  color: black;
+  justify-content: space-evenly;
+  font-size: calc(20px + 4vmin);
+  color: var(--select);
+  padding-top: 1%;
+  caret-color: transparent;
 }
 
 .App-link {
@@ -28,6 +37,13 @@
   font-size: 2vw;
 }
 
-.disclaimer {
-  padding-top: calc(90px + 30vmin);
+.linkOut {
+  font-family: blossom;
+    color: var(--select);
+  font-size: calc(10px + 2vmin);
+  padding-bottom: 0.25%;
+}
+
+@media screen and (max-width: 900px) { 
+
 }

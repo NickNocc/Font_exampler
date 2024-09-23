@@ -31,8 +31,6 @@ import "./fonts/Tatertot.ttf";
 import "./fonts/Violetta.ttf";
 import "./fonts/Wonderful.otf";
 
-
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
