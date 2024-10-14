@@ -573,7 +573,7 @@ export const Generator = () => {
     {
       value: "Ivory Brown Pony",
       label: "Ivory Brown Pony",
-      location: "url(../fabrics/brownPony.jpg)",
+      location: "url(../fabrics/brownpony.jpg)",
     },
     {
       value: "Mud Pie Pony",
