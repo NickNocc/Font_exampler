@@ -169,7 +169,6 @@ const FILES_TO_CACHE = [
   "../src/fonts/Cookie.ttf",
   "../src/fonts/Doodle.ttf",
   "../src/fonts/Eduarda.ttf",
-  "../src/fonts/Farmhouse.ttf",
   "../src/fonts/Ghisella.ttf",
   "../src/fonts/Hancock.ttf",
   "../src/fonts/Harpsichord.ttf",
@@ -196,6 +195,9 @@ self.addEventListener("activate", function (e) {
   e.waitUntil(
     caches.keys().then(function (keyList) {
       let cacheKeepList = keyList.filter(function (key) {
+        if (key.url.endsWith('Farmhouse.ttf')) {
+          return cache.delete(key)
+        }
         return key.indexOf(APP_PREFIX);
       });
       cacheKeepList.push(CACHE_NAME);

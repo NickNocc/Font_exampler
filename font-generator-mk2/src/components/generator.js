@@ -114,10 +114,10 @@ export const Generator = () => {
       label: "Eduarda",
     },
     {
-      fontName: "Farmhouse",
+      fontName: "February",
       fontClass: "font-face-Farmhouse",
-      value: "Farmhouse",
-      label: "Farmhouse",
+      value: "February",
+      label: "February",
     },
     {
       fontName: "Ghisella",
