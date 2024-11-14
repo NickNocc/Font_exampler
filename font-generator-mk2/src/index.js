@@ -28,6 +28,7 @@ import "./fonts/Layla.ttf";
 import "./fonts/Lively.ttf";
 import "./fonts/Sweetheart.ttf";
 import "./fonts/Tatertot.ttf";
+import "./fonts/xmasMint.ttf"
 import "./fonts/Violetta.ttf";
 import "./fonts/Wonderful.otf";
 

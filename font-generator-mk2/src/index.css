@@ -89,6 +89,11 @@ code {
 }
 
 @font-face {
+  font-family: "ChristmasMint";
+  src: local("ChristmasMint"), url("./fonts/xmasMint.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "classico";
   src: local("classico"), url("./fonts/classico.ttf") format("truetype");
 }
@@ -157,6 +162,7 @@ code {
   font-family: "Sweetheart";
   src: local("Sweetheart"), url("./fonts/Sweetheart.ttf") format("truetype");
 }
+
 
 @font-face {
   font-family: "Violetta";
@@ -276,6 +282,10 @@ code {
 
 .font-face-Sweetheart {
   font-family: "Sweetheart";
+}
+
+.font-face-ChristmasMint {
+  font-family: "ChristmasMint";
 }
 
 .font-face-Violetta {
