@@ -194,11 +194,6 @@ export const Generator = () => {
     //   label: "",
     // },
     {
-      color: "rgb(165, 149, 124)",
-      value: "Latte",
-      label: "Latte",
-    },
-    {
       color: "#9879a2",
       value: "Amethyst",
       label: "Amethyst",
@@ -272,6 +267,11 @@ export const Generator = () => {
       color: "#ebeec6",
       value: "Ivory",
       label: "Ivory",
+    },
+    {
+      color: "rgb(165, 149, 124)",
+      value: "Latte",
+      label: "Latte",
     },
     {
       color: "#978fba",
