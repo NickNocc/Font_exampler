@@ -150,6 +150,8 @@ const FILES_TO_CACHE = [
   "./fabrics/woodroseHide.jpg",
   "./fabrics/xmasTrucks.jpg",
   "./fabrics/yellowDot.jpg",
+  "./fabrics/whiteNora.jpg",
+  "./fabrics/silverNora.jpg",
   "../src/fonts/Lively.ttf",
   "../src/fonts/blossom.ttf",
   "../src/fonts/almondbutter.ttf",
@@ -195,8 +197,8 @@ self.addEventListener("activate", function (e) {
   e.waitUntil(
     caches.keys().then(function (keyList) {
       let cacheKeepList = keyList.filter(function (key) {
-        if (key.url.endsWith('Farmhouse.ttf')) {
-          return cache.delete(key)
+        if (key.url.endsWith("Farmhouse.ttf")) {
+          return cache.delete(key);
         }
         return key.indexOf(APP_PREFIX);
       });
