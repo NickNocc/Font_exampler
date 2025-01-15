@@ -701,6 +701,16 @@ export const Generator = () => {
       label: "Vienna Spruce",
       location: "url(../fabrics/viennaSpruce.jpg)",
     },
+    {
+      value: "Silver Nora",
+      label: "Silver Nora",
+      location: "url(../fabrics/silverNora.jpg)",
+    },
+    {
+      value: "White Nora",
+      label: "White Nora",
+      location: "url(../fabrics/whiteNora.jpg)",
+    },
 
     //^^ this may be a different color, revisit
   ];
