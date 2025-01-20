@@ -1280,6 +1280,7 @@ export const Generator = () => {
   const handleNameChange = (event) => {
     // gets inputed value
     let newText = event.target.value;
+
     // keeps track of inputed name
     let globalText = "";
     // keep all the symbols we dont want outta here
@@ -1287,13 +1288,34 @@ export const Generator = () => {
 
     // Replaces any unwanted text with an empty space
     globalText = newText.replaceAll(regex, " ");
-    if (globalText === "") {
-      setNameOutput("");
-    } else {
-      globalText = globalText.replaceAll(" ", "\n");
+
+    if (globalText !== "") {
+      // globalText = globalText.replaceAll(" ", " \n");
+      let count = (globalText.match(/\n/g) || []).length;
+      console.log("Global Text: " + globalText);
+
+      if (count == 0) {
+        console.log(count);
+
+        globalText = globalText.trim();
+        globalText = "\n" + globalText;
+      }
 
       setNameOutput(globalText);
+    } else {
+      setNameOutput("\n" + "");
     }
+    let testregex = /\n/g;
+
+    // if (count === 0) {
+    //   setNameOutput("\n" + globalText);
+    // } else if (count === 2) {
+    //   console.log(globalText);
+
+    //   globalText = globalText.slice(0, 3);
+
+    //   setNameOutput(globalText);
+    // }
   };
   // Changes fontColor to inputed value
   const handleColorChange = (event) => {
@@ -1399,6 +1421,11 @@ export const Generator = () => {
           value={nameOutput}
           onChange={handleNameChange}
           maxLength={40}
+          onKeyDown={(e) => {
+            if (e.key === "Enter") {
+              setNameOutput(nameOutput + "\n");
+            }
+          }}
         />
         <style>
           {`
