@@ -1256,6 +1256,7 @@ export const Generator = () => {
       <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
     </svg>
   );
+  let [firstBreak, setFirstBreak] = useState(false);
 
   // Changes font on Select Change
   const handleFontChange = (event) => {
@@ -1282,29 +1283,38 @@ export const Generator = () => {
     let newText = event.target.value;
 
     // keeps track of inputed name
-    let globalText = "";
+    let globalText = nameOutput;
     // keep all the symbols we dont want outta here
-    const regex = /[^a-zA-Z\u002D\u0027]+/gi;
+    const regex = /[^a-zA-Z^\n\u002D\u0027]+/gi;
 
     // Replaces any unwanted text with an empty space
     globalText = newText.replaceAll(regex, " ");
 
     if (globalText !== "") {
-      // globalText = globalText.replaceAll(" ", " \n");
       let count = (globalText.match(/\n/g) || []).length;
-      console.log("Global Text: " + globalText);
 
       if (count == 0) {
-        console.log(count);
+        setFirstBreak(!firstBreak);
+        console.log(firstBreak);
 
-        globalText = globalText.trim();
         globalText = "\n" + globalText;
+      } else if ((globalText.match(/\n/g) || []).length == 2 && firstBreak) {
+        setFirstBreak(!firstBreak);
+        console.log(firstBreak);
+
+        globalText = globalText.slice(1);
       }
+    } else {
+      console.log("empty text");
+      
+      globalText = "\n" + globalText;
+      setFirstBreak(false);
 
       setNameOutput(globalText);
-    } else {
-      setNameOutput("\n" + "");
     }
+
+    setNameOutput(globalText);
+
     let testregex = /\n/g;
 
     // if (count === 0) {
@@ -1317,6 +1327,11 @@ export const Generator = () => {
     //   setNameOutput(globalText);
     // }
   };
+
+  function handleEnterInput() {
+    setNameOutput(nameOutput + "\n");
+  }
+
   // Changes fontColor to inputed value
   const handleColorChange = (event) => {
     const newColor = event.target.value;
@@ -1423,7 +1438,8 @@ export const Generator = () => {
           maxLength={40}
           onKeyDown={(e) => {
             if (e.key === "Enter") {
-              setNameOutput(nameOutput + "\n");
+              e.preventDefault();
+              handleEnterInput();
             }
           }}
         />
