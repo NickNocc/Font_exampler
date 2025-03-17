@@ -1232,7 +1232,7 @@ export const Generator = () => {
 
   const easterFabrics = [
     {
-      value: "Blue gingham"
+      value: "Blue"
     }
   ]
   // State for nameOutput
