@@ -1230,18 +1230,23 @@ export const Generator = () => {
     },
   ];
 
+  // List of easter stuff
   const easterFabrics = [
     {
       value: "Blue Gingham",
       label: "Blue Gingham",
       location: "url(../easterFabrics/basket.png)",
     },
+    {
+      value: "Blue Gingham2",
+      label: "Blue Gingham2",
+      location: "url(../easterFabrics/basket.png)",
+    },
   ];
   // State for nameOutput
   const [nameOutput, setNameOutput] = useState("");
 
-  const [easterDesigns, setEasterDesigns] = useState();
-
+  const [easterDesigns, setEasterDesigns] = useState(false);
 
   // State for currently selected font
   const [currentFont, setCurrentFont] = useState(fontList[23]);
@@ -1267,8 +1272,30 @@ export const Generator = () => {
       <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
     </svg>
   );
-  
+
   let [firstBreak, setFirstBreak] = useState(false);
+
+  // Toggles easter mode
+  const handleEasterDesigns = (event) => {
+    if (easterDesigns == true) {
+      try {
+        setEasterDesigns(false);
+        setMinkyCustom(currentMinkyCustom[38]);
+        setMinkyStatic(currentMinkyStatic[54]);
+        return;
+      } catch (error) {
+        console.log(error);
+      }
+    }
+
+    if (easterDesigns == false) {
+      setEasterDesigns(true);
+      setMinkyCustom(easterFabrics[0]);
+
+      // Just a basket image for this one
+      // setMinkyStatic("url(../easterFabrics/basket.png)");
+    }
+  };
 
   // Changes font on Select Change
   const handleFontChange = (event) => {
@@ -1318,7 +1345,7 @@ export const Generator = () => {
       }
     } else {
       console.log("empty text");
-      
+
       globalText = "\n" + globalText;
       setFirstBreak(false);
 
