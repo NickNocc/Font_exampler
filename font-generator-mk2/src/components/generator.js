@@ -1232,9 +1232,11 @@ export const Generator = () => {
 
   const easterFabrics = [
     {
-      value: "Blue"
-    }
-  ]
+      value: "Blue Gingham",
+      label: "Blue Gingham",
+      location: "url(../easterFabrics/amethystDot.jpg)",
+    },
+  ];
   // State for nameOutput
   const [nameOutput, setNameOutput] = useState("");
 
