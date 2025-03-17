@@ -1229,8 +1229,17 @@ export const Generator = () => {
       location: "url(../fabrics/unicornSorbet.jpg)",
     },
   ];
+
+  const easterFabrics = [
+    {
+      value: "Blue gingham"
+    }
+  ]
   // State for nameOutput
   const [nameOutput, setNameOutput] = useState("");
+
+  const [easterDesigns, setEasterDesigns] = useState();
+
 
   // State for currently selected font
   const [currentFont, setCurrentFont] = useState(fontList[23]);
