@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.4647c7f4.css",
-    "main.js": "./static/js/main.16f9a1ac.js",
+    "main.css": "./static/css/main.c5267501.css",
+    "main.js": "./static/js/main.b4131fbe.js",
     "static/js/453.f582e2b8.chunk.js": "./static/js/453.f582e2b8.chunk.js",
     "static/media/Chakra.ttf": "./static/media/Chakra.452025db44dcd89e65cc.ttf",
     "static/media/AmazinglyBeautifulRegular.ttf": "./static/media/AmazinglyBeautifulRegular.89190ca088dbc1762a2b.ttf",
@@ -10,6 +10,7 @@
     "static/media/BohoFlowers.otf": "./static/media/BohoFlowers.89dd9ed91dbd1d63b1cf.otf",
     "static/media/Wonderful.otf": "./static/media/Wonderful.f4e5a85e91d051899f92.otf",
     "static/media/blossom.ttf": "./static/media/blossom.13a024714de53cbabbd4.ttf",
+    "static/media/September.ttf": "./static/media/September.014646d72b6cf3169e75.ttf",
     "static/media/Cookie.ttf": "./static/media/Cookie.f7a638e09e95aca4ac87.ttf",
     "static/media/Sweetheart.ttf": "./static/media/Sweetheart.3b0b08bb48a0cfea3c72.ttf",
     "static/media/almondbutter.ttf": "./static/media/almondbutter.bc51ebb00348bde265de.ttf",
@@ -34,12 +35,12 @@
     "static/media/Clocks.ttf": "./static/media/Clocks.d5221a072eda862daee6.ttf",
     "static/media/classico.ttf": "./static/media/classico.41b83495114f00ea306d.ttf",
     "index.html": "./index.html",
-    "main.4647c7f4.css.map": "./static/css/main.4647c7f4.css.map",
-    "main.16f9a1ac.js.map": "./static/js/main.16f9a1ac.js.map",
+    "main.c5267501.css.map": "./static/css/main.c5267501.css.map",
+    "main.b4131fbe.js.map": "./static/js/main.b4131fbe.js.map",
     "453.f582e2b8.chunk.js.map": "./static/js/453.f582e2b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4647c7f4.css",
-    "static/js/main.16f9a1ac.js"
+    "static/css/main.c5267501.css",
+    "static/js/main.b4131fbe.js"
   ]
 }
