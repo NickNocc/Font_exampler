@@ -26,6 +26,7 @@ import "./fonts/Harpsichord.ttf";
 import "./fonts/Langrish.ttf";
 import "./fonts/Layla.ttf";
 import "./fonts/Lively.ttf";
+import "./fonts/September.ttf"
 import "./fonts/Sweetheart.ttf";
 import "./fonts/Tatertot.ttf";
 import "./fonts/xmasMint.ttf"

@@ -162,6 +162,12 @@ export const Generator = () => {
       label: "Lively",
     },
     {
+      fontName: "September",
+      fontClass: "font-face-September",
+      value: "September",
+      label: "September",
+    },
+    {
       fontName: "Sweetheart",
       fontClass: "font-face-Sweetheart",
       value: "Sweetheart",

@@ -159,6 +159,11 @@ code {
 }
 
 @font-face {
+  font-family: "September";
+  src: local("September"), url("./fonts/September.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "Sweetheart";
   src: local("Sweetheart"), url("./fonts/Sweetheart.ttf") format("truetype");
 }
@@ -278,6 +283,10 @@ code {
 
 .font-face-Tatertot {
   font-family: "Tatertot";
+}
+
+.font-face-September {
+  font-family: "September";
 }
 
 .font-face-Sweetheart {
