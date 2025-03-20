@@ -1243,6 +1243,14 @@ export const Generator = () => {
       location: "url(../easterFabrics/basket.png)",
     },
   ];
+
+  const basketStyles = [
+    {
+      value: "BasketDF",
+      label: "Basket",
+      location: "url(../easterFabrics/basket.png)",
+    },
+  ];
   // State for nameOutput
   const [nameOutput, setNameOutput] = useState("");
 
@@ -1277,23 +1285,27 @@ export const Generator = () => {
 
   // Toggles easter mode
   const handleEasterDesigns = (event) => {
-    if (easterDesigns == true) {
-      try {
+    console.log(event);
+    
+    try {
+      if (easterDesigns == true) {
         setEasterDesigns(false);
         setMinkyCustom(currentMinkyCustom[38]);
         setMinkyStatic(currentMinkyStatic[54]);
         return;
-      } catch (error) {
-        console.log(error);
       }
-    }
 
-    if (easterDesigns == false) {
-      setEasterDesigns(true);
-      setMinkyCustom(easterFabrics[0]);
+      if (easterDesigns == false) {
+        setEasterDesigns(true);
+        setMinkyCustom(easterFabrics[0]);
+        setMinkyStatic(basketStyles[0])
 
-      // Just a basket image for this one
-      // setMinkyStatic("url(../easterFabrics/basket.png)");
+
+        // Just a basket image for this one
+        // setMinkyStatic("url(../easterFabrics/basket.png)");
+      }
+    } catch (error) {
+      console.log(error);
     }
   };
 
@@ -1490,7 +1502,7 @@ export const Generator = () => {
         </style>
       </div>
       <MenuToggle
-        onClick={handleControls}
+        onClick={handleEasterDesigns}
         open={controlsVisible}
         className="menuToggler"
       >
@@ -1590,6 +1602,8 @@ export const Generator = () => {
     </div>
   );
 };
+
+
 
 const Controls = Styled.div`
     display: flex;
