@@ -1233,14 +1233,33 @@ export const Generator = () => {
   // List of easter stuff
   const easterFabrics = [
     {
-      value: "Blue Gingham",
-      label: "Blue Gingham",
-      location: "url(../easterFabrics/basket.png)",
+      value: "Beige Gingham",
+      label: "Beige Gingham",
+      location: "url(../easterFabrics/beigeGingham.png)",
     },
     {
-      value: "Blue Gingham2",
-      label: "Blue Gingham2",
-      location: "url(../easterFabrics/basket.png)",
+      value: "Daisy Season",
+      label: "Daisy Season",
+      location: "url(../easterFabrics/daisySeason.png)",
+    },
+    {
+      value: "Denim Blue Gingham",
+      label: "Denim Blue Gingham",
+      location: "url(../easterFabrics/denimBlueGingham.png)",
+    },
+    {
+      value: "Multi Dots",
+      label: "Multi Dots",
+      location: "url(../easterFabrics/dotsMulti.png)",
+    },
+  ];
+
+  const easterButtonImages = [
+    {
+      location: "../miscImages/easterFalse.svg",
+    },
+    {
+      location: "../miscImages/easterTrue.svg",
     },
   ];
 
@@ -1281,15 +1300,18 @@ export const Generator = () => {
     </svg>
   );
 
+  const [easterButton, setEasterButton] = useState(easterButtonImages[0]);
+
   let [firstBreak, setFirstBreak] = useState(false);
 
   // Toggles easter mode
   const handleEasterDesigns = (event) => {
     console.log(event);
-    
+
     try {
       if (easterDesigns == true) {
         setEasterDesigns(false);
+        setEasterButton(easterButtonImages[0]);
         setMinkyCustom(currentMinkyCustom[38]);
         setMinkyStatic(currentMinkyStatic[54]);
         return;
@@ -1297,9 +1319,9 @@ export const Generator = () => {
 
       if (easterDesigns == false) {
         setEasterDesigns(true);
+        setEasterButton(easterButtonImages[1]);
         setMinkyCustom(easterFabrics[0]);
-        setMinkyStatic(basketStyles[0])
-
+        setMinkyStatic(basketStyles[0]);
 
         // Just a basket image for this one
         // setMinkyStatic("url(../easterFabrics/basket.png)");
@@ -1470,6 +1492,10 @@ export const Generator = () => {
         backgroundImage: minkyStatic.location,
       }}
     >
+      {" "}
+      <span className="easterButtonHolder" onClick={handleEasterDesigns}>
+        <img className="easterButtonToggle" src={easterButton.location}></img>
+      </span>
       <div
         className="split-right"
         style={{
@@ -1502,7 +1528,7 @@ export const Generator = () => {
         </style>
       </div>
       <MenuToggle
-        onClick={handleEasterDesigns}
+        onClick={handleControls}
         open={controlsVisible}
         className="menuToggler"
       >
@@ -1520,12 +1546,7 @@ export const Generator = () => {
           <span className="menuBox">
             <span className="menuTopHalf">
               <span className="customOptions">Front Fabric:</span>
-              <span
-                style={{ width: "50%", caretColor: "transparent" }}
-                className="customOptions"
-              >
-                Embroidered Side:
-              </span>
+              <span className="customOptions">Embroidered Side:</span>
             </span>
             <span className="topControls">
               <select
@@ -1602,8 +1623,6 @@ export const Generator = () => {
     </div>
   );
 };
-
-
 
 const Controls = Styled.div`
     display: flex;

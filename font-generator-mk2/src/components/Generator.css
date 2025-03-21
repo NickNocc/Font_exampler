@@ -166,7 +166,33 @@ textarea::-moz-placeholder {
   opacity: 100%;
 }
 
+.easterButtonToggle {
+  width: 50px;
+  margin: 0px;
+  border: 0px;
+  position: relative;
+  background-color: #e8dedc;
+}
+
+.easterButtonHolder {
+  position: absolute;
+  float: right;
+  right: 0%;
+  overflow: display;
+  width: fit-content;
+  height: 0px;
+  fill: none;
+}
+
 @media screen and (max-width: 900px) {
+  .easterButtonToggle {
+    width: 5vh;
+    margin: 0px;
+    border: 0px;
+    position: relative;
+    margin-top: 1.5vh;
+  }
+
   .split-holder {
     justify-content: space-between;
     max-width: 100%;
@@ -238,6 +264,8 @@ textarea::-moz-placeholder {
   .customOptions {
     padding-left: 0%;
     color: var(--select);
+    width: 50%;
+    caret-color: transparent;
   }
 
   .split-right {
@@ -267,6 +295,7 @@ textarea::-moz-placeholder {
 
   .customOptions {
     padding-top: 1%;
+    width: 50%;
     justify-content: space-between;
     font-size: calc(15px + 1vmin);
   }
