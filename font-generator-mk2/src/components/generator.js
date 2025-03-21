@@ -723,9 +723,43 @@ export const Generator = () => {
   //List of fabric back colors loaded into the site. Customizable side
   const currentMinkyCustom = [
     {
+      value: "--Easter Basket Fabrics--",
+      label: "--Easter Basket Fabrics--",
+      location: "url(../fabrics/amethystDot.jpg)",
+      isdisabled: true,
+    },
+    {
+      value: "Beige Gingham",
+      label: "Beige Gingham",
+      location: "url(../easterFabrics/beigeGingham.png)",
+      isdisabled: false,
+    },
+    {
+      value: "Daisy Season",
+      label: "Daisy Season",
+      location: "url(../easterFabrics/daisySeason.png)",
+    },
+    {
+      value: "Denim Blue Gingham",
+      label: "Denim Blue Gingham",
+      location: "url(../easterFabrics/denimBlueGingham.png)",
+    },
+    {
+      value: "Multi Dots",
+      label: "Multi Dots",
+      location: "url(../easterFabrics/dotsMulti.png)",
+    },
+    {
+      value: "--Blanket Fabrics--",
+      label: "--Blanket Fabrics--",
+      location: "url(../fabrics/amethystDot.jpg)",
+      isdisabled: true,
+    },
+    {
       value: "Amethyst Dot",
       label: "Amethyst Dot",
       location: "url(../fabrics/amethystDot.jpg)",
+      isdisabled: false,
     },
     {
       value: "Aqua Dot",
@@ -1235,8 +1269,12 @@ export const Generator = () => {
       location: "url(../fabrics/unicornSorbet.jpg)",
     },
   ];
+
+  // List of easter stuff
+
   // State for nameOutput
   const [nameOutput, setNameOutput] = useState("");
+
 
   // State for currently selected font
   const [currentFont, setCurrentFont] = useState(fontList[23]);
@@ -1246,7 +1284,7 @@ export const Generator = () => {
   // State for the static side of the minky blanket
   const [minkyStatic, setMinkyStatic] = useState(currentMinkyStatic[54]);
   // State for cusomizable side of minky blanket
-  const [minkyCustom, setMinkyCustom] = useState(currentMinkyCustom[38]);
+  const [minkyCustom, setMinkyCustom] = useState(currentMinkyCustom[44]);
   // State for visibility of control box
   const [controlsVisible, setControlsVisible] = useState(false);
   // State for the arrow button
@@ -1262,7 +1300,36 @@ export const Generator = () => {
       <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
     </svg>
   );
+
+
   let [firstBreak, setFirstBreak] = useState(false);
+
+  // Toggles easter mode
+  // const handleEasterDesigns = (event) => {
+  //   console.log(event);
+
+  //   try {
+  //     if (easterDesigns == true) {
+  //       setEasterDesigns(false);
+  //       setEasterButton(easterButtonImages[0]);
+  //       setMinkyCustom(currentMinkyCustom[38]);
+  //       setMinkyStatic(currentMinkyStatic[54]);
+  //       return;
+  //     }
+
+  //     if (easterDesigns == false) {
+  //       setEasterDesigns(true);
+  //       setEasterButton(easterButtonImages[1]);
+  //       setMinkyCustom(easterFabrics[0]);
+  //       setMinkyStatic(basketStyles[0]);
+
+  //       // Just a basket image for this one
+  //       // setMinkyStatic("url(../easterFabrics/basket.png)");
+  //     }
+  //   } catch (error) {
+  //     console.log(error);
+  //   }
+  // };
 
   // Changes font on Select Change
   const handleFontChange = (event) => {
@@ -1299,12 +1366,12 @@ export const Generator = () => {
     if (globalText !== "") {
       let count = (globalText.match(/\n/g) || []).length;
 
-      if (count == 0) {
+      if (count === 0) {
         setFirstBreak(!firstBreak);
         console.log(firstBreak);
 
         globalText = "\n" + globalText;
-      } else if ((globalText.match(/\n/g) || []).length == 2 && firstBreak) {
+      } else if ((globalText.match(/\n/g) || []).length === 2 && firstBreak) {
         setFirstBreak(!firstBreak);
         console.log(firstBreak);
 
@@ -1312,7 +1379,7 @@ export const Generator = () => {
       }
     } else {
       console.log("empty text");
-      
+
       globalText = "\n" + globalText;
       setFirstBreak(false);
 
@@ -1320,8 +1387,6 @@ export const Generator = () => {
     }
 
     setNameOutput(globalText);
-
-    let testregex = /\n/g;
 
     // if (count === 0) {
     //   setNameOutput("\n" + globalText);
@@ -1425,6 +1490,7 @@ export const Generator = () => {
         backgroundImage: minkyStatic.location,
       }}
     >
+      {" "}
       <div
         className="split-right"
         style={{
@@ -1438,7 +1504,7 @@ export const Generator = () => {
           wrap="hard"
           className={currentFont.fontClass + " nameOutput"}
           type="text"
-          placeholder={"\n" + "Enter Name Here!"}
+          placeholder={"\nEnter Name Here!"}
           value={nameOutput}
           onChange={handleNameChange}
           maxLength={40}
@@ -1475,12 +1541,7 @@ export const Generator = () => {
           <span className="menuBox">
             <span className="menuTopHalf">
               <span className="customOptions">Front Fabric:</span>
-              <span
-                style={{ width: "50%", caretColor: "transparent" }}
-                className="customOptions"
-              >
-                Embroidered Side:
-              </span>
+              <span className="customOptions">Embroidered Side:</span>
             </span>
             <span className="topControls">
               <select
@@ -1504,6 +1565,7 @@ export const Generator = () => {
               >
                 {currentMinkyCustom.map((minkFront, i) => (
                   <option
+                    disabled={minkFront.isdisabled}
                     key={i}
                     value={minkFront.value}
                     label={minkFront.label}
