@@ -735,6 +735,12 @@ export const Generator = () => {
       isdisabled: false,
     },
     {
+      value: "Blue Dots",
+      label: "Blue Dots",
+      location: "url(../easterFabrics/blueDots.png)",
+      isdisabled: false,
+    },
+    {
       value: "Daisy Season",
       label: "Daisy Season",
       location: "url(../easterFabrics/daisySeason.png)",
@@ -745,9 +751,64 @@ export const Generator = () => {
       location: "url(../easterFabrics/denimBlueGingham.png)",
     },
     {
+      value: "Floral Charms",
+      label: "Floral Charms",
+      location: "url(../easterFabrics/floralCharms.png)",
+    },
+    {
+      value: "Freedom Blue Gingham",
+      label: "Freedom Blue Gingham",
+      location: "url(../easterFabrics/freedomGinghamBlue.png)",
+    },
+    {
+      value: "Joy Plaid Pink",
+      label: "Joy Plaid Pink",
+      location: "url(../easterFabrics/joyPlaidPink.png)",
+    },
+    {
+      value: "Joy Plaid Yellow",
+      label: "Joy Plaid Yellow",
+      location: "url(../easterFabrics/joyPlaidYellow.png)",
+    },
+    {
       value: "Multi Dots",
       label: "Multi Dots",
       location: "url(../easterFabrics/dotsMulti.png)",
+    },
+    {
+      value: "Picnic Florals",
+      label: "Picnic Florals",
+      location: "url(../easterFabrics/picnicFlorals.png)",
+    },
+    {
+      value: "Plum Petals Small",
+      label: "Plum Petals Small",
+      location: "url(../easterFabrics/plumPetalsSmall.png)",
+    },
+    {
+      value: "Plum Petals Classic",
+      label: "Plum Petals Classic",
+      location: "url(../easterFabrics/plumPetalsClassic.png)",
+    },
+    {
+      value: "Special Delivery Plaid Blue",
+      label: "Special Delivery Plaid Blue",
+      location: "url(../easterFabrics/specialDeliveryPlaidBlue.png)",
+    },
+    {
+      value: "Sweet Spring Floral",
+      label: "Sweet Spring Floral",
+      location: "url(../easterFabrics/sweetSpringFloral.png)",
+    },
+    {
+      value: "Sweet Spring",
+      label: "Sweet Spring",
+      location: "url(../easterFabrics/sweetSpring.png)",
+    },
+    {
+      value: "Tiny Baby Pink Gingham",
+      label: "Tiny Baby Pink Gingham",
+      location: "url(../easterFabrics/Tiny Baby Pink Gingham.png)",
     },
     {
       value: "--Blanket Fabrics--",
@@ -1275,7 +1336,6 @@ export const Generator = () => {
   // State for nameOutput
   const [nameOutput, setNameOutput] = useState("");
 
-
   // State for currently selected font
   const [currentFont, setCurrentFont] = useState(fontList[23]);
 
@@ -1284,7 +1344,7 @@ export const Generator = () => {
   // State for the static side of the minky blanket
   const [minkyStatic, setMinkyStatic] = useState(currentMinkyStatic[54]);
   // State for cusomizable side of minky blanket
-  const [minkyCustom, setMinkyCustom] = useState(currentMinkyCustom[44]);
+  const [minkyCustom, setMinkyCustom] = useState(currentMinkyCustom[56]);
   // State for visibility of control box
   const [controlsVisible, setControlsVisible] = useState(false);
   // State for the arrow button
@@ -1300,7 +1360,6 @@ export const Generator = () => {
       <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
     </svg>
   );
-
 
   let [firstBreak, setFirstBreak] = useState(false);
 
