@@ -154,6 +154,11 @@ code {
 }
 
 @font-face {
+  font-family: "Pinksoda";
+  src: local("Pinksoda"), url("./fonts/pinksoda.otf") format("opentype");
+}
+
+@font-face {
   font-family: "Tatertot";
   src: local("Tatertot"), url("./fonts/Tatertot.ttf") format("truetype");
 }
@@ -168,6 +173,10 @@ code {
   src: local("Sweetheart"), url("./fonts/Sweetheart.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Sweetpea";
+  src: local("Sweetpea"), url("./fonts/sweetpea.otf") format("opentype");
+}
 
 @font-face {
   font-family: "Violetta";
@@ -281,6 +290,10 @@ code {
   font-family: "Lively";
 }
 
+.font-face-Pinksoda {
+  font-family: "Pinksoda";
+}
+
 .font-face-Tatertot {
   font-family: "Tatertot";
 }
@@ -291,6 +304,10 @@ code {
 
 .font-face-Sweetheart {
   font-family: "Sweetheart";
+}
+
+.font-face-Sweetpea {
+  font-family: "Sweetpea";
 }
 
 .font-face-ChristmasMint {

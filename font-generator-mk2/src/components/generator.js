@@ -162,6 +162,12 @@ export const Generator = () => {
       label: "Lively",
     },
     {
+      fontName: "Pink Soda",
+      fontClass: "font-face-Pinksoda",
+      value: "Pink Soda",
+      label: "Pink Soda",
+    },
+    {
       fontName: "September",
       fontClass: "font-face-September",
       value: "September",
@@ -172,6 +178,12 @@ export const Generator = () => {
       fontClass: "font-face-Sweetheart",
       value: "Sweetheart",
       label: "Sweetheart",
+    },
+    {
+      fontName: "Sweet Pea",
+      fontClass: "font-face-Sweetpea",
+      value: "Sweet Pea",
+      label: "Sweet Pea",
     },
     {
       fontName: "Tatertot",
