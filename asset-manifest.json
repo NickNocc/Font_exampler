@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "./static/css/main.c5267501.css",
-    "main.js": "./static/js/main.b4131fbe.js",
+    "main.css": "./static/css/main.e07bef40.css",
+    "main.js": "./static/js/main.c29db64f.js",
     "static/js/453.f582e2b8.chunk.js": "./static/js/453.f582e2b8.chunk.js",
     "static/media/Chakra.ttf": "./static/media/Chakra.452025db44dcd89e65cc.ttf",
+    "static/media/sweetpea.otf": "./static/media/sweetpea.b39c6a659aad1ee830a3.otf",
     "static/media/AmazinglyBeautifulRegular.ttf": "./static/media/AmazinglyBeautifulRegular.89190ca088dbc1762a2b.ttf",
     "static/media/xmasMint.ttf": "./static/media/xmasMint.4efe5c0f067f1d59e723.ttf",
     "static/media/Ghisella.ttf": "./static/media/Ghisella.a8699065d99e1ae5413b.ttf",
     "static/media/BohoFlowers.otf": "./static/media/BohoFlowers.89dd9ed91dbd1d63b1cf.otf",
     "static/media/Wonderful.otf": "./static/media/Wonderful.f4e5a85e91d051899f92.otf",
     "static/media/blossom.ttf": "./static/media/blossom.13a024714de53cbabbd4.ttf",
+    "static/media/pinksoda.otf": "./static/media/pinksoda.ebec81d114a101d6ec43.otf",
     "static/media/September.ttf": "./static/media/September.014646d72b6cf3169e75.ttf",
     "static/media/Cookie.ttf": "./static/media/Cookie.f7a638e09e95aca4ac87.ttf",
     "static/media/Sweetheart.ttf": "./static/media/Sweetheart.3b0b08bb48a0cfea3c72.ttf",
@@ -35,12 +37,12 @@
     "static/media/Clocks.ttf": "./static/media/Clocks.d5221a072eda862daee6.ttf",
     "static/media/classico.ttf": "./static/media/classico.41b83495114f00ea306d.ttf",
     "index.html": "./index.html",
-    "main.c5267501.css.map": "./static/css/main.c5267501.css.map",
-    "main.b4131fbe.js.map": "./static/js/main.b4131fbe.js.map",
+    "main.e07bef40.css.map": "./static/css/main.e07bef40.css.map",
+    "main.c29db64f.js.map": "./static/js/main.c29db64f.js.map",
     "453.f582e2b8.chunk.js.map": "./static/js/453.f582e2b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5267501.css",
-    "static/js/main.b4131fbe.js"
+    "static/css/main.e07bef40.css",
+    "static/js/main.c29db64f.js"
   ]
 }
