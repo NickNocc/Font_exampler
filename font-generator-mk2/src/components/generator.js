@@ -734,100 +734,100 @@ export const Generator = () => {
   ];
   //List of fabric back colors loaded into the site. Customizable side
   const currentMinkyCustom = [
-    {
-      value: "--Easter Basket Fabrics--",
-      label: "--Easter Basket Fabrics--",
-      location: "url(../fabrics/amethystDot.jpg)",
-      isdisabled: true,
-    },
-    {
-      value: "Beige Gingham",
-      label: "Beige Gingham",
-      location: "url(../easterFabrics/beigeGingham.png)",
-      isdisabled: false,
-    },
-    {
-      value: "Blue Dots",
-      label: "Blue Dots",
-      location: "url(../easterFabrics/blueDots.png)",
-      isdisabled: false,
-    },
-    {
-      value: "Daisy Season",
-      label: "Daisy Season",
-      location: "url(../easterFabrics/daisySeason.png)",
-    },
-    {
-      value: "Denim Blue Gingham",
-      label: "Denim Blue Gingham",
-      location: "url(../easterFabrics/denimBlueGingham.png)",
-    },
-    {
-      value: "Floral Charms",
-      label: "Floral Charms",
-      location: "url(../easterFabrics/floralCharms.png)",
-    },
-    {
-      value: "Freedom Blue Gingham",
-      label: "Freedom Blue Gingham",
-      location: "url(../easterFabrics/freedomGinghamBlue.png)",
-    },
-    {
-      value: "Joy Plaid Pink",
-      label: "Joy Plaid Pink",
-      location: "url(../easterFabrics/joyPlaidPink.png)",
-    },
-    {
-      value: "Joy Plaid Yellow",
-      label: "Joy Plaid Yellow",
-      location: "url(../easterFabrics/joyPlaidYellow.png)",
-    },
-    {
-      value: "Multi Dots",
-      label: "Multi Dots",
-      location: "url(../easterFabrics/dotsMulti.png)",
-    },
-    {
-      value: "Picnic Florals",
-      label: "Picnic Florals",
-      location: "url(../easterFabrics/picnicFlorals.png)",
-    },
-    {
-      value: "Plum Petals Small",
-      label: "Plum Petals Small",
-      location: "url(../easterFabrics/plumPetalsSmall.png)",
-    },
-    {
-      value: "Plum Petals Classic",
-      label: "Plum Petals Classic",
-      location: "url(../easterFabrics/plumPetalsClassic.png)",
-    },
-    {
-      value: "Special Delivery Plaid Blue",
-      label: "Special Delivery Plaid Blue",
-      location: "url(../easterFabrics/specialDeliveryPlaidBlue.png)",
-    },
-    {
-      value: "Sweet Spring Floral",
-      label: "Sweet Spring Floral",
-      location: "url(../easterFabrics/sweetSpringFloral.png)",
-    },
-    {
-      value: "Sweet Spring",
-      label: "Sweet Spring",
-      location: "url(../easterFabrics/sweetSpring.png)",
-    },
-    {
-      value: "Tiny Baby Pink Gingham",
-      label: "Tiny Baby Pink Gingham",
-      location: "url(../easterFabrics/Tiny Baby Pink Gingham.png)",
-    },
-    {
-      value: "--Blanket Fabrics--",
-      label: "--Blanket Fabrics--",
-      location: "url(../fabrics/amethystDot.jpg)",
-      isdisabled: true,
-    },
+    // {
+    //   value: "--Easter Basket Fabrics--",
+    //   label: "--Easter Basket Fabrics--",
+    //   location: "url(../fabrics/amethystDot.jpg)",
+    //   isdisabled: true,
+    // },
+    // {
+    //   value: "Beige Gingham",
+    //   label: "Beige Gingham",
+    //   location: "url(../easterFabrics/beigeGingham.png)",
+    //   isdisabled: false,
+    // },
+    // {
+    //   value: "Blue Dots",
+    //   label: "Blue Dots",
+    //   location: "url(../easterFabrics/blueDots.png)",
+    //   isdisabled: false,
+    // },
+    // {
+    //   value: "Daisy Season",
+    //   label: "Daisy Season",
+    //   location: "url(../easterFabrics/daisySeason.png)",
+    // },
+    // {
+    //   value: "Denim Blue Gingham",
+    //   label: "Denim Blue Gingham",
+    //   location: "url(../easterFabrics/denimBlueGingham.png)",
+    // },
+    // {
+    //   value: "Floral Charms",
+    //   label: "Floral Charms",
+    //   location: "url(../easterFabrics/floralCharms.png)",
+    // },
+    // {
+    //   value: "Freedom Blue Gingham",
+    //   label: "Freedom Blue Gingham",
+    //   location: "url(../easterFabrics/freedomGinghamBlue.png)",
+    // },
+    // {
+    //   value: "Joy Plaid Pink",
+    //   label: "Joy Plaid Pink",
+    //   location: "url(../easterFabrics/joyPlaidPink.png)",
+    // },
+    // {
+    //   value: "Joy Plaid Yellow",
+    //   label: "Joy Plaid Yellow",
+    //   location: "url(../easterFabrics/joyPlaidYellow.png)",
+    // },
+    // {
+    //   value: "Multi Dots",
+    //   label: "Multi Dots",
+    //   location: "url(../easterFabrics/dotsMulti.png)",
+    // },
+    // {
+    //   value: "Picnic Florals",
+    //   label: "Picnic Florals",
+    //   location: "url(../easterFabrics/picnicFlorals.png)",
+    // },
+    // {
+    //   value: "Plum Petals Small",
+    //   label: "Plum Petals Small",
+    //   location: "url(../easterFabrics/plumPetalsSmall.png)",
+    // },
+    // {
+    //   value: "Plum Petals Classic",
+    //   label: "Plum Petals Classic",
+    //   location: "url(../easterFabrics/plumPetalsClassic.png)",
+    // },
+    // {
+    //   value: "Special Delivery Plaid Blue",
+    //   label: "Special Delivery Plaid Blue",
+    //   location: "url(../easterFabrics/specialDeliveryPlaidBlue.png)",
+    // },
+    // {
+    //   value: "Sweet Spring Floral",
+    //   label: "Sweet Spring Floral",
+    //   location: "url(../easterFabrics/sweetSpringFloral.png)",
+    // },
+    // {
+    //   value: "Sweet Spring",
+    //   label: "Sweet Spring",
+    //   location: "url(../easterFabrics/sweetSpring.png)",
+    // },
+    // {
+    //   value: "Tiny Baby Pink Gingham",
+    //   label: "Tiny Baby Pink Gingham",
+    //   location: "url(../easterFabrics/Tiny Baby Pink Gingham.png)",
+    // },
+    // {
+    //   value: "--Blanket Fabrics--",
+    //   label: "--Blanket Fabrics--",
+    //   location: "url(../fabrics/amethystDot.jpg)",
+    //   isdisabled: true,
+    // },
     {
       value: "Amethyst Dot",
       label: "Amethyst Dot",
@@ -1356,7 +1356,7 @@ export const Generator = () => {
   // State for the static side of the minky blanket
   const [minkyStatic, setMinkyStatic] = useState(currentMinkyStatic[54]);
   // State for cusomizable side of minky blanket
-  const [minkyCustom, setMinkyCustom] = useState(currentMinkyCustom[56]);
+  const [minkyCustom, setMinkyCustom] = useState(currentMinkyCustom[38]);
   // State for visibility of control box
   const [controlsVisible, setControlsVisible] = useState(false);
   // State for the arrow button
