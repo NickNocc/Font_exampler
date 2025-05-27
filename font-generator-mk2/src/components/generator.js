@@ -1439,18 +1439,14 @@ export const Generator = () => {
 
       if (count === 0) {
         setFirstBreak(!firstBreak);
-        console.log(firstBreak);
 
         globalText = "\n" + globalText;
       } else if ((globalText.match(/\n/g) || []).length === 2 && firstBreak) {
         setFirstBreak(!firstBreak);
-        console.log(firstBreak);
 
         globalText = globalText.slice(1);
       }
     } else {
-      console.log("empty text");
-
       globalText = "\n" + globalText;
       setFirstBreak(false);
 
@@ -1471,7 +1467,12 @@ export const Generator = () => {
   };
 
   function handleEnterInput() {
-    setNameOutput(nameOutput + "\n");
+    let caretPosition = document.getElementById("textBox").selectionEnd;
+    setNameOutput(
+      nameOutput.slice(0, caretPosition) +
+        "\n" +
+        nameOutput.slice(caretPosition)
+    );
   }
 
   // Changes fontColor to inputed value
@@ -1570,6 +1571,7 @@ export const Generator = () => {
       >
         {/* Changes div className to match with font-face css in index.css */}
         <textarea
+          id="textBox"
           rows={3}
           style={{ color: fontColor.color, overflow: "hidden" }}
           wrap="hard"
