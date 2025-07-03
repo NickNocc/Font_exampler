@@ -35,7 +35,7 @@ const FILES_TO_CACHE = [
   "./fabrics/blueTieDye.jpg",
   "./fabrics/blushHide.jpg",
   "./fabrics/brownDot.jpg",
-  "./fabrics/brownpony.jpg",
+  "./fabrics/brownPony.jpg",
   "./fabrics/brownsugarPony.jpg",
   "./fabrics/buffaloCheck.jpg",
   "./fabrics/calloftheWild.jpg",
