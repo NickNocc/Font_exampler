@@ -1429,7 +1429,7 @@ export const Generator = () => {
     // keeps track of inputed name
     let globalText = nameOutput;
     // keep all the symbols we dont want outta here
-    const regex = /[^a-zA-Z^\n\u002D\u0027]+/gi;
+    const regex = /[^a-zA-Z0-9\n\u002D\u0027]+/gi;
 
     // Replaces any unwanted text with an empty space
     globalText = newText.replaceAll(regex, " ");
