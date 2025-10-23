@@ -79,6 +79,11 @@ code {
 }
 
 @font-face {
+  font-family: "CenturyGothic";
+  src: local("CenturyGothic"), url("./fonts/centuryGothic.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "Chakra";
   src: local("Chakra"), url("./fonts/Chakra.ttf") format("truetype");
 }
@@ -240,6 +245,10 @@ code {
 
 .font-face-Chakra {
   font-family: "Chakra";
+}
+
+.font-face-Gothic {
+  font-family: "CenturyGothic";
 }
 
 .font-face-Chalk {

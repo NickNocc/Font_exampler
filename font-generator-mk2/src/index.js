@@ -13,6 +13,7 @@ import "./fonts/Bakedfresh.ttf";
 import "./fonts/blossom.ttf";
 import "./fonts/BohoFlowers.otf";
 import "./fonts/Brooklyn.ttf"
+import "./fonts/centuryGothic.ttf";
 import "./fonts/Chakra.ttf";
 import "./fonts/classico.ttf";
 import "./fonts/Clocks.ttf";

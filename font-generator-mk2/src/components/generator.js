@@ -84,6 +84,12 @@ export const Generator = () => {
       label: "Chalk",
     },
     {
+      fontName: "CenturyGothic",
+      fontClass: "font-face-Gothic",
+      value: "CenturyGothic",
+      label: "Century Gothic",
+    },
+    {
       fontName: "Christmas Mint",
       fontClass: "font-face-ChristmasMint",
       value: "ChristmasMint",
