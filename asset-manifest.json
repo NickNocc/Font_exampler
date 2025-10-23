@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "./static/css/main.3518a75a.css",
-    "main.js": "./static/js/main.46df7920.js",
+    "main.css": "./static/css/main.b46bedcc.css",
+    "main.js": "./static/js/main.9324c522.js",
     "static/js/453.f582e2b8.chunk.js": "./static/js/453.f582e2b8.chunk.js",
     "static/media/Chakra.ttf": "./static/media/Chakra.452025db44dcd89e65cc.ttf",
+    "static/media/centuryGothic.ttf": "./static/media/centuryGothic.b194aa2bd524e2c973f7.ttf",
     "static/media/sweetpea.otf": "./static/media/sweetpea.b39c6a659aad1ee830a3.otf",
     "static/media/AmazinglyBeautifulRegular.ttf": "./static/media/AmazinglyBeautifulRegular.89190ca088dbc1762a2b.ttf",
     "static/media/xmasMint.ttf": "./static/media/xmasMint.4efe5c0f067f1d59e723.ttf",
@@ -37,12 +38,12 @@
     "static/media/Clocks.ttf": "./static/media/Clocks.d5221a072eda862daee6.ttf",
     "static/media/classico.ttf": "./static/media/classico.41b83495114f00ea306d.ttf",
     "index.html": "./index.html",
-    "main.3518a75a.css.map": "./static/css/main.3518a75a.css.map",
-    "main.46df7920.js.map": "./static/js/main.46df7920.js.map",
+    "main.b46bedcc.css.map": "./static/css/main.b46bedcc.css.map",
+    "main.9324c522.js.map": "./static/js/main.9324c522.js.map",
     "453.f582e2b8.chunk.js.map": "./static/js/453.f582e2b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3518a75a.css",
-    "static/js/main.46df7920.js"
+    "static/css/main.b46bedcc.css",
+    "static/js/main.9324c522.js"
   ]
 }
